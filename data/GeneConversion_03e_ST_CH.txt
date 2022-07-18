@@ -1,0 +1,464 @@
+ DnaSP  Ver. 6.11.01                        10 - November - 2018  3:24:24 PM
+ ===========================================================================
+
+
+ Gene Conversion
+ ---------------
+
+ Input Data File: C:\...\Chr3_Syn_Reg_03e.nex
+ Selected region: 1-250000     Number of sites: 250000
+ Total sites (excluding alignment gaps): 234835
+
+ Population 1: ST
+   Number of sequences: 8
+ Population 2: CH
+   Number of sequences: 9
+
+ Number of Gene Conversion tracts identified:  50
+     Line: ST_JR138 (population 1). Tract located between sites: 7925-16713
+           Nucleotide distance (excluding gaps): 8745
+     Line: ST_JR138 (population 1). Tract located between sites: 25301-65745
+           Nucleotide distance (excluding gaps): 40358
+     Line: ST_JR138 (population 1). Tract located between sites: 110146-111529
+           Nucleotide distance (excluding gaps): 1369
+     Line: ST_JR138 (population 1). Tract located between sites: 246326-246493
+           Nucleotide distance (excluding gaps): 156
+     Line: ST_JR158 (population 1). Tract located between sites: 37616-37688
+           Nucleotide distance (excluding gaps): 73
+     Line: ST_JR158 (population 1). Tract located between sites: 214600-214603
+           Nucleotide distance (excluding gaps): 4
+     Line: ST_JR209 (population 1). Tract located between sites: 120869-120923
+           Nucleotide distance (excluding gaps): 48
+     Line: ST_JR209 (population 1). Tract located between sites: 132806-144179
+           Nucleotide distance (excluding gaps): 11336
+     Line: ST_JR209 (population 1). Tract located between sites: 186943-186956
+           Nucleotide distance (excluding gaps): 14
+     Line: ST_JR209 (population 1). Tract located between sites: 221756-229801
+           Nucleotide distance (excluding gaps): 8000
+     Line: ST_JR209 (population 1). Tract located between sites: 233513-233843
+           Nucleotide distance (excluding gaps): 331
+     Line: ST_JR72 (population 1). Tract located between sites: 126406-126411
+           Nucleotide distance (excluding gaps): 6
+     Line: ST_JR72 (population 1). Tract located between sites: 149195-149213
+           Nucleotide distance (excluding gaps): 19
+     Line: ST_JR72 (population 1). Tract located between sites: 211937-211944
+           Nucleotide distance (excluding gaps): 8
+     Line: ST_JR84 (population 1). Tract located between sites: 42754-42857
+           Nucleotide distance (excluding gaps): 104
+     Line: ST_JR84 (population 1). Tract located between sites: 237389-237390
+           Nucleotide distance (excluding gaps): 2
+     Line: ST_JR91 (population 1). Tract located between sites: 230422-230449
+           Nucleotide distance (excluding gaps): 28
+     Line: ST_MSH177 (population 1). Tract located between sites: 954-148222
+           Nucleotide distance (excluding gaps): 146566
+     Line: ST_MSH177 (population 1). Tract located between sites: 197820-225273
+           Nucleotide distance (excluding gaps): 27360
+     Line: ST_MSH217 (population 1). Tract located between sites: 193853-203008
+           Nucleotide distance (excluding gaps): 9097
+     Line: ST_MSH217 (population 1). Tract located between sites: 215193-219600
+           Nucleotide distance (excluding gaps): 4402
+     Line: ST_MSH217 (population 1). Tract located between sites: 234790-234791
+           Nucleotide distance (excluding gaps): 2
+     Line: ST_MSH217 (population 1). Tract located between sites: 241966-242097
+           Nucleotide distance (excluding gaps): 132
+     Line: ST_MSH217 (population 1). Tract located between sites: 249296-249309
+           Nucleotide distance (excluding gaps): 14
+     Line: CH_JR198 (population 2). Tract located between sites: 87878-87880
+           Nucleotide distance (excluding gaps): 3
+     Line: CH_JR198 (population 2). Tract located between sites: 126289-129972
+           Nucleotide distance (excluding gaps): 3662
+     Line: CH_JR198 (population 2). Tract located between sites: 230679-230696
+           Nucleotide distance (excluding gaps): 18
+     Line: CH_JR198 (population 2). Tract located between sites: 231841-233901
+           Nucleotide distance (excluding gaps): 2009
+     Line: CH_JR20 (population 2). Tract located between sites: 6254-85055
+           Nucleotide distance (excluding gaps): 78551
+     Line: CH_JR20 (population 2). Tract located between sites: 226801-229853
+           Nucleotide distance (excluding gaps): 3038
+     Line: CH_JR272 (population 2). Tract located between sites: 45589-47275
+           Nucleotide distance (excluding gaps): 1687
+     Line: CH_JR272 (population 2). Tract located between sites: 72309-72537
+           Nucleotide distance (excluding gaps): 229
+     Line: CH_JR272 (population 2). Tract located between sites: 85158-85548
+           Nucleotide distance (excluding gaps): 391
+     Line: CH_JR272 (population 2). Tract located between sites: 154895-154915
+           Nucleotide distance (excluding gaps): 21
+     Line: CH_JR272 (population 2). Tract located between sites: 208411-210820
+           Nucleotide distance (excluding gaps): 2410
+     Line: CH_JR377 (population 2). Tract located between sites: 104765-106277
+           Nucleotide distance (excluding gaps): 1488
+     Line: CH_JR377 (population 2). Tract located between sites: 149519-149520
+           Nucleotide distance (excluding gaps): 2
+     Line: CH_JR377 (population 2). Tract located between sites: 151512-151630
+           Nucleotide distance (excluding gaps): 119
+     Line: CH_JR377 (population 2). Tract located between sites: 223956-224964
+           Nucleotide distance (excluding gaps): 999
+     Line: CH_JR377 (population 2). Tract located between sites: 230724-231153
+           Nucleotide distance (excluding gaps): 426
+     Line: CH_KB888 (population 2). Tract located between sites: 92893-94632
+           Nucleotide distance (excluding gaps): 1733
+     Line: CH_KB888 (population 2). Tract located between sites: 166243-188337
+           Nucleotide distance (excluding gaps): 22043
+     Line: CH_KB888 (population 2). Tract located between sites: 234935-234956
+           Nucleotide distance (excluding gaps): 22
+     Line: CH_KB888 (population 2). Tract located between sites: 235640-242848
+           Nucleotide distance (excluding gaps): 7179
+     Line: CH_KB888 (population 2). Tract located between sites: 246742-247037
+           Nucleotide distance (excluding gaps): 296
+     Line: CH_MSH202 (population 2). Tract located between sites: 424-28436
+           Nucleotide distance (excluding gaps): 27871
+     Line: CH_MSH202 (population 2). Tract located between sites: 94217-220765
+           Nucleotide distance (excluding gaps): 125971
+     Line: CH_MSH202 (population 2). Tract located between sites: 228461-230313
+           Nucleotide distance (excluding gaps): 1813
+     Line: CH_MSH202 (population 2). Tract located between sites: 242763-243227
+           Nucleotide distance (excluding gaps): 463
+     Line: CH_MSH202 (population 2). Tract located between sites: 249296-249309
+           Nucleotide distance (excluding gaps): 14
+
+ Average number of informative nucleotide sites per site, Psi: 0.00036
+ Number of sites with information: 339
+
+------------------------------------------------------------------------------------
+
+ Site    Psi
+ 
+   38  0.18750
+  424  0.18750
+  954  0.22222
+ 2132  0.18750
+ 2633  0.18750
+ 2647  0.22222
+ 4707  0.22222
+ 6254  0.18750
+ 7925  0.22222
+ 7926  0.22222
+ 8015  0.22222
+ 8258  0.31250
+ 9088  0.18750
+ 9108  0.18750
+ 9112  0.18750
+ 9118  0.25000
+ 9139  0.25000
+ 9157  0.25000
+10346  0.18750
+12156  0.27778
+13269  0.18750
+14463  0.18750
+14551  0.31250
+14824  0.37500
+15929  0.22222
+15945  0.18750
+16713  0.22222
+18029  0.27778
+18409  0.25000
+18665  0.22222
+19442  0.18750
+22602  0.22222
+24858  0.18750
+25301  0.22222
+26777  0.25000
+28436  0.18750
+29606  0.22222
+29611  0.22222
+29742  0.22222
+34061  0.18750
+35553  0.18750
+35788  0.18750
+37616  0.22222
+37688  0.22222
+38245  0.25000
+40572  0.22222
+40599  0.22222
+40730  0.27778
+42754  0.22222
+42807  0.22222
+42857  0.22222
+42900  0.31250
+43193  0.18750
+43236  0.38889
+43255  0.22222
+45029  0.25000
+45589  0.18750
+46397  0.18750
+46800  0.18750
+46931  0.18750
+46981  0.18750
+46995  0.18750
+47209  0.18750
+47257  0.18750
+47275  0.25000
+48671  0.27778
+52524  0.38889
+52913  0.27778
+54040  0.27778
+54799  0.18750
+58868  0.18750
+59996  0.18750
+61328  0.18750
+62326  0.18750
+63984  0.22222
+63985  0.22222
+64266  0.31250
+64589  0.27778
+65230  0.18750
+65738  0.22222
+65745  0.22222
+66214  0.25000
+69454  0.27778
+71459  0.18750
+72309  0.18750
+72342  0.18750
+72537  0.37500
+73951  0.25000
+75427  0.18750
+75434  0.18750
+75617  0.25000
+76340  0.22222
+77774  0.31250
+78298  0.18750
+80214  0.38889
+80887  0.18750
+82431  0.27778
+82555  0.31250
+83279  0.25000
+83342  0.18750
+83589  0.18750
+84638  0.18750
+85055  0.25000
+85158  0.31250
+85548  0.37500
+85844  0.27778
+85845  0.27778
+87878  0.31250
+87880  0.31250
+88771  0.27778
+89226  0.22222
+90514  0.33333
+90584  0.25000
+90830  0.18750
+91012  0.18750
+92240  0.18750
+92893  0.25000
+93150  0.27778
+94217  0.18750
+94329  0.22222
+94632  0.18750
+97454  0.18750
+100239  0.18750
+101226  0.22222
+102023  0.18750
+103014  0.18750
+104382  0.22222
+104765  0.18750
+104766  0.25000
+104976  0.18750
+105112  0.18750
+105203  0.18750
+106277  0.18750
+108330  0.18750
+110146  0.22222
+110198  0.22222
+110225  0.22222
+110226  0.22222
+110249  0.22222
+110334  0.27778
+110743  0.18750
+111082  0.22222
+111529  0.27778
+112262  0.37500
+113008  0.25000
+113056  0.18750
+113062  0.18750
+113080  0.18750
+113330  0.31250
+114533  0.25000
+115794  0.18750
+116131  0.18750
+120628  0.22222
+120869  0.22222
+120923  0.22222
+121111  0.22222
+123284  0.18750
+123672  0.31250
+126289  0.25000
+126406  0.27778
+126410  0.22222
+126411  0.27778
+127327  0.18750
+129925  0.18750
+129972  0.18750
+130891  0.22222
+132100  0.31250
+132806  0.22222
+134768  0.22222
+134769  0.22222
+134775  0.22222
+135261  0.18750
+136230  0.22222
+137579  0.25000
+139206  0.25000
+139639  0.22222
+141078  0.25000
+141529  0.18750
+142841  0.27778
+142974  0.18750
+143447  0.22222
+143452  0.22222
+143553  0.33333
+144080  0.18750
+144179  0.22222
+146203  0.22222
+148219  0.22222
+148222  0.22222
+149195  0.22222
+149208  0.22222
+149213  0.22222
+149308  0.18750
+149519  0.25000
+149520  0.25000
+150496  0.18750
+151481  0.22222
+151512  0.18750
+151542  0.18750
+151630  0.18750
+152890  0.18750
+154895  0.18750
+154899  0.18750
+154915  0.18750
+155074  0.22222
+160287  0.18750
+166243  0.31250
+166255  0.31250
+186943  0.22222
+186955  0.22222
+186956  0.22222
+188337  0.18750
+193853  0.27778
+197820  0.22222
+198384  0.22222
+198920  0.18750
+198938  0.18750
+199235  0.22222
+199252  0.33333
+202740  0.27778
+203008  0.27778
+203760  0.18750
+204070  0.27778
+204075  0.27778
+204156  0.22222
+207716  0.22222
+208254  0.22222
+208267  0.22222
+208411  0.18750
+208658  0.18750
+208718  0.18750
+210820  0.18750
+211937  0.22222
+211944  0.22222
+212197  0.27778
+212583  0.22222
+213706  0.27778
+214600  0.22222
+214603  0.22222
+215193  0.22222
+217658  0.18750
+217937  0.18750
+217992  0.31250
+219077  0.22222
+219254  0.18750
+219600  0.22222
+220765  0.18750
+221756  0.22222
+223912  0.27778
+223956  0.37500
+223958  0.37500
+223982  0.18750
+223983  0.18750
+224002  0.18750
+224005  0.18750
+224964  0.18750
+224965  0.22222
+225273  0.22222
+226801  0.25000
+228198  0.27778
+228334  0.22222
+228461  0.31250
+229801  0.27778
+229853  0.31250
+230248  0.18750
+230252  0.18750
+230274  0.25000
+230313  0.25000
+230422  0.22222
+230449  0.22222
+230679  0.18750
+230696  0.18750
+230724  0.18750
+230730  0.18750
+231153  0.25000
+231839  0.27778
+231841  0.18750
+232870  0.18750
+233513  0.27778
+233699  0.18750
+233787  0.31250
+233828  0.18750
+233843  0.27778
+233901  0.18750
+234554  0.22222
+234790  0.27778
+234791  0.27778
+234935  0.25000
+234940  0.25000
+234956  0.25000
+235079  0.22222
+235640  0.25000
+235648  0.25000
+236779  0.22222
+236938  0.22222
+237389  0.38889
+237390  0.38889
+237404  0.33333
+237415  0.18750
+237612  0.33333
+238421  0.18750
+238992  0.18750
+238994  0.18750
+238996  0.18750
+238997  0.18750
+240534  0.18750
+241966  0.22222
+242097  0.33333
+242171  0.25000
+242183  0.25000
+242604  0.27778
+242606  0.18750
+242763  0.18750
+242838  0.22222
+242848  0.25000
+243227  0.37500
+245944  0.18750
+246326  0.33333
+246351  0.33333
+246357  0.33333
+246375  0.27778
+246420  0.38889
+246493  0.27778
+246553  0.18750
+246742  0.18750
+247037  0.18750
+247236  0.18750
+247577  0.18750
+247963  0.22222
+248077  0.22222
+248498  0.22222
+248534  0.31250
+249296  1.00000
+249299  1.00000
+249304  1.00000
+249305  1.00000
+249306  1.00000
+249309  1.00000
+249363  0.18750
+249813  0.22222

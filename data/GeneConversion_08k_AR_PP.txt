@@ -1,0 +1,5743 @@
+ DnaSP  Ver. 6.11.01                        29 - November - 2018  9:36:22 PM
+ ===========================================================================
+
+
+ Gene Conversion
+ ---------------
+
+ Input Data File: C:\...\Chr3_Syn_Reg_08k.nex
+ Selected region: 1-250000     Number of sites: 250000
+ Total sites (excluding alignment gaps): 227242
+
+ Population 1: AR
+   Number of sequences: 15
+ Population 2: PP
+   Number of sequences: 10
+
+ Number of Gene Conversion tracts identified:  215
+     Line: AR_REF (population 1). Tract located between sites: 57421-57422
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_REF (population 1). Tract located between sites: 58207-58209
+           Nucleotide distance (excluding gaps): 3
+     Line: AR_REF (population 1). Tract located between sites: 112090-112093
+           Nucleotide distance (excluding gaps): 4
+     Line: AR_REF (population 1). Tract located between sites: 243422-243488
+           Nucleotide distance (excluding gaps): 67
+     Line: AR_DM1005 (population 1). Tract located between sites: 38366-38800
+           Nucleotide distance (excluding gaps): 435
+     Line: AR_DM1005 (population 1). Tract located between sites: 45370-45541
+           Nucleotide distance (excluding gaps): 172
+     Line: AR_DM1005 (population 1). Tract located between sites: 45655-45760
+           Nucleotide distance (excluding gaps): 106
+     Line: AR_DM1005 (population 1). Tract located between sites: 77367-77380
+           Nucleotide distance (excluding gaps): 14
+     Line: AR_DM1005 (population 1). Tract located between sites: 117722-117740
+           Nucleotide distance (excluding gaps): 19
+     Line: AR_DM1005 (population 1). Tract located between sites: 118392-118495
+           Nucleotide distance (excluding gaps): 104
+     Line: AR_DM1005 (population 1). Tract located between sites: 220155-220455
+           Nucleotide distance (excluding gaps): 301
+     Line: AR_DM1005 (population 1). Tract located between sites: 220614-220695
+           Nucleotide distance (excluding gaps): 82
+     Line: AR_DM1005 (population 1). Tract located between sites: 220719-220964
+           Nucleotide distance (excluding gaps): 239
+     Line: AR_DM1005 (population 1). Tract located between sites: 221042-221052
+           Nucleotide distance (excluding gaps): 11
+     Line: AR_DM1005 (population 1). Tract located between sites: 228069-228096
+           Nucleotide distance (excluding gaps): 28
+     Line: AR_DM1005 (population 1). Tract located between sites: 239831-239846
+           Nucleotide distance (excluding gaps): 9
+     Line: AR_DM1015 (population 1). Tract located between sites: 80189-80203
+           Nucleotide distance (excluding gaps): 15
+     Line: AR_DM1015 (population 1). Tract located between sites: 89124-89267
+           Nucleotide distance (excluding gaps): 144
+     Line: AR_DM1015 (population 1). Tract located between sites: 103199-103861
+           Nucleotide distance (excluding gaps): 651
+     Line: AR_DM1015 (population 1). Tract located between sites: 142063-142328
+           Nucleotide distance (excluding gaps): 262
+     Line: AR_DM1015 (population 1). Tract located between sites: 213505-213506
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_DM1015 (population 1). Tract located between sites: 222244-222289
+           Nucleotide distance (excluding gaps): 46
+     Line: AR_DM1015 (population 1). Tract located between sites: 236054-236080
+           Nucleotide distance (excluding gaps): 27
+     Line: AR_DM1015 (population 1). Tract located between sites: 244113-244128
+           Nucleotide distance (excluding gaps): 16
+     Line: AR_DM1050 (population 1). Tract located between sites: 54542-54543
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_DM1050 (population 1). Tract located between sites: 88421-88637
+           Nucleotide distance (excluding gaps): 216
+     Line: AR_DM1050 (population 1). Tract located between sites: 148440-148464
+           Nucleotide distance (excluding gaps): 25
+     Line: AR_DM1050 (population 1). Tract located between sites: 149970-150038
+           Nucleotide distance (excluding gaps): 69
+     Line: AR_DM1050 (population 1). Tract located between sites: 152758-152907
+           Nucleotide distance (excluding gaps): 149
+     Line: AR_DM1050 (population 1). Tract located between sites: 154872-154990
+           Nucleotide distance (excluding gaps): 119
+     Line: AR_DM1050 (population 1). Tract located between sites: 175366-175397
+           Nucleotide distance (excluding gaps): 32
+     Line: AR_DM1050 (population 1). Tract located between sites: 194331-194685
+           Nucleotide distance (excluding gaps): 352
+     Line: AR_DM1050 (population 1). Tract located between sites: 237379-237381
+           Nucleotide distance (excluding gaps): 3
+     Line: AR_DM1056 (population 1). Tract located between sites: 46193-46275
+           Nucleotide distance (excluding gaps): 83
+     Line: AR_DM1056 (population 1). Tract located between sites: 59755-59769
+           Nucleotide distance (excluding gaps): 15
+     Line: AR_DM1056 (population 1). Tract located between sites: 61657-61666
+           Nucleotide distance (excluding gaps): 10
+     Line: AR_DM1056 (population 1). Tract located between sites: 68063-68174
+           Nucleotide distance (excluding gaps): 112
+     Line: AR_DM1056 (population 1). Tract located between sites: 70424-70492
+           Nucleotide distance (excluding gaps): 69
+     Line: AR_DM1056 (population 1). Tract located between sites: 78055-78264
+           Nucleotide distance (excluding gaps): 210
+     Line: AR_DM1056 (population 1). Tract located between sites: 81977-81989
+           Nucleotide distance (excluding gaps): 13
+     Line: AR_DM1056 (population 1). Tract located between sites: 130255-130301
+           Nucleotide distance (excluding gaps): 47
+     Line: AR_DM1056 (population 1). Tract located between sites: 137097-137519
+           Nucleotide distance (excluding gaps): 423
+     Line: AR_DM1056 (population 1). Tract located between sites: 187364-187365
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_DM1056 (population 1). Tract located between sites: 213505-213506
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_DM1056 (population 1). Tract located between sites: 243422-243488
+           Nucleotide distance (excluding gaps): 67
+     Line: AR_DM1056 (population 1). Tract located between sites: 245610-245656
+           Nucleotide distance (excluding gaps): 47
+     Line: AR_DM1088 (population 1). Tract located between sites: 892-1164
+           Nucleotide distance (excluding gaps): 273
+     Line: AR_DM1088 (population 1). Tract located between sites: 82701-82856
+           Nucleotide distance (excluding gaps): 154
+     Line: AR_DM1088 (population 1). Tract located between sites: 84422-84427
+           Nucleotide distance (excluding gaps): 6
+     Line: AR_DM1088 (population 1). Tract located between sites: 95693-95725
+           Nucleotide distance (excluding gaps): 33
+     Line: AR_DM1088 (population 1). Tract located between sites: 97094-97095
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_DM1088 (population 1). Tract located between sites: 104617-104639
+           Nucleotide distance (excluding gaps): 23
+     Line: AR_DM1088 (population 1). Tract located between sites: 130255-130301
+           Nucleotide distance (excluding gaps): 47
+     Line: AR_DM1088 (population 1). Tract located between sites: 139445-140029
+           Nucleotide distance (excluding gaps): 585
+     Line: AR_DM1088 (population 1). Tract located between sites: 150995-153035
+           Nucleotide distance (excluding gaps): 2021
+     Line: AR_DM1088 (population 1). Tract located between sites: 157288-157377
+           Nucleotide distance (excluding gaps): 90
+     Line: AR_DM1088 (population 1). Tract located between sites: 205985-206052
+           Nucleotide distance (excluding gaps): 68
+     Line: AR_DM1088 (population 1). Tract located between sites: 206962-206966
+           Nucleotide distance (excluding gaps): 5
+     Line: AR_DM1088 (population 1). Tract located between sites: 235459-235462
+           Nucleotide distance (excluding gaps): 4
+     Line: AR_KB635 (population 1). Tract located between sites: 13010-13015
+           Nucleotide distance (excluding gaps): 6
+     Line: AR_KB635 (population 1). Tract located between sites: 24351-24357
+           Nucleotide distance (excluding gaps): 7
+     Line: AR_KB635 (population 1). Tract located between sites: 61788-61797
+           Nucleotide distance (excluding gaps): 10
+     Line: AR_KB635 (population 1). Tract located between sites: 79425-79465
+           Nucleotide distance (excluding gaps): 41
+     Line: AR_KB635 (population 1). Tract located between sites: 95716-95725
+           Nucleotide distance (excluding gaps): 10
+     Line: AR_KB635 (population 1). Tract located between sites: 124193-124293
+           Nucleotide distance (excluding gaps): 101
+     Line: AR_KB635 (population 1). Tract located between sites: 137438-137519
+           Nucleotide distance (excluding gaps): 82
+     Line: AR_KB635 (population 1). Tract located between sites: 139925-140029
+           Nucleotide distance (excluding gaps): 105
+     Line: AR_KB635 (population 1). Tract located between sites: 225235-225346
+           Nucleotide distance (excluding gaps): 109
+     Line: AR_KB652 (population 1). Tract located between sites: 24351-24357
+           Nucleotide distance (excluding gaps): 7
+     Line: AR_KB652 (population 1). Tract located between sites: 38733-38800
+           Nucleotide distance (excluding gaps): 68
+     Line: AR_KB652 (population 1). Tract located between sites: 68637-70111
+           Nucleotide distance (excluding gaps): 1460
+     Line: AR_KB652 (population 1). Tract located between sites: 72365-72427
+           Nucleotide distance (excluding gaps): 63
+     Line: AR_KB652 (population 1). Tract located between sites: 236746-236818
+           Nucleotide distance (excluding gaps): 73
+     Line: AR_KB754 (population 1). Tract located between sites: 41446-42708
+           Nucleotide distance (excluding gaps): 1263
+     Line: AR_KB754 (population 1). Tract located between sites: 116495-116548
+           Nucleotide distance (excluding gaps): 54
+     Line: AR_KB754 (population 1). Tract located between sites: 125834-125855
+           Nucleotide distance (excluding gaps): 22
+     Line: AR_KB754 (population 1). Tract located between sites: 144367-144407
+           Nucleotide distance (excluding gaps): 41
+     Line: AR_KB754 (population 1). Tract located between sites: 179039-179053
+           Nucleotide distance (excluding gaps): 15
+     Line: AR_KB754 (population 1). Tract located between sites: 212643-212646
+           Nucleotide distance (excluding gaps): 4
+     Line: AR_KB819 (population 1). Tract located between sites: 16863-16885
+           Nucleotide distance (excluding gaps): 23
+     Line: AR_KB819 (population 1). Tract located between sites: 58403-58410
+           Nucleotide distance (excluding gaps): 8
+     Line: AR_KB819 (population 1). Tract located between sites: 79019-79100
+           Nucleotide distance (excluding gaps): 82
+     Line: AR_KB819 (population 1). Tract located between sites: 89124-89166
+           Nucleotide distance (excluding gaps): 43
+     Line: AR_KB819 (population 1). Tract located between sites: 91035-92169
+           Nucleotide distance (excluding gaps): 1124
+     Line: AR_KB819 (population 1). Tract located between sites: 175397-175436
+           Nucleotide distance (excluding gaps): 40
+     Line: AR_KB819 (population 1). Tract located between sites: 228069-228096
+           Nucleotide distance (excluding gaps): 28
+     Line: AR_KB819 (population 1). Tract located between sites: 237810-237811
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_KB820 (population 1). Tract located between sites: 12371-12536
+           Nucleotide distance (excluding gaps): 166
+     Line: AR_KB820 (population 1). Tract located between sites: 61299-61332
+           Nucleotide distance (excluding gaps): 34
+     Line: AR_KB820 (population 1). Tract located between sites: 66244-66249
+           Nucleotide distance (excluding gaps): 6
+     Line: AR_KB820 (population 1). Tract located between sites: 84422-84427
+           Nucleotide distance (excluding gaps): 6
+     Line: AR_KB820 (population 1). Tract located between sites: 117818-117819
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_KB820 (population 1). Tract located between sites: 123719-124704
+           Nucleotide distance (excluding gaps): 986
+     Line: AR_KB820 (population 1). Tract located between sites: 160926-160970
+           Nucleotide distance (excluding gaps): 45
+     Line: AR_KB820 (population 1). Tract located between sites: 162862-162894
+           Nucleotide distance (excluding gaps): 33
+     Line: AR_KB820 (population 1). Tract located between sites: 187364-187552
+           Nucleotide distance (excluding gaps): 180
+     Line: AR_KB820 (population 1). Tract located between sites: 239831-239846
+           Nucleotide distance (excluding gaps): 12
+     Line: AR_KB827 (population 1). Tract located between sites: 41446-42708
+           Nucleotide distance (excluding gaps): 1263
+     Line: AR_KB827 (population 1). Tract located between sites: 118392-118495
+           Nucleotide distance (excluding gaps): 104
+     Line: AR_KB827 (population 1). Tract located between sites: 167720-167732
+           Nucleotide distance (excluding gaps): 13
+     Line: AR_KB827 (population 1). Tract located between sites: 205985-206052
+           Nucleotide distance (excluding gaps): 68
+     Line: AR_KB827 (population 1). Tract located between sites: 206962-207122
+           Nucleotide distance (excluding gaps): 161
+     Line: AR_KB827 (population 1). Tract located between sites: 225046-225057
+           Nucleotide distance (excluding gaps): 12
+     Line: AR_KB945 (population 1). Tract located between sites: 1132-1164
+           Nucleotide distance (excluding gaps): 33
+     Line: AR_KB945 (population 1). Tract located between sites: 54542-54543
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_KB945 (population 1). Tract located between sites: 66244-66249
+           Nucleotide distance (excluding gaps): 6
+     Line: AR_KB945 (population 1). Tract located between sites: 183152-183260
+           Nucleotide distance (excluding gaps): 109
+     Line: AR_KB945 (population 1). Tract located between sites: 204430-204506
+           Nucleotide distance (excluding gaps): 77
+     Line: AR_KB945 (population 1). Tract located between sites: 212643-212646
+           Nucleotide distance (excluding gaps): 4
+     Line: AR_KB945 (population 1). Tract located between sites: 219379-219430
+           Nucleotide distance (excluding gaps): 52
+     Line: AR_KB945 (population 1). Tract located between sites: 235459-235462
+           Nucleotide distance (excluding gaps): 4
+     Line: AR_KB945 (population 1). Tract located between sites: 237379-237381
+           Nucleotide distance (excluding gaps): 3
+     Line: AR_KB945 (population 1). Tract located between sites: 237429-238058
+           Nucleotide distance (excluding gaps): 629
+     Line: AR_KB945 (population 1). Tract located between sites: 238096-238097
+           Nucleotide distance (excluding gaps): 2
+     Line: AR_MSH126 (population 1). Tract located between sites: 36861-36881
+           Nucleotide distance (excluding gaps): 21
+     Line: AR_MSH126 (population 1). Tract located between sites: 45169-45370
+           Nucleotide distance (excluding gaps): 202
+     Line: AR_MSH126 (population 1). Tract located between sites: 104465-104542
+           Nucleotide distance (excluding gaps): 78
+     Line: AR_MSH126 (population 1). Tract located between sites: 116495-116512
+           Nucleotide distance (excluding gaps): 18
+     Line: AR_MSH126 (population 1). Tract located between sites: 131095-131106
+           Nucleotide distance (excluding gaps): 12
+     Line: AR_MSH126 (population 1). Tract located between sites: 160926-160970
+           Nucleotide distance (excluding gaps): 45
+     Line: AR_MSH126 (population 1). Tract located between sites: 169708-169859
+           Nucleotide distance (excluding gaps): 152
+     Line: AR_MSH126 (population 1). Tract located between sites: 185111-185117
+           Nucleotide distance (excluding gaps): 7
+     Line: AR_MSH126 (population 1). Tract located between sites: 227399-227840
+           Nucleotide distance (excluding gaps): 435
+     Line: AR_MSH126 (population 1). Tract located between sites: 230298-230325
+           Nucleotide distance (excluding gaps): 28
+     Line: AR_MSH126 (population 1). Tract located between sites: 245610-245656
+           Nucleotide distance (excluding gaps): 47
+     Line: AR_MSH51 (population 1). Tract located between sites: 6490-6503
+           Nucleotide distance (excluding gaps): 14
+     Line: AR_MSH51 (population 1). Tract located between sites: 6771-6787
+           Nucleotide distance (excluding gaps): 17
+     Line: AR_MSH51 (population 1). Tract located between sites: 51875-52008
+           Nucleotide distance (excluding gaps): 134
+     Line: AR_MSH51 (population 1). Tract located between sites: 56440-56767
+           Nucleotide distance (excluding gaps): 327
+     Line: AR_MSH51 (population 1). Tract located between sites: 83092-83329
+           Nucleotide distance (excluding gaps): 222
+     Line: AR_MSH51 (population 1). Tract located between sites: 104306-104390
+           Nucleotide distance (excluding gaps): 85
+     Line: AR_MSH51 (population 1). Tract located between sites: 156422-156699
+           Nucleotide distance (excluding gaps): 278
+     Line: AR_MSH51 (population 1). Tract located between sites: 175833-177323
+           Nucleotide distance (excluding gaps): 1491
+     Line: AR_MSH51 (population 1). Tract located between sites: 194593-194610
+           Nucleotide distance (excluding gaps): 18
+     Line: AR_MSH51 (population 1). Tract located between sites: 195613-195625
+           Nucleotide distance (excluding gaps): 13
+     Line: AR_MSH51 (population 1). Tract located between sites: 195873-195899
+           Nucleotide distance (excluding gaps): 27
+     Line: AR_MSH51 (population 1). Tract located between sites: 242858-242878
+           Nucleotide distance (excluding gaps): 21
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 137097-137647
+           Nucleotide distance (excluding gaps): 551
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 141959-142063
+           Nucleotide distance (excluding gaps): 105
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 145864-145910
+           Nucleotide distance (excluding gaps): 47
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 155443-155461
+           Nucleotide distance (excluding gaps): 19
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 185536-185537
+           Nucleotide distance (excluding gaps): 2
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 185614-185861
+           Nucleotide distance (excluding gaps): 244
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 199636-199637
+           Nucleotide distance (excluding gaps): 2
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 199688-199752
+           Nucleotide distance (excluding gaps): 65
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 199990-200019
+           Nucleotide distance (excluding gaps): 30
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 200133-200150
+           Nucleotide distance (excluding gaps): 18
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 211856-211940
+           Nucleotide distance (excluding gaps): 85
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 227114-227299
+           Nucleotide distance (excluding gaps): 186
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 234485-236080
+           Nucleotide distance (excluding gaps): 1581
+     Line: PP_BdA1134-13 (population 2). Tract located between sites: 241382-241445
+           Nucleotide distance (excluding gaps): 64
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 270-278
+           Nucleotide distance (excluding gaps): 9
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 35305-35307
+           Nucleotide distance (excluding gaps): 3
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 63408-65518
+           Nucleotide distance (excluding gaps): 2097
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 94744-94760
+           Nucleotide distance (excluding gaps): 17
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 110311-110339
+           Nucleotide distance (excluding gaps): 29
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 130167-130313
+           Nucleotide distance (excluding gaps): 147
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 153507-154872
+           Nucleotide distance (excluding gaps): 1362
+     Line: PP_BdA1137-10 (population 2). Tract located between sites: 207012-207121
+           Nucleotide distance (excluding gaps): 110
+     Line: PP_DM1020 (population 2). Tract located between sites: 15062-15074
+           Nucleotide distance (excluding gaps): 13
+     Line: PP_DM1020 (population 2). Tract located between sites: 26544-27002
+           Nucleotide distance (excluding gaps): 459
+     Line: PP_DM1020 (population 2). Tract located between sites: 47898-47975
+           Nucleotide distance (excluding gaps): 78
+     Line: PP_DM1020 (population 2). Tract located between sites: 58498-58522
+           Nucleotide distance (excluding gaps): 25
+     Line: PP_DM1020 (population 2). Tract located between sites: 61788-61791
+           Nucleotide distance (excluding gaps): 4
+     Line: PP_DM1020 (population 2). Tract located between sites: 68966-69568
+           Nucleotide distance (excluding gaps): 599
+     Line: PP_DM1020 (population 2). Tract located between sites: 88893-89158
+           Nucleotide distance (excluding gaps): 262
+     Line: PP_DM1020 (population 2). Tract located between sites: 90622-90631
+           Nucleotide distance (excluding gaps): 10
+     Line: PP_DM1020 (population 2). Tract located between sites: 220860-220867
+           Nucleotide distance (excluding gaps): 8
+     Line: PP_DM1038 (population 2). Tract located between sites: 40143-40158
+           Nucleotide distance (excluding gaps): 16
+     Line: PP_DM1038 (population 2). Tract located between sites: 85072-85107
+           Nucleotide distance (excluding gaps): 36
+     Line: PP_DM1038 (population 2). Tract located between sites: 104631-104633
+           Nucleotide distance (excluding gaps): 3
+     Line: PP_DM1038 (population 2). Tract located between sites: 113814-113989
+           Nucleotide distance (excluding gaps): 176
+     Line: PP_DM1038 (population 2). Tract located between sites: 131422-131554
+           Nucleotide distance (excluding gaps): 133
+     Line: PP_DM1038 (population 2). Tract located between sites: 178505-178606
+           Nucleotide distance (excluding gaps): 102
+     Line: PP_DM1038 (population 2). Tract located between sites: 192270-192342
+           Nucleotide distance (excluding gaps): 73
+     Line: PP_DM1038 (population 2). Tract located between sites: 231035-231039
+           Nucleotide distance (excluding gaps): 5
+     Line: PP_DM1038 (population 2). Tract located between sites: 231386-231630
+           Nucleotide distance (excluding gaps): 245
+     Line: PP_DM1038 (population 2). Tract located between sites: 249722-249729
+           Nucleotide distance (excluding gaps): 8
+     Line: PP_DM1049 (population 2). Tract located between sites: 18920-18929
+           Nucleotide distance (excluding gaps): 10
+     Line: PP_DM1054 (population 2). Tract located between sites: 19279-19283
+           Nucleotide distance (excluding gaps): 5
+     Line: PP_DM1054 (population 2). Tract located between sites: 20875-20893
+           Nucleotide distance (excluding gaps): 19
+     Line: PP_DM1054 (population 2). Tract located between sites: 25701-25900
+           Nucleotide distance (excluding gaps): 197
+     Line: PP_DM1054 (population 2). Tract located between sites: 58223-58227
+           Nucleotide distance (excluding gaps): 5
+     Line: PP_DM1054 (population 2). Tract located between sites: 59475-59484
+           Nucleotide distance (excluding gaps): 10
+     Line: PP_DM1054 (population 2). Tract located between sites: 115735-115749
+           Nucleotide distance (excluding gaps): 15
+     Line: PP_DM1054 (population 2). Tract located between sites: 189105-189111
+           Nucleotide distance (excluding gaps): 7
+     Line: PP_DM1054 (population 2). Tract located between sites: 224502-224834
+           Nucleotide distance (excluding gaps): 333
+     Line: PP_DM1054 (population 2). Tract located between sites: 232298-232342
+           Nucleotide distance (excluding gaps): 45
+     Line: PP_DM1081 (population 2). Tract located between sites: 50418-50420
+           Nucleotide distance (excluding gaps): 3
+     Line: PP_DM1081 (population 2). Tract located between sites: 62925-63049
+           Nucleotide distance (excluding gaps): 125
+     Line: PP_DM1081 (population 2). Tract located between sites: 85689-85728
+           Nucleotide distance (excluding gaps): 40
+     Line: PP_DM1084 (population 2). Tract located between sites: 22797-22855
+           Nucleotide distance (excluding gaps): 59
+     Line: PP_DM1084 (population 2). Tract located between sites: 56440-56478
+           Nucleotide distance (excluding gaps): 39
+     Line: PP_DM1084 (population 2). Tract located between sites: 72612-72927
+           Nucleotide distance (excluding gaps): 314
+     Line: PP_DM1084 (population 2). Tract located between sites: 82607-82625
+           Nucleotide distance (excluding gaps): 19
+     Line: PP_DM1084 (population 2). Tract located between sites: 96867-96869
+           Nucleotide distance (excluding gaps): 3
+     Line: PP_DM1084 (population 2). Tract located between sites: 100380-100411
+           Nucleotide distance (excluding gaps): 32
+     Line: PP_DM1084 (population 2). Tract located between sites: 142398-142427
+           Nucleotide distance (excluding gaps): 30
+     Line: PP_DM1084 (population 2). Tract located between sites: 217476-217564
+           Nucleotide distance (excluding gaps): 89
+     Line: PP_DM1084 (population 2). Tract located between sites: 242370-242400
+           Nucleotide distance (excluding gaps): 31
+     Line: PP_DM1084 (population 2). Tract located between sites: 246984-248348
+           Nucleotide distance (excluding gaps): 1351
+     Line: PP_JR83 (population 2). Tract located between sites: 10234-10253
+           Nucleotide distance (excluding gaps): 20
+     Line: PP_JR83 (population 2). Tract located between sites: 10451-10519
+           Nucleotide distance (excluding gaps): 69
+     Line: PP_JR83 (population 2). Tract located between sites: 34419-34820
+           Nucleotide distance (excluding gaps): 402
+     Line: PP_JR83 (population 2). Tract located between sites: 36392-36461
+           Nucleotide distance (excluding gaps): 70
+     Line: PP_JR83 (population 2). Tract located between sites: 50799-50849
+           Nucleotide distance (excluding gaps): 51
+     Line: PP_JR83 (population 2). Tract located between sites: 86826-86927
+           Nucleotide distance (excluding gaps): 102
+     Line: PP_JR83 (population 2). Tract located between sites: 118936-119236
+           Nucleotide distance (excluding gaps): 301
+     Line: PP_JR83 (population 2). Tract located between sites: 124610-124618
+           Nucleotide distance (excluding gaps): 9
+     Line: PP_JR83 (population 2). Tract located between sites: 142500-142608
+           Nucleotide distance (excluding gaps): 109
+     Line: PP_JR83 (population 2). Tract located between sites: 175431-175436
+           Nucleotide distance (excluding gaps): 6
+     Line: PP_JR83 (population 2). Tract located between sites: 190969-190987
+           Nucleotide distance (excluding gaps): 19
+     Line: PP_JR83 (population 2). Tract located between sites: 225980-225981
+           Nucleotide distance (excluding gaps): 2
+     Line: PP_JR83 (population 2). Tract located between sites: 227924-227939
+           Nucleotide distance (excluding gaps): 16
+     Line: PP_JR83 (population 2). Tract located between sites: 230298-230577
+           Nucleotide distance (excluding gaps): 280
+
+ Average number of informative nucleotide sites per site, Psi: 0.01060
+ Number of sites with information: 5288
+
+------------------------------------------------------------------------------------
+
+ Site    Psi
+ 
+   74  0.20000
+  242  0.40000
+  262  0.16667
+  270  1.00000
+  278  0.33333
+  413  0.93333
+  433  0.40000
+  510  0.95000
+  526  1.00000
+  538  0.26667
+  567  0.35000
+  618  0.93333
+  656  0.40000
+  676  0.40000
+  828  1.00000
+  892  0.96667
+ 1047  0.95000
+ 1075  0.40000
+ 1132  1.00000
+ 1149  0.35000
+ 1164  1.00000
+ 1181  1.00000
+ 1199  0.10000
+ 1220  0.10000
+ 1241  0.30000
+ 1357  1.00000
+ 1435  0.10000
+ 1468  0.10000
+ 1487  1.00000
+ 1594  1.00000
+ 1604  1.00000
+ 1615  0.33333
+ 1621  0.10000
+ 1662  1.00000
+ 1666  0.40000
+ 1667  0.40000
+ 1694  0.20000
+ 1707  1.00000
+ 1708  0.20000
+ 1734  0.96667
+ 1738  0.26667
+ 1806  1.00000
+ 1816  0.16667
+ 1915  1.00000
+ 1918  1.00000
+ 2138  0.26667
+ 2171  0.35000
+ 2335  0.40000
+ 2532  0.16667
+ 2555  0.16667
+ 2666  1.00000
+ 2690  0.10000
+ 2818  0.33333
+ 2855  0.40000
+ 2900  0.20000
+ 2937  0.96667
+ 2953  0.10000
+ 2988  1.00000
+ 3025  0.15000
+ 3064  1.00000
+ 3071  0.16667
+ 3116  1.00000
+ 3150  1.00000
+ 3153  1.00000
+ 3155  0.40000
+ 3174  0.25000
+ 3202  0.40000
+ 3214  0.40000
+ 3218  0.40000
+ 3221  0.40000
+ 3223  0.20000
+ 3227  0.20000
+ 3234  0.30000
+ 3235  0.20000
+ 3299  0.16667
+ 3332  1.00000
+ 3338  1.00000
+ 3339  0.30000
+ 3379  0.20000
+ 3432  1.00000
+ 3434  0.33333
+ 3438  0.33333
+ 3439  0.33333
+ 3466  0.16667
+ 3471  0.20000
+ 3472  0.20000
+ 3475  1.00000
+ 3476  0.30000
+ 3492  0.20000
+ 3515  0.33333
+ 3526  0.16667
+ 3577  0.23333
+ 3675  0.33333
+ 3737  0.10000
+ 3758  1.00000
+ 3784  1.00000
+ 3785  1.00000
+ 3985  0.36667
+ 4028  0.20000
+ 4090  1.00000
+ 4101  0.40000
+ 4191  0.16667
+ 4219  0.40000
+ 4295  1.00000
+ 4301  1.00000
+ 4310  1.00000
+ 4342  1.00000
+ 4384  0.40000
+ 4385  0.40000
+ 4387  0.95000
+ 4408  1.00000
+ 4412  1.00000
+ 4413  1.00000
+ 4434  1.00000
+ 4439  1.00000
+ 4477  1.00000
+ 4605  0.20000
+ 4612  1.00000
+ 4635  1.00000
+ 4652  1.00000
+ 4671  1.00000
+ 4694  1.00000
+ 4708  0.10000
+ 4728  1.00000
+ 4805  1.00000
+ 4979  0.15000
+ 5027  0.30000
+ 5072  0.10000
+ 5174  0.93333
+ 5307  0.40000
+ 5343  0.30000
+ 5449  1.00000
+ 5524  0.15000
+ 5552  0.30000
+ 5708  0.16667
+ 5714  0.30000
+ 5728  0.20000
+ 5784  0.30000
+ 5792  0.15000
+ 5800  0.20000
+ 5820  0.15000
+ 5827  0.35000
+ 5832  1.00000
+ 5843  1.00000
+ 5902  0.40000
+ 5962  0.10000
+ 5963  0.40000
+ 6059  1.00000
+ 6121  1.00000
+ 6152  0.30000
+ 6169  0.96667
+ 6204  1.00000
+ 6341  0.10000
+ 6347  0.20000
+ 6490  0.25000
+ 6492  0.25000
+ 6497  0.20000
+ 6503  0.25000
+ 6513  0.10000
+ 6550  1.00000
+ 6572  0.93333
+ 6668  0.30000
+ 6678  1.00000
+ 6680  0.16667
+ 6686  0.26667
+ 6687  0.20000
+ 6692  0.10000
+ 6771  1.00000
+ 6773  1.00000
+ 6787  1.00000
+ 6797  1.00000
+ 6799  1.00000
+ 6809  0.35000
+ 6928  0.30000
+ 6937  0.23333
+ 6939  0.20000
+ 6943  0.16667
+ 6946  0.20000
+ 6972  0.23333
+ 6975  0.16667
+ 7008  0.30000
+ 7023  0.10000
+ 7048  0.10000
+ 7051  0.10000
+ 7052  0.10000
+ 7141  1.00000
+ 7163  0.25000
+ 7180  1.00000
+ 7265  0.23333
+ 7309  1.00000
+ 7324  1.00000
+ 7403  0.25000
+ 7418  1.00000
+ 7433  0.36667
+ 7534  1.00000
+ 7771  0.96667
+ 7838  0.25000
+ 7926  0.95000
+ 7972  0.25000
+ 7986  1.00000
+ 8010  0.96667
+ 8026  1.00000
+ 8036  1.00000
+ 8038  1.00000
+ 8057  0.95000
+ 8070  1.00000
+ 8075  0.95000
+ 8087  1.00000
+ 8088  0.40000
+ 8113  1.00000
+ 8127  0.40000
+ 8130  1.00000
+ 8135  0.40000
+ 8153  1.00000
+ 8160  1.00000
+ 8162  1.00000
+ 8188  0.81667
+ 8189  1.00000
+ 8200  1.00000
+ 8205  1.00000
+ 8216  0.10000
+ 8245  1.00000
+ 8267  1.00000
+ 8294  0.35000
+ 8296  0.35000
+ 8353  1.00000
+ 8360  0.10000
+ 8374  0.10000
+ 8389  1.00000
+ 8432  1.00000
+ 8515  0.15000
+ 8524  1.00000
+ 8550  0.10000
+ 8806  0.93333
+ 8810  0.93333
+ 8835  1.00000
+ 8842  1.00000
+ 8895  0.96667
+ 8896  1.00000
+ 8904  1.00000
+ 8922  1.00000
+ 8996  0.20000
+ 8997  1.00000
+ 9284  0.20000
+ 9294  0.95000
+ 9298  0.30000
+ 9586  1.00000
+ 9640  0.40000
+ 9643  1.00000
+ 9663  1.00000
+ 9716  0.20000
+ 9786  1.00000
+ 9800  0.93333
+ 9842  0.95000
+ 9903  1.00000
+ 9912  1.00000
+ 9941  1.00000
+ 9945  0.10000
+ 9952  0.40000
+ 9955  0.40000
+ 9984  1.00000
+10002  1.00000
+10005  0.20000
+10021  0.35000
+10038  1.00000
+10078  0.15000
+10080  0.15000
+10116  0.15000
+10133  0.15000
+10160  0.25000
+10164  0.10000
+10192  0.10000
+10219  1.00000
+10221  0.95000
+10234  1.00000
+10253  1.00000
+10282  0.10000
+10388  0.35000
+10389  0.35000
+10408  0.30000
+10413  0.96667
+10449  0.91667
+10451  1.00000
+10519  1.00000
+10520  1.00000
+10525  1.00000
+10526  0.95000
+10529  1.00000
+10549  0.95000
+10562  1.00000
+10600  1.00000
+10602  1.00000
+10608  0.15000
+10626  0.15000
+10628  0.40000
+10691  1.00000
+10722  1.00000
+10727  1.00000
+10730  1.00000
+10731  0.10000
+10746  1.00000
+10755  1.00000
+10773  1.00000
+10833  0.95000
+10851  0.20000
+11110  0.30000
+11273  0.25000
+11325  0.25000
+11355  0.35000
+11364  0.25000
+11373  1.00000
+11379  0.25000
+11385  0.25000
+11399  0.20000
+11401  0.30000
+11450  0.20000
+11452  1.00000
+11638  0.10000
+11647  0.10000
+11660  1.00000
+11665  0.10000
+11668  0.10000
+11669  0.10000
+11676  0.10000
+11678  0.10000
+11687  0.96667
+11697  0.15000
+11698  0.10000
+11750  0.10000
+11789  0.40000
+11942  0.36667
+11969  0.10000
+12023  1.00000
+12221  0.93333
+12281  0.36667
+12302  1.00000
+12371  1.00000
+12389  1.00000
+12434  0.15000
+12470  1.00000
+12482  0.96667
+12530  0.10000
+12533  1.00000
+12536  1.00000
+12572  0.15000
+12593  0.30000
+12602  0.36667
+12608  0.15000
+12630  0.36667
+12710  1.00000
+12752  1.00000
+12773  1.00000
+12851  1.00000
+12946  0.20000
+12973  0.20000
+12998  0.10000
+13010  0.96667
+13015  0.96667
+13021  0.26667
+13058  1.00000
+13067  0.33333
+13074  0.33333
+13147  0.93333
+13331  0.15000
+13380  1.00000
+13396  1.00000
+13406  0.10000
+13437  1.00000
+13446  1.00000
+13474  0.10000
+13475  0.10000
+13509  0.15000
+13544  0.40000
+13572  1.00000
+13645  0.30000
+13646  0.25000
+13804  1.00000
+13856  1.00000
+13901  1.00000
+13970  0.40000
+14153  0.20000
+14168  0.30000
+14240  0.15000
+14279  0.10000
+14360  0.96667
+14501  1.00000
+14549  0.40000
+14579  0.30000
+14585  0.95000
+14643  1.00000
+14668  1.00000
+14906  0.25000
+14924  0.25000
+14945  0.25000
+14997  1.00000
+15014  1.00000
+15015  1.00000
+15056  0.25000
+15062  0.20000
+15063  0.20000
+15074  1.00000
+15137  1.00000
+15249  1.00000
+15315  1.00000
+15374  1.00000
+15462  1.00000
+15543  1.00000
+15546  1.00000
+15547  0.95000
+15561  1.00000
+15576  1.00000
+15579  0.10000
+15587  0.30000
+15595  0.95000
+15602  1.00000
+15623  0.93333
+15668  0.30000
+15675  0.30000
+15728  0.40000
+15818  0.23333
+15869  0.20000
+15878  0.36667
+15941  0.96667
+16084  0.10000
+16118  0.20000
+16216  0.95000
+16238  0.10000
+16301  1.00000
+16364  0.26667
+16430  1.00000
+16466  1.00000
+16467  0.33333
+16520  0.10000
+16538  0.20000
+16546  0.25000
+16559  0.20000
+16577  1.00000
+16595  0.25000
+16622  0.95000
+16631  0.30000
+16637  0.20000
+16688  0.25000
+16714  0.20000
+16716  0.20000
+16718  0.20000
+16719  0.20000
+16720  0.25000
+16726  0.25000
+16729  0.20000
+16730  0.25000
+16731  0.25000
+16794  1.00000
+16863  0.15000
+16872  0.35000
+16882  0.16667
+16885  0.15000
+17076  0.93333
+17136  0.40000
+17142  0.10000
+17143  0.10000
+17159  0.10000
+17163  0.15000
+17175  0.15000
+17180  0.10000
+17285  0.35000
+17379  0.10000
+17414  0.10000
+17433  0.15000
+17490  0.30000
+17492  0.30000
+17524  0.40000
+17554  0.30000
+17579  0.96667
+17586  0.16667
+17590  0.16667
+17594  0.10000
+17595  0.10000
+17721  0.10000
+17722  0.10000
+17740  1.00000
+17741  1.00000
+17760  0.10000
+17764  0.10000
+17772  0.35000
+17853  0.35000
+17857  0.15000
+17858  0.10000
+17859  0.10000
+17867  0.10000
+17885  0.10000
+17888  0.10000
+17902  0.35000
+17906  0.10000
+17930  0.20000
+18003  0.35000
+18006  0.10000
+18058  0.35000
+18061  0.10000
+18071  0.95000
+18072  0.10000
+18099  0.10000
+18215  0.10000
+18218  0.10000
+18280  0.20000
+18341  0.10000
+18362  0.10000
+18404  0.20000
+18456  0.20000
+18611  0.10000
+18722  1.00000
+18750  1.00000
+18752  1.00000
+18753  1.00000
+18761  1.00000
+18764  1.00000
+18920  1.00000
+18929  1.00000
+19069  0.20000
+19099  0.10000
+19100  1.00000
+19133  1.00000
+19148  0.10000
+19170  0.10000
+19175  1.00000
+19184  0.25000
+19193  0.10000
+19223  0.10000
+19250  0.10000
+19258  0.10000
+19259  0.10000
+19279  1.00000
+19281  1.00000
+19282  1.00000
+19283  1.00000
+19340  1.00000
+19352  1.00000
+19497  0.91667
+19565  1.00000
+19566  1.00000
+19692  0.10000
+19718  0.20000
+19765  1.00000
+19768  1.00000
+19772  1.00000
+19789  1.00000
+19796  0.16667
+19806  1.00000
+19835  1.00000
+19838  1.00000
+19953  1.00000
+19992  0.10000
+19996  1.00000
+19997  1.00000
+20158  0.20000
+20160  0.20000
+20163  0.36667
+20166  0.16667
+20175  1.00000
+20197  0.15000
+20228  0.25000
+20320  0.10000
+20400  1.00000
+20406  0.10000
+20418  0.36667
+20437  1.00000
+20438  1.00000
+20454  1.00000
+20455  1.00000
+20456  1.00000
+20602  0.15000
+20706  0.33333
+20760  0.20000
+20761  1.00000
+20782  0.36667
+20823  0.10000
+20833  0.16667
+20843  0.16667
+20875  0.16667
+20893  1.00000
+20912  0.20000
+20923  1.00000
+21070  0.16667
+21111  0.20000
+21187  0.10000
+21191  0.10000
+21198  0.10000
+21296  0.25000
+21436  0.30000
+21476  0.25000
+21507  0.25000
+21508  0.25000
+21522  0.95000
+21548  1.00000
+21557  1.00000
+21585  1.00000
+21608  1.00000
+21648  0.40000
+21785  0.40000
+21794  0.40000
+21965  1.00000
+21979  0.10000
+21998  1.00000
+22013  0.40000
+22035  1.00000
+22040  1.00000
+22058  1.00000
+22082  1.00000
+22121  1.00000
+22142  1.00000
+22208  0.35000
+22244  0.40000
+22308  0.36667
+22430  0.15000
+22524  0.16667
+22528  0.23333
+22571  1.00000
+22591  1.00000
+22611  0.96667
+22616  1.00000
+22620  1.00000
+22648  1.00000
+22663  0.16667
+22668  0.33333
+22671  0.30000
+22688  0.10000
+22732  0.26667
+22741  0.40000
+22745  0.40000
+22797  1.00000
+22843  0.10000
+22855  1.00000
+22866  0.10000
+22912  1.00000
+22937  1.00000
+22956  0.26667
+22965  1.00000
+22983  0.40000
+23316  0.35000
+23325  1.00000
+23354  1.00000
+23392  0.36667
+23431  0.26667
+23436  0.26667
+23610  1.00000
+23617  0.95000
+23642  0.96667
+23736  0.16667
+23760  0.16667
+23769  1.00000
+23923  0.91667
+23943  0.10000
+23949  0.10000
+24222  0.10000
+24235  1.00000
+24292  0.15000
+24345  0.20000
+24351  1.00000
+24357  1.00000
+24391  1.00000
+24478  1.00000
+24501  1.00000
+24519  1.00000
+24577  1.00000
+24614  1.00000
+24789  0.95000
+24820  0.10000
+24885  0.20000
+24913  0.25000
+25058  0.33333
+25060  0.20000
+25062  1.00000
+25063  0.20000
+25077  0.30000
+25096  0.10000
+25098  0.10000
+25131  0.10000
+25144  0.30000
+25189  0.10000
+25215  0.10000
+25284  0.10000
+25376  1.00000
+25475  0.40000
+25482  0.10000
+25499  0.10000
+25503  0.40000
+25524  0.33333
+25525  0.95000
+25545  0.10000
+25681  0.40000
+25701  0.36667
+25707  0.90000
+25900  1.00000
+25914  0.40000
+25915  0.40000
+25971  0.40000
+26141  0.36667
+26168  1.00000
+26180  0.36667
+26544  1.00000
+26588  1.00000
+26792  0.10000
+26807  0.16667
+26933  1.00000
+26957  0.16667
+27002  1.00000
+27059  0.40000
+27080  0.40000
+27155  0.16667
+27317  0.10000
+27364  0.33333
+27408  1.00000
+27484  0.93333
+27516  1.00000
+27518  1.00000
+27551  0.20000
+27749  0.40000
+27770  0.10000
+27775  0.23333
+27783  1.00000
+27819  0.16667
+27820  0.26667
+27830  0.40000
+27846  0.40000
+27852  0.10000
+27898  0.40000
+27930  0.16667
+27940  0.40000
+27953  0.40000
+27961  0.40000
+27962  0.10000
+27963  0.40000
+27964  0.40000
+28021  1.00000
+28024  1.00000
+28073  0.16667
+28102  1.00000
+28135  1.00000
+28156  1.00000
+28186  1.00000
+28211  0.10000
+28234  0.30000
+28303  0.30000
+28315  0.30000
+28410  0.10000
+28417  0.10000
+28426  0.40000
+28430  0.30000
+28444  0.96667
+28591  0.40000
+28594  0.16667
+28624  0.35000
+28651  0.40000
+28756  0.20000
+28809  0.20000
+28933  0.20000
+28942  0.35000
+28948  0.93333
+29043  0.25000
+29077  0.20000
+29114  0.10000
+29134  0.15000
+29167  0.15000
+29179  0.20000
+29182  0.15000
+29185  0.20000
+29192  0.10000
+29224  0.16667
+29278  0.16667
+29341  0.15000
+29350  0.10000
+29353  0.15000
+29355  0.10000
+29358  0.10000
+29359  0.30000
+29382  0.10000
+29398  0.26667
+29415  0.15000
+29455  0.16667
+29470  0.40000
+29512  0.95000
+29530  0.25000
+29567  1.00000
+29568  0.36667
+29572  0.40000
+29574  0.35000
+29582  1.00000
+29589  1.00000
+29592  1.00000
+29636  0.20000
+29650  0.20000
+29684  1.00000
+29710  1.00000
+29721  0.10000
+29752  0.40000
+29766  1.00000
+29784  0.23333
+29844  1.00000
+29848  0.15000
+29863  0.35000
+29865  1.00000
+29868  1.00000
+30054  0.25000
+30168  0.25000
+30199  0.25000
+30318  0.25000
+30319  0.10000
+30386  0.25000
+30393  0.10000
+30471  0.10000
+30475  0.25000
+30513  0.10000
+30523  0.10000
+30544  0.36667
+30605  0.40000
+30620  0.25000
+30629  0.15000
+30630  0.25000
+30642  0.15000
+30654  0.10000
+30678  0.15000
+30695  0.10000
+30697  0.25000
+30764  1.00000
+30777  0.20000
+30842  0.25000
+30846  0.25000
+30850  0.25000
+30851  0.25000
+31103  0.15000
+31116  0.95000
+31173  0.20000
+31192  0.36667
+31274  1.00000
+31358  0.36667
+31363  0.20000
+31371  0.15000
+31375  1.00000
+31379  1.00000
+31407  0.35000
+31419  0.35000
+31426  0.35000
+31467  0.26667
+31511  0.15000
+31526  0.15000
+31614  0.96667
+31754  0.30000
+31782  1.00000
+31789  0.30000
+31794  0.30000
+31815  1.00000
+31847  0.30000
+31855  0.15000
+31983  0.20000
+32029  0.40000
+32165  0.15000
+32171  0.15000
+32211  0.15000
+32225  0.15000
+32258  0.16667
+32273  0.15000
+32351  0.40000
+32445  0.30000
+32446  0.25000
+32501  0.15000
+32510  0.35000
+32634  0.20000
+32666  0.15000
+32668  1.00000
+32690  0.15000
+32737  0.15000
+32738  0.15000
+32762  0.15000
+32915  0.30000
+32921  0.10000
+32936  0.93333
+32951  1.00000
+33005  0.35000
+33045  0.25000
+33056  0.95000
+33065  0.25000
+33107  0.16667
+33121  0.20000
+33141  0.15000
+33148  1.00000
+33149  0.35000
+33269  0.35000
+33392  0.36667
+33416  0.36667
+33440  1.00000
+33449  1.00000
+33499  1.00000
+33504  1.00000
+33505  1.00000
+33614  1.00000
+33616  0.40000
+33623  0.10000
+33641  0.20000
+33673  0.35000
+33679  0.15000
+33711  0.10000
+33872  0.23333
+33891  0.10000
+33904  0.10000
+33907  0.15000
+33926  0.15000
+33949  0.20000
+33964  0.25000
+33967  0.25000
+33968  0.25000
+33972  0.10000
+33984  0.30000
+33986  0.15000
+34021  0.10000
+34066  0.15000
+34108  0.15000
+34113  1.00000
+34134  0.10000
+34247  1.00000
+34283  0.10000
+34292  0.20000
+34304  0.40000
+34396  1.00000
+34397  0.10000
+34419  0.16667
+34426  0.40000
+34511  0.95000
+34523  0.33333
+34625  0.15000
+34793  0.20000
+34820  1.00000
+34838  0.30000
+34955  0.10000
+34976  0.25000
+35035  0.25000
+35038  0.15000
+35287  0.25000
+35305  1.00000
+35307  1.00000
+35467  0.16667
+35485  0.25000
+35734  0.35000
+35737  0.35000
+35746  0.35000
+35785  0.40000
+35833  0.10000
+35853  0.93333
+36030  0.10000
+36139  0.36667
+36157  0.15000
+36219  0.20000
+36277  0.20000
+36280  0.20000
+36350  0.95000
+36392  1.00000
+36396  0.96667
+36397  0.30000
+36417  0.20000
+36441  0.20000
+36461  0.30000
+36473  0.20000
+36575  0.20000
+36581  0.25000
+36590  0.30000
+36643  0.10000
+36683  0.16667
+36787  0.25000
+36791  0.16667
+36800  0.16667
+36822  0.25000
+36823  0.16667
+36848  0.25000
+36860  0.25000
+36861  0.25000
+36881  0.25000
+36920  0.20000
+37028  0.20000
+37115  0.30000
+37172  0.25000
+37173  0.25000
+37217  0.30000
+37262  0.30000
+37348  0.30000
+37400  0.20000
+37411  0.33333
+37444  0.30000
+37472  0.95000
+37496  0.20000
+37544  0.40000
+37649  0.20000
+37842  0.25000
+37889  0.16667
+38022  0.23333
+38043  0.15000
+38091  0.10000
+38132  0.10000
+38141  0.16667
+38157  0.15000
+38267  0.16667
+38274  0.33333
+38277  0.23333
+38329  0.25000
+38366  0.96667
+38445  0.10000
+38549  1.00000
+38580  0.16667
+38583  0.20000
+38584  0.30000
+38589  1.00000
+38598  0.30000
+38602  0.96667
+38617  1.00000
+38692  0.40000
+38733  0.25000
+38768  0.40000
+38773  0.40000
+38793  0.25000
+38800  0.40000
+38812  0.15000
+38843  0.15000
+38876  0.15000
+38932  1.00000
+39000  1.00000
+39029  0.40000
+39094  0.15000
+39261  0.40000
+39503  0.20000
+39544  0.36667
+39599  0.20000
+39647  0.16667
+39819  0.10000
+39917  0.20000
+40037  1.00000
+40135  0.26667
+40143  0.96667
+40150  0.16667
+40152  0.30000
+40156  1.00000
+40158  1.00000
+40219  0.91667
+40292  0.33333
+40313  0.15000
+40359  0.95000
+40360  0.15000
+40363  0.15000
+40367  0.20000
+40369  0.20000
+40389  0.15000
+40404  0.15000
+40423  0.20000
+40431  0.20000
+40439  0.10000
+40446  0.40000
+40454  0.25000
+40455  0.25000
+40461  0.16667
+40462  0.25000
+40464  0.25000
+40493  0.30000
+40501  0.30000
+40530  0.16667
+40538  0.30000
+40617  0.35000
+40630  0.20000
+40684  0.95000
+40743  0.10000
+40785  0.30000
+40814  0.41667
+40815  0.10000
+40823  0.25000
+40836  0.16667
+41171  0.25000
+41188  1.00000
+41446  0.40000
+41465  1.00000
+41513  0.20000
+41519  0.25000
+41557  0.20000
+41567  0.95000
+41568  0.30000
+41569  0.30000
+41664  0.15000
+41665  0.30000
+41740  0.25000
+41757  0.46667
+41848  0.10000
+41852  0.10000
+41858  0.10000
+41958  0.33333
+41961  0.23333
+41962  0.10000
+41973  0.30000
+42068  0.20000
+42110  0.35000
+42113  0.16667
+42138  0.35000
+42203  0.20000
+42209  0.35000
+42251  0.26667
+42269  0.16667
+42371  0.25000
+42464  0.25000
+42473  0.25000
+42567  0.15000
+42622  0.40000
+42650  0.10000
+42708  0.35000
+42726  0.10000
+42771  0.10000
+42927  0.10000
+42965  0.40000
+43004  0.23333
+43129  0.10000
+43315  1.00000
+43325  0.16667
+43329  1.00000
+43330  0.20000
+43401  0.10000
+43517  0.35000
+43633  0.16667
+43786  0.35000
+43789  0.15000
+43790  1.00000
+43914  0.10000
+43990  1.00000
+44068  0.10000
+44163  0.40000
+44172  0.10000
+44191  0.30000
+44208  0.10000
+44224  0.95000
+44276  1.00000
+44283  0.35000
+44292  0.20000
+44332  0.10000
+44348  1.00000
+44401  0.20000
+44405  0.15000
+44555  0.10000
+44737  0.25000
+44794  0.35000
+44820  0.35000
+44849  0.35000
+44854  0.10000
+44865  0.15000
+44870  0.16667
+44894  0.15000
+44921  0.15000
+44924  0.15000
+44932  0.15000
+44959  0.20000
+45050  0.40000
+45084  0.35000
+45169  1.00000
+45212  0.10000
+45234  0.16667
+45293  0.10000
+45347  0.10000
+45350  0.30000
+45357  0.20000
+45370  0.25000
+45380  0.96667
+45382  0.30000
+45391  0.20000
+45414  0.20000
+45495  0.10000
+45506  0.91667
+45523  0.10000
+45536  0.10000
+45541  1.00000
+45542  0.10000
+45584  0.25000
+45590  0.16667
+45596  0.20000
+45619  0.16667
+45620  0.16667
+45655  0.35000
+45658  0.10000
+45692  0.95000
+45694  1.00000
+45701  0.16667
+45735  0.10000
+45739  0.10000
+45760  1.00000
+45776  0.10000
+45795  0.15000
+45914  0.25000
+46040  0.30000
+46167  0.15000
+46170  0.30000
+46188  0.15000
+46189  0.30000
+46193  0.30000
+46212  0.10000
+46238  0.40000
+46254  0.35000
+46267  0.85000
+46275  0.96667
+46297  0.40000
+46511  0.10000
+46936  1.00000
+46962  0.20000
+47090  0.30000
+47095  0.30000
+47097  0.20000
+47152  0.35000
+47196  0.26667
+47234  0.10000
+47447  0.40000
+47477  0.20000
+47485  0.10000
+47491  0.26667
+47496  0.16667
+47710  0.35000
+47757  0.20000
+47777  0.35000
+47821  0.40000
+47831  0.16667
+47832  0.26667
+47836  0.23333
+47867  0.16667
+47870  0.95000
+47898  1.00000
+47913  0.16667
+47971  0.16667
+47975  0.33333
+48328  0.10000
+48367  0.15000
+48415  0.10000
+48491  0.25000
+48567  0.30000
+48641  0.26667
+48713  0.15000
+48877  0.15000
+48930  0.16667
+48932  0.16667
+49034  0.36667
+49036  0.36667
+49118  0.20000
+49132  0.71667
+49134  0.10000
+49158  0.93333
+49164  0.10000
+49176  0.10000
+49180  0.96667
+49204  0.40000
+49211  1.00000
+49233  0.10000
+49269  0.20000
+49294  0.93333
+49437  1.00000
+49455  0.15000
+49493  0.26667
+49659  0.25000
+49667  0.16667
+49695  0.15000
+49699  0.15000
+49783  0.10000
+49833  0.10000
+49876  0.96667
+49964  0.15000
+49987  0.20000
+49988  0.15000
+49995  0.20000
+50000  0.25000
+50001  0.20000
+50016  0.10000
+50023  0.20000
+50028  0.15000
+50031  0.10000
+50032  0.25000
+50036  0.20000
+50040  0.10000
+50069  0.16667
+50071  0.16667
+50093  0.30000
+50140  0.10000
+50153  0.25000
+50207  0.10000
+50267  0.15000
+50278  1.00000
+50405  0.20000
+50418  0.20000
+50419  1.00000
+50420  1.00000
+50445  0.95000
+50479  0.40000
+50480  0.40000
+50505  0.35000
+50523  0.35000
+50620  0.20000
+50665  1.00000
+50678  0.10000
+50799  1.00000
+50849  0.26667
+51122  0.20000
+51148  0.15000
+51156  0.15000
+51260  0.15000
+51346  0.20000
+51367  0.35000
+51412  0.10000
+51464  0.10000
+51611  0.15000
+51676  1.00000
+51744  0.10000
+51842  0.40000
+51857  0.25000
+51875  1.00000
+51888  0.20000
+51899  0.25000
+51900  0.25000
+51903  0.95000
+51914  0.30000
+51972  0.36667
+51976  0.20000
+51988  0.36667
+52008  0.30000
+52079  0.25000
+52178  0.40000
+52551  0.30000
+52569  0.16667
+52595  0.20000
+52611  0.15000
+52612  0.10000
+52638  0.10000
+52893  0.10000
+52969  0.10000
+52988  0.26667
+52996  0.95000
+53046  0.10000
+53056  0.10000
+53092  0.20000
+53262  0.10000
+53350  0.16667
+53362  0.15000
+53371  0.23333
+53402  0.20000
+53407  0.10000
+53524  0.16667
+53528  0.10000
+53611  0.15000
+53689  0.20000
+53705  0.15000
+53789  0.10000
+53800  0.20000
+53808  0.20000
+54277  0.10000
+54288  0.30000
+54504  0.10000
+54515  0.16667
+54521  0.10000
+54542  0.30000
+54543  0.30000
+54938  0.36667
+55126  0.15000
+55212  0.25000
+55213  0.10000
+55308  0.10000
+56077  0.30000
+56223  0.10000
+56362  0.36667
+56439  0.10000
+56440  0.96667
+56457  0.10000
+56478  0.93333
+56501  0.10000
+56549  0.10000
+56551  0.10000
+56563  0.10000
+56596  0.30000
+56678  0.20000
+56688  0.20000
+56767  0.15000
+56832  0.23333
+57112  0.25000
+57127  0.30000
+57234  0.26667
+57421  0.20000
+57422  0.20000
+57653  0.35000
+57757  0.25000
+57774  0.10000
+57795  0.35000
+57810  0.10000
+57976  0.20000
+58015  0.20000
+58037  0.10000
+58119  0.20000
+58207  0.40000
+58209  0.40000
+58223  0.36667
+58227  0.36667
+58358  0.25000
+58403  1.00000
+58410  1.00000
+58427  0.40000
+58457  0.26667
+58498  0.30000
+58522  0.23333
+58531  0.20000
+58572  0.36667
+58577  0.30000
+58608  0.10000
+58763  0.91667
+58796  0.15000
+58811  0.15000
+58825  0.36667
+59020  0.10000
+59058  1.00000
+59362  0.35000
+59399  0.10000
+59410  0.40000
+59418  0.10000
+59448  0.35000
+59475  1.00000
+59482  1.00000
+59484  1.00000
+59643  0.16667
+59755  1.00000
+59756  0.40000
+59769  1.00000
+59905  0.40000
+59923  0.30000
+59941  0.25000
+59986  0.10000
+60158  0.40000
+60197  0.23333
+60321  0.16667
+60335  0.33333
+60344  0.33333
+60420  0.40000
+60507  0.10000
+60516  0.10000
+61026  1.00000
+61167  0.30000
+61203  0.30000
+61206  1.00000
+61278  0.40000
+61299  0.40000
+61332  0.40000
+61422  0.35000
+61530  0.35000
+61557  0.20000
+61648  0.35000
+61657  0.35000
+61666  0.35000
+61788  1.00000
+61790  1.00000
+61791  1.00000
+61797  1.00000
+61894  0.35000
+61917  0.35000
+61918  0.35000
+61919  0.16667
+61961  0.35000
+62011  0.10000
+62240  0.31667
+62273  0.26667
+62326  0.10000
+62534  0.15000
+62552  0.40000
+62586  0.23333
+62588  0.10000
+62662  0.26667
+62745  0.10000
+62770  0.10000
+62925  0.16667
+63049  0.16667
+63088  0.25000
+63156  0.10000
+63164  0.10000
+63184  0.16667
+63221  0.25000
+63277  0.10000
+63316  0.10000
+63408  0.20000
+63513  0.33333
+63614  0.10000
+63640  0.10000
+63649  0.10000
+63650  0.10000
+63885  0.96667
+64135  0.20000
+64926  0.10000
+65472  0.10000
+65484  0.15000
+65518  0.23333
+65631  0.15000
+65729  0.10000
+65730  0.25000
+65768  0.10000
+65769  0.10000
+66055  0.40000
+66066  0.10000
+66068  0.10000
+66074  0.36667
+66130  0.25000
+66147  0.40000
+66174  0.33333
+66177  0.33333
+66244  0.40000
+66246  0.40000
+66249  0.40000
+66273  0.40000
+66289  0.40000
+66420  0.10000
+66543  0.20000
+66668  0.23333
+66713  0.15000
+66740  0.10000
+66752  0.40000
+66758  0.15000
+66770  0.10000
+66974  0.23333
+66998  0.40000
+67037  1.00000
+67053  0.93333
+67268  0.40000
+67352  0.40000
+67388  0.40000
+67415  0.30000
+67457  0.20000
+67556  1.00000
+67616  1.00000
+67703  1.00000
+67778  1.00000
+67835  0.20000
+67856  0.20000
+67979  0.30000
+68057  0.20000
+68063  1.00000
+68109  0.40000
+68174  1.00000
+68183  1.00000
+68195  0.23333
+68264  0.95000
+68282  0.23333
+68381  0.95000
+68463  0.30000
+68466  0.30000
+68467  0.40000
+68529  0.30000
+68637  0.96667
+68695  0.10000
+68699  0.10000
+68769  0.16667
+68863  0.10000
+68966  1.00000
+68989  0.16667
+69017  1.00000
+69023  0.16667
+69032  0.35000
+69127  0.10000
+69261  1.00000
+69301  1.00000
+69475  1.00000
+69486  0.16667
+69568  1.00000
+69571  0.16667
+69580  0.40000
+69612  0.25000
+69658  0.10000
+69664  0.10000
+69959  0.10000
+70018  0.15000
+70043  0.30000
+70067  0.20000
+70069  0.20000
+70093  0.10000
+70111  0.40000
+70123  0.30000
+70137  0.10000
+70158  0.10000
+70211  0.15000
+70424  0.91667
+70451  0.40000
+70492  1.00000
+70740  0.33333
+70897  0.95000
+71033  0.40000
+71148  0.40000
+71212  0.26667
+71743  0.10000
+71899  0.35000
+72035  1.00000
+72039  1.00000
+72077  0.26667
+72120  1.00000
+72252  0.36667
+72365  1.00000
+72427  1.00000
+72439  0.40000
+72586  0.15000
+72587  0.30000
+72612  0.93333
+72616  0.88333
+72653  0.30000
+72738  0.15000
+72907  1.00000
+72927  1.00000
+72953  0.15000
+72956  0.30000
+73021  0.15000
+73028  0.15000
+73189  0.20000
+73213  0.15000
+73237  0.10000
+73272  1.00000
+73278  1.00000
+73590  0.23333
+73893  0.30000
+74057  0.95000
+74210  0.96667
+74576  0.16667
+74597  0.26667
+74617  0.20000
+74711  1.00000
+74712  1.00000
+74713  1.00000
+74865  0.20000
+74946  0.91667
+75033  0.35000
+75052  0.35000
+75545  0.91667
+75571  0.35000
+75623  0.35000
+75651  0.10000
+75666  0.10000
+75669  0.10000
+75670  0.40000
+75673  0.10000
+75679  0.40000
+75680  1.00000
+75681  0.10000
+75843  1.00000
+75857  1.00000
+75859  1.00000
+75863  1.00000
+75865  1.00000
+75870  1.00000
+75924  0.15000
+76209  0.35000
+76229  0.30000
+76230  0.23333
+76234  0.15000
+76338  0.25000
+76366  0.10000
+76440  0.25000
+76544  0.25000
+76689  1.00000
+76749  0.26667
+76760  0.23333
+76770  0.23333
+76793  0.15000
+76802  0.15000
+77190  0.35000
+77234  0.36667
+77235  0.20000
+77259  0.16667
+77263  0.16667
+77264  0.16667
+77267  0.26667
+77286  0.16667
+77317  0.33333
+77362  0.15000
+77367  1.00000
+77380  1.00000
+77701  1.00000
+78055  1.00000
+78262  0.20000
+78264  0.25000
+78265  0.20000
+78272  0.26667
+78288  0.26667
+78300  0.23333
+78431  0.20000
+78441  0.25000
+78516  0.35000
+78524  0.35000
+78534  0.10000
+78548  0.35000
+78562  0.20000
+78703  0.10000
+78715  0.10000
+78727  0.10000
+78735  0.15000
+78752  0.30000
+78758  0.40000
+78765  0.20000
+78769  1.00000
+78770  1.00000
+78843  0.25000
+78844  0.25000
+78845  0.15000
+78857  0.16667
+78864  0.10000
+78904  0.33333
+78929  0.40000
+78985  0.40000
+79019  1.00000
+79100  0.40000
+79199  0.20000
+79425  1.00000
+79465  0.96667
+79469  1.00000
+79517  0.35000
+79570  0.30000
+79603  1.00000
+79648  0.25000
+79672  0.20000
+79673  0.16667
+79708  0.30000
+79710  0.15000
+80189  0.25000
+80203  1.00000
+80205  0.20000
+80218  0.25000
+80311  0.20000
+80377  0.20000
+80563  0.10000
+80590  0.15000
+80659  0.10000
+80701  0.10000
+81253  0.40000
+81273  0.10000
+81410  0.40000
+81443  0.40000
+81462  0.36667
+81472  0.10000
+81492  0.35000
+81499  0.15000
+81505  0.15000
+81650  0.30000
+81674  0.15000
+81747  0.20000
+81748  0.20000
+81809  0.10000
+81911  0.30000
+81926  0.20000
+81977  0.15000
+81989  0.30000
+82007  0.15000
+82011  0.10000
+82044  0.23333
+82206  0.40000
+82235  0.20000
+82271  0.95000
+82356  0.35000
+82396  0.35000
+82400  0.20000
+82404  0.15000
+82405  0.15000
+82558  0.20000
+82607  0.36667
+82611  0.36667
+82621  0.30000
+82625  0.33333
+82701  0.30000
+82724  0.25000
+82738  0.20000
+82856  0.25000
+82865  0.46667
+82947  0.10000
+82958  0.93333
+82963  0.10000
+83092  0.15000
+83096  0.95000
+83118  0.15000
+83119  0.15000
+83142  0.15000
+83162  0.20000
+83170  0.20000
+83177  0.10000
+83181  1.00000
+83185  1.00000
+83194  1.00000
+83198  0.30000
+83201  0.20000
+83204  0.10000
+83238  0.30000
+83240  1.00000
+83329  1.00000
+83332  0.36667
+83344  0.35000
+83405  0.35000
+83414  0.25000
+83423  0.10000
+83429  0.10000
+83430  0.10000
+83520  1.00000
+83534  1.00000
+83845  0.15000
+83913  0.15000
+83962  0.20000
+83980  0.20000
+83988  0.15000
+83989  0.15000
+83998  0.15000
+84003  1.00000
+84109  0.20000
+84137  0.10000
+84152  0.15000
+84163  0.15000
+84165  0.15000
+84178  0.20000
+84251  0.25000
+84260  0.25000
+84272  0.25000
+84288  0.20000
+84297  1.00000
+84306  0.40000
+84351  0.20000
+84376  0.20000
+84422  1.00000
+84427  1.00000
+84467  1.00000
+84481  0.15000
+84484  0.25000
+84503  0.15000
+84525  1.00000
+84643  1.00000
+84703  1.00000
+84704  1.00000
+84733  1.00000
+84810  0.15000
+84854  0.15000
+84856  0.15000
+84866  0.25000
+84873  0.25000
+84963  0.20000
+85054  0.25000
+85064  1.00000
+85067  0.10000
+85072  0.93333
+85107  1.00000
+85117  0.10000
+85242  0.95000
+85286  0.15000
+85368  0.15000
+85384  0.10000
+85438  0.25000
+85439  0.30000
+85442  0.10000
+85453  0.25000
+85495  0.10000
+85500  0.10000
+85503  0.10000
+85562  0.30000
+85568  1.00000
+85587  0.15000
+85590  1.00000
+85599  1.00000
+85603  1.00000
+85634  0.95000
+85637  0.93333
+85664  1.00000
+85676  0.30000
+85689  1.00000
+85691  0.10000
+85728  1.00000
+85756  0.35000
+85761  0.35000
+85789  0.30000
+85883  0.95000
+85910  0.35000
+85920  0.40000
+86108  1.00000
+86111  1.00000
+86153  0.15000
+86180  1.00000
+86193  1.00000
+86198  1.00000
+86351  0.15000
+86389  0.36667
+86391  0.10000
+86544  1.00000
+86573  0.20000
+86622  0.10000
+86653  0.33333
+86675  0.25000
+86686  0.25000
+86816  1.00000
+86826  1.00000
+86834  1.00000
+86927  1.00000
+86953  0.10000
+87022  0.10000
+87023  0.20000
+87026  0.40000
+87029  0.10000
+87033  0.10000
+87062  0.10000
+87173  0.30000
+87232  0.15000
+87258  0.20000
+87343  0.15000
+87384  0.15000
+87389  0.35000
+87422  0.15000
+87431  0.95000
+87476  0.35000
+87480  0.40000
+87605  0.10000
+87620  0.10000
+87651  0.10000
+87661  0.10000
+87733  0.10000
+87803  0.30000
+87888  1.00000
+87972  0.35000
+88042  0.93333
+88081  0.95000
+88085  0.81667
+88095  0.10000
+88113  0.16667
+88164  0.25000
+88187  0.25000
+88191  0.16667
+88261  0.40000
+88262  1.00000
+88289  0.10000
+88341  0.10000
+88357  0.15000
+88371  0.10000
+88375  0.15000
+88396  0.15000
+88421  0.40000
+88435  0.26667
+88568  0.20000
+88575  0.20000
+88637  0.96667
+88715  1.00000
+88749  0.23333
+88751  0.33333
+88760  0.23333
+88789  0.26667
+88795  0.15000
+88801  0.30000
+88806  0.30000
+88873  0.16667
+88874  0.16667
+88889  0.20000
+88893  0.16667
+88914  0.40000
+88919  0.15000
+88941  0.15000
+88943  0.36667
+88944  0.36667
+88965  1.00000
+88978  0.33333
+89019  0.40000
+89022  0.40000
+89026  0.40000
+89031  0.10000
+89047  0.10000
+89069  0.10000
+89124  1.00000
+89157  1.00000
+89158  1.00000
+89166  1.00000
+89176  0.26667
+89267  1.00000
+89279  0.35000
+89285  0.35000
+89359  1.00000
+89394  0.30000
+89517  0.10000
+89720  0.25000
+89809  0.10000
+89867  0.43333
+89898  0.10000
+90185  1.00000
+90213  0.33333
+90279  0.10000
+90289  0.26667
+90327  0.26667
+90622  0.40000
+90626  0.26667
+90631  0.40000
+90700  0.10000
+90857  0.10000
+90953  0.35000
+91035  0.15000
+91058  0.25000
+91093  0.10000
+91175  0.35000
+91196  0.15000
+91220  0.36667
+91241  0.16667
+91258  0.16667
+91327  0.20000
+91329  0.20000
+91330  0.20000
+91344  0.15000
+91353  0.15000
+91454  0.30000
+91501  0.15000
+91512  0.20000
+91527  0.16667
+91532  0.15000
+91539  0.15000
+91993  0.40000
+92006  0.35000
+92016  0.15000
+92069  0.15000
+92109  0.10000
+92169  0.35000
+92302  0.15000
+92416  0.20000
+92564  0.33333
+92575  0.40000
+92746  0.10000
+92867  0.33333
+93010  0.10000
+93064  0.15000
+93160  0.20000
+93161  0.16667
+93164  0.20000
+93166  0.20000
+93249  0.25000
+93275  0.25000
+93319  0.10000
+93506  0.10000
+93509  0.10000
+93673  0.10000
+93729  0.10000
+93747  0.10000
+93749  1.00000
+93757  0.10000
+93769  0.10000
+93778  0.25000
+93787  0.10000
+93792  1.00000
+93800  0.33333
+93801  0.10000
+93820  0.10000
+93832  0.40000
+93835  0.10000
+93838  0.10000
+93840  0.10000
+93848  0.40000
+93908  1.00000
+93918  1.00000
+93919  1.00000
+93935  0.40000
+93942  0.10000
+93948  1.00000
+93986  0.30000
+94111  0.26667
+94157  1.00000
+94172  0.20000
+94227  0.20000
+94394  0.10000
+94466  0.20000
+94495  0.30000
+94533  0.15000
+94577  0.95000
+94635  0.16667
+94744  0.16667
+94753  0.33333
+94760  0.16667
+94898  0.10000
+94905  1.00000
+95170  0.25000
+95244  1.00000
+95275  0.20000
+95281  0.33333
+95325  0.15000
+95428  0.15000
+95674  1.00000
+95693  0.35000
+95716  0.15000
+95725  1.00000
+95822  0.10000
+95965  0.20000
+96112  0.35000
+96207  0.15000
+96216  0.20000
+96222  0.25000
+96225  0.25000
+96231  0.95000
+96280  0.30000
+96299  0.36667
+96360  0.15000
+96372  0.15000
+96419  0.93333
+96507  0.10000
+96819  0.15000
+96832  0.30000
+96842  0.20000
+96867  1.00000
+96869  1.00000
+96944  0.15000
+96946  0.15000
+96949  0.25000
+96985  0.15000
+96986  0.20000
+96991  0.30000
+96993  0.20000
+97021  0.20000
+97028  1.00000
+97031  1.00000
+97034  1.00000
+97083  0.20000
+97094  1.00000
+97095  1.00000
+97354  1.00000
+97367  0.10000
+97392  0.30000
+97407  0.25000
+97565  0.10000
+97581  1.00000
+97588  1.00000
+97609  1.00000
+97612  1.00000
+97628  1.00000
+97762  0.40000
+98092  0.40000
+98170  0.20000
+98307  0.30000
+98383  0.30000
+98442  0.40000
+98517  0.23333
+98523  0.40000
+98524  0.33333
+98729  0.10000
+98758  0.10000
+98774  0.10000
+98866  0.40000
+98880  1.00000
+98889  0.26667
+98891  0.23333
+98893  0.26667
+98897  0.26667
+98901  0.95000
+98925  0.26667
+98981  0.10000
+99073  0.30000
+99167  0.10000
+99385  1.00000
+99590  1.00000
+99593  1.00000
+99596  1.00000
+99722  1.00000
+99863  0.35000
+100094  0.40000
+100100  0.40000
+100253  0.30000
+100374  0.96667
+100380  1.00000
+100384  1.00000
+100386  0.30000
+100411  0.96667
+100413  1.00000
+100416  0.95000
+100418  0.30000
+100444  0.95000
+100853  0.10000
+100920  0.35000
+100923  1.00000
+101040  1.00000
+101067  0.25000
+101075  0.10000
+101094  0.10000
+101110  0.15000
+101118  0.35000
+101129  0.10000
+101130  0.33333
+101131  0.10000
+101146  0.40000
+101155  0.20000
+101157  0.26667
+101231  0.20000
+101257  0.15000
+101289  0.20000
+101291  0.15000
+101300  0.15000
+101351  0.10000
+101429  1.00000
+101430  1.00000
+101611  0.20000
+101661  0.10000
+101874  0.15000
+101964  0.40000
+102096  0.15000
+102181  0.35000
+102202  0.35000
+102258  0.23333
+102310  0.10000
+102380  0.10000
+102450  0.10000
+102451  0.10000
+102561  0.20000
+102563  0.20000
+102775  0.10000
+102797  0.15000
+102820  0.10000
+102829  0.10000
+102907  0.10000
+102927  0.10000
+102972  0.10000
+103022  0.30000
+103030  0.20000
+103189  0.10000
+103199  0.40000
+103209  0.10000
+103244  1.00000
+103264  0.40000
+103303  0.33333
+103316  0.30000
+103322  0.95000
+103324  0.10000
+103334  0.10000
+103361  0.10000
+103505  0.15000
+103506  0.15000
+103615  0.20000
+103639  0.10000
+103646  0.10000
+103659  0.20000
+103725  0.10000
+103854  0.36667
+103861  0.96667
+103885  0.10000
+104254  0.10000
+104259  0.30000
+104286  1.00000
+104291  0.33333
+104295  0.40000
+104299  0.36667
+104306  1.00000
+104309  1.00000
+104372  0.16667
+104390  0.25000
+104404  0.10000
+104414  0.20000
+104415  0.20000
+104416  0.20000
+104417  0.16667
+104420  0.15000
+104424  0.26667
+104428  0.40000
+104440  0.20000
+104449  0.20000
+104460  0.30000
+104465  0.35000
+104496  0.10000
+104512  0.15000
+104542  0.95000
+104550  0.15000
+104596  0.20000
+104617  1.00000
+104631  1.00000
+104633  1.00000
+104639  0.96667
+104934  1.00000
+104985  1.00000
+105180  0.35000
+105246  0.25000
+105270  0.10000
+105273  0.25000
+105297  0.40000
+105342  0.35000
+105441  0.15000
+105514  0.26667
+105520  0.20000
+105700  0.30000
+105780  1.00000
+105876  0.25000
+105898  0.26667
+105931  0.40000
+106006  0.35000
+106129  0.36667
+106150  0.15000
+106207  0.20000
+106263  0.95000
+106390  0.10000
+106556  0.10000
+106560  0.20000
+106569  0.20000
+106578  0.10000
+106596  0.20000
+106599  0.20000
+106658  0.25000
+106678  0.10000
+106982  0.10000
+107061  0.15000
+107072  0.15000
+107252  0.25000
+107417  0.16667
+107456  0.15000
+107645  0.10000
+107662  0.15000
+107679  0.16667
+107691  0.26667
+107724  0.15000
+107737  0.23333
+107738  0.15000
+107747  0.15000
+107757  0.16667
+107758  0.10000
+107790  0.10000
+107791  0.16667
+107797  0.15000
+107838  0.10000
+107855  0.10000
+107881  0.10000
+107892  0.10000
+107908  0.15000
+107917  0.15000
+108017  0.15000
+108062  0.30000
+108113  0.10000
+108120  0.15000
+108142  0.91667
+108147  0.10000
+108204  0.23333
+108212  0.30000
+108217  0.20000
+108218  0.40000
+108237  0.15000
+108248  0.25000
+108406  0.16667
+108570  0.15000
+108625  0.20000
+108774  0.10000
+108793  0.10000
+109093  0.10000
+109135  0.40000
+109143  1.00000
+109245  0.20000
+109352  0.25000
+109380  0.10000
+109396  0.40000
+109505  0.16667
+109568  0.25000
+109585  0.30000
+109602  0.10000
+109622  0.36667
+109627  0.10000
+109785  0.40000
+109842  0.16667
+109890  0.16667
+109897  0.40000
+109898  0.40000
+109925  0.40000
+110023  0.10000
+110027  0.16667
+110046  0.25000
+110054  0.10000
+110067  0.30000
+110078  0.25000
+110086  0.25000
+110102  0.35000
+110135  0.15000
+110142  0.36667
+110154  0.15000
+110160  0.20000
+110181  0.15000
+110185  0.33333
+110188  0.20000
+110223  0.40000
+110254  0.33333
+110261  0.33333
+110281  0.33333
+110311  0.33333
+110339  1.00000
+110348  1.00000
+110357  1.00000
+110382  0.25000
+110390  1.00000
+110418  0.35000
+110460  0.26667
+110462  0.20000
+110467  0.20000
+110488  0.40000
+110569  0.10000
+110572  0.10000
+110580  0.10000
+110595  0.10000
+110633  0.10000
+110705  1.00000
+110731  0.95000
+110765  0.15000
+110789  1.00000
+110822  0.35000
+110851  0.20000
+110977  0.20000
+111031  0.10000
+111035  0.40000
+111112  0.40000
+111119  0.10000
+111226  1.00000
+111259  0.96667
+111307  1.00000
+111308  0.15000
+111318  0.15000
+111321  0.15000
+111347  0.15000
+111386  0.15000
+111422  0.36667
+111592  0.25000
+111597  0.25000
+111643  0.95000
+111678  1.00000
+111686  1.00000
+111747  0.23333
+111748  0.23333
+111756  0.23333
+111780  0.10000
+111781  0.23333
+111788  1.00000
+111789  0.20000
+111832  0.15000
+111857  0.25000
+111858  0.25000
+111910  0.40000
+111979  0.10000
+112039  1.00000
+112062  1.00000
+112087  0.10000
+112088  0.10000
+112090  1.00000
+112093  1.00000
+112120  0.30000
+112140  0.30000
+112142  0.20000
+112173  0.25000
+112177  1.00000
+112198  0.95000
+112211  0.35000
+112260  0.15000
+112288  0.20000
+112364  0.30000
+112379  0.30000
+112435  0.20000
+112449  0.10000
+112459  0.40000
+112535  0.96667
+112547  0.35000
+112549  0.20000
+112555  0.10000
+112572  0.10000
+112608  0.30000
+112637  0.40000
+112638  0.40000
+112659  0.25000
+112666  0.25000
+112669  0.25000
+112758  0.95000
+112833  0.26667
+112890  0.35000
+112945  0.30000
+112977  0.23333
+113124  1.00000
+113166  0.10000
+113271  0.15000
+113297  0.40000
+113428  0.30000
+113523  0.30000
+113595  0.36667
+113814  1.00000
+113846  0.96667
+113874  1.00000
+113885  0.20000
+113989  0.23333
+114125  0.23333
+114197  0.10000
+114215  0.10000
+114326  0.20000
+114356  0.10000
+114534  0.20000
+114542  0.20000
+114543  0.15000
+114552  0.20000
+114556  0.20000
+114558  0.30000
+114586  0.25000
+114587  0.15000
+114622  0.30000
+114627  0.30000
+114639  0.30000
+114972  0.10000
+115011  0.40000
+115109  0.30000
+115165  0.25000
+115212  0.25000
+115233  0.25000
+115250  0.25000
+115264  0.30000
+115296  0.10000
+115339  0.40000
+115389  1.00000
+115397  1.00000
+115443  0.20000
+115456  1.00000
+115497  0.25000
+115536  0.23333
+115698  1.00000
+115723  1.00000
+115735  1.00000
+115749  1.00000
+115813  0.40000
+115819  0.40000
+115824  0.10000
+115851  0.35000
+115968  0.20000
+116050  1.00000
+116239  1.00000
+116321  1.00000
+116324  0.10000
+116384  1.00000
+116385  1.00000
+116422  0.10000
+116437  0.40000
+116482  1.00000
+116495  1.00000
+116512  1.00000
+116533  1.00000
+116548  1.00000
+116632  1.00000
+116638  1.00000
+116670  1.00000
+116716  0.10000
+116750  1.00000
+116803  1.00000
+116809  0.10000
+116896  1.00000
+116938  0.15000
+117055  1.00000
+117079  0.30000
+117109  0.20000
+117409  1.00000
+117423  0.10000
+117437  0.15000
+117489  0.35000
+117565  1.00000
+117568  1.00000
+117587  0.10000
+117641  0.30000
+117644  1.00000
+117684  1.00000
+117685  1.00000
+117722  1.00000
+117740  1.00000
+117797  0.10000
+117818  1.00000
+117819  1.00000
+117862  1.00000
+117865  1.00000
+117867  0.96667
+117927  0.20000
+117941  1.00000
+117950  0.20000
+117972  0.16667
+118102  0.33333
+118127  0.33333
+118129  0.16667
+118134  0.33333
+118156  0.33333
+118214  0.25000
+118242  0.25000
+118277  0.10000
+118296  0.16667
+118349  0.10000
+118352  0.23333
+118380  0.26667
+118392  1.00000
+118405  1.00000
+118415  0.40000
+118422  1.00000
+118426  1.00000
+118439  1.00000
+118474  1.00000
+118480  1.00000
+118495  1.00000
+118581  0.15000
+118582  0.15000
+118603  0.16667
+118618  0.33333
+118624  0.15000
+118629  0.15000
+118632  1.00000
+118674  0.26667
+118688  0.20000
+118691  0.16667
+118758  0.15000
+118776  0.93333
+118926  1.00000
+118936  1.00000
+118981  0.36667
+119002  0.10000
+119006  0.36667
+119007  0.36667
+119017  0.35000
+119021  0.10000
+119102  0.20000
+119145  1.00000
+119200  1.00000
+119217  0.93333
+119222  0.20000
+119225  1.00000
+119236  1.00000
+119255  1.00000
+119261  0.30000
+119267  0.30000
+119386  1.00000
+119398  0.30000
+119493  0.35000
+119581  0.33333
+119645  1.00000
+119676  0.95000
+119774  0.95000
+119813  0.10000
+119888  0.10000
+119931  1.00000
+120007  1.00000
+120037  0.20000
+120040  1.00000
+120114  0.30000
+120136  0.20000
+120217  0.25000
+120254  0.23333
+120282  0.25000
+120302  0.40000
+120382  1.00000
+120494  1.00000
+120645  1.00000
+120694  0.40000
+121054  0.15000
+121715  0.20000
+122009  0.40000
+122190  0.23333
+122253  1.00000
+122364  1.00000
+122372  0.20000
+122474  0.26667
+122620  1.00000
+122814  0.10000
+122826  0.30000
+122919  0.33333
+122932  0.30000
+123059  0.33333
+123293  0.15000
+123299  0.25000
+123300  0.10000
+123306  0.26667
+123394  0.20000
+123575  0.16667
+123623  0.23333
+123651  0.10000
+123664  0.25000
+123685  0.15000
+123690  0.33333
+123719  0.35000
+123758  0.20000
+123771  0.20000
+123791  0.25000
+123800  0.25000
+123801  0.35000
+123809  0.25000
+123851  0.15000
+123858  0.23333
+123867  0.15000
+123873  0.15000
+123946  0.26667
+123962  0.20000
+123968  0.10000
+123983  0.20000
+124013  0.23333
+124023  1.00000
+124053  0.16667
+124193  0.76667
+124220  0.25000
+124222  0.25000
+124225  0.10000
+124228  0.25000
+124233  0.10000
+124249  0.25000
+124289  0.40000
+124293  0.40000
+124452  0.25000
+124495  1.00000
+124563  0.95000
+124578  0.26667
+124609  0.25000
+124610  0.63333
+124618  0.36667
+124620  0.15000
+124622  0.10000
+124663  0.30000
+124674  0.10000
+124704  0.40000
+124720  0.33333
+124801  0.10000
+124863  0.30000
+124917  0.10000
+124968  0.36667
+124995  0.25000
+125034  0.30000
+125314  0.36667
+125479  0.30000
+125559  0.30000
+125571  0.30000
+125577  0.40000
+125586  0.30000
+125666  0.26667
+125685  0.20000
+125767  0.20000
+125834  0.15000
+125837  1.00000
+125855  0.15000
+126233  0.20000
+126239  0.33333
+126281  1.00000
+126302  0.10000
+126338  0.20000
+126339  1.00000
+126340  1.00000
+126355  1.00000
+126487  1.00000
+126599  0.36667
+126639  0.36667
+126694  0.26667
+126731  1.00000
+126876  0.93333
+126881  0.95000
+126894  1.00000
+126901  1.00000
+126903  0.93333
+126911  1.00000
+126929  0.10000
+126936  1.00000
+126937  0.10000
+127012  0.15000
+127276  0.40000
+127366  0.25000
+127384  1.00000
+127486  0.15000
+127528  0.20000
+127579  1.00000
+127630  0.25000
+127681  0.25000
+127702  0.25000
+127780  0.20000
+127870  0.20000
+127918  0.30000
+128008  0.20000
+128011  0.20000
+128094  1.00000
+128116  0.25000
+128166  1.00000
+128167  1.00000
+128176  1.00000
+128209  1.00000
+128227  1.00000
+128242  1.00000
+128458  1.00000
+128596  0.20000
+128770  1.00000
+128912  0.16667
+129028  1.00000
+129057  1.00000
+129115  1.00000
+129127  1.00000
+129160  1.00000
+129163  0.15000
+129172  0.25000
+129178  1.00000
+129279  1.00000
+129299  1.00000
+129309  0.35000
+129315  1.00000
+129320  1.00000
+129327  0.15000
+129506  0.15000
+129605  0.35000
+129665  0.93333
+129763  0.25000
+129776  0.25000
+129857  0.10000
+129863  1.00000
+129875  0.10000
+129901  0.15000
+129905  0.26667
+129914  0.15000
+129941  1.00000
+129964  1.00000
+130167  1.00000
+130255  1.00000
+130301  1.00000
+130313  1.00000
+130358  0.16667
+130376  0.30000
+130385  0.30000
+130401  0.30000
+130506  0.10000
+130529  0.30000
+130568  0.30000
+130610  0.30000
+130717  0.25000
+130832  0.30000
+130846  0.10000
+131063  0.20000
+131095  0.20000
+131101  0.20000
+131106  0.20000
+131158  0.10000
+131187  0.10000
+131289  0.26667
+131377  0.10000
+131391  0.25000
+131401  0.20000
+131422  0.93333
+131554  0.16667
+131684  0.30000
+131725  0.15000
+131752  0.15000
+131856  0.20000
+132072  0.30000
+132160  0.40000
+132243  0.10000
+132327  0.15000
+132357  0.16667
+132481  0.56667
+132509  0.10000
+132523  0.16667
+132692  0.40000
+132693  0.40000
+132730  1.00000
+132747  0.10000
+132771  1.00000
+132773  0.25000
+132818  0.20000
+132849  0.16667
+132889  0.33333
+132892  0.33333
+133775  0.23333
+134041  0.96667
+134138  0.25000
+134154  0.40000
+134162  0.95000
+134231  1.00000
+134965  1.00000
+135076  1.00000
+135084  0.16667
+135166  0.10000
+135186  0.26667
+135193  0.10000
+135282  0.23333
+135334  1.00000
+135371  0.30000
+135420  0.15000
+135428  0.15000
+135453  0.40000
+135543  0.20000
+135577  0.20000
+135636  0.26667
+135649  0.23333
+136291  0.20000
+136304  0.20000
+136332  0.20000
+136347  0.23333
+136348  0.23333
+136367  0.23333
+136386  0.26667
+136402  0.95000
+136424  1.00000
+136519  0.20000
+136794  0.40000
+136855  0.10000
+136895  0.25000
+137017  0.10000
+137069  1.00000
+137097  0.96667
+137145  0.33333
+137199  1.00000
+137424  1.00000
+137438  1.00000
+137447  0.25000
+137464  1.00000
+137480  0.10000
+137519  1.00000
+137647  1.00000
+137848  1.00000
+138175  0.16667
+138379  0.26667
+138411  0.10000
+138477  0.20000
+138715  1.00000
+138853  1.00000
+138961  0.15000
+138973  0.40000
+138993  0.26667
+139006  1.00000
+139261  1.00000
+139267  0.93333
+139421  0.25000
+139424  0.10000
+139445  1.00000
+139550  1.00000
+139721  0.40000
+139820  1.00000
+139907  0.30000
+139925  0.86667
+140024  1.00000
+140027  1.00000
+140029  1.00000
+140269  0.10000
+140319  0.40000
+140431  0.93333
+140583  0.36667
+140825  0.20000
+140902  0.96667
+140973  0.35000
+140974  1.00000
+140976  1.00000
+141017  1.00000
+141049  1.00000
+141063  0.86667
+141093  0.10000
+141110  0.15000
+141112  0.15000
+141200  0.25000
+141254  0.25000
+141262  0.25000
+141351  0.20000
+141366  0.96667
+141424  1.00000
+141431  0.30000
+141432  0.20000
+141514  0.36667
+141557  0.33333
+141719  0.36667
+141776  0.10000
+141777  0.10000
+141779  0.20000
+141861  0.26667
+141956  0.23333
+141959  0.23333
+141963  0.23333
+141991  0.23333
+141995  0.26667
+141997  1.00000
+142017  0.23333
+142033  0.23333
+142056  0.16667
+142062  1.00000
+142063  1.00000
+142107  0.20000
+142266  0.10000
+142267  0.10000
+142295  0.10000
+142328  0.30000
+142347  0.30000
+142365  0.35000
+142398  0.30000
+142427  0.16667
+142487  0.20000
+142500  0.96667
+142608  0.96667
+142745  0.10000
+142789  1.00000
+142796  0.23333
+142809  0.20000
+143100  1.00000
+143220  0.10000
+143226  1.00000
+143282  1.00000
+143289  0.40000
+143382  0.30000
+143448  0.30000
+143487  0.20000
+143510  1.00000
+143553  0.20000
+143571  0.30000
+143597  1.00000
+143673  0.25000
+143688  0.25000
+143725  0.25000
+143727  0.25000
+143881  0.35000
+143992  0.10000
+144143  0.35000
+144367  0.15000
+144379  0.36667
+144407  0.15000
+144409  0.15000
+144436  1.00000
+144437  1.00000
+144441  0.93333
+144555  1.00000
+144594  0.20000
+144600  1.00000
+144622  0.10000
+144681  1.00000
+144727  0.16667
+144729  0.40000
+144747  1.00000
+144778  0.10000
+144799  1.00000
+144862  0.10000
+144971  1.00000
+145122  0.15000
+145142  1.00000
+145145  0.35000
+145151  0.20000
+145196  0.35000
+145238  0.20000
+145283  0.35000
+145286  0.35000
+145310  0.23333
+145328  0.35000
+145358  0.23333
+145571  0.30000
+145644  0.20000
+145647  0.20000
+145651  0.33333
+145693  0.20000
+145792  0.16667
+145864  1.00000
+145879  1.00000
+145910  1.00000
+145963  0.25000
+146005  0.10000
+146200  0.20000
+146679  0.10000
+146727  0.40000
+146781  0.33333
+146973  1.00000
+146986  0.30000
+147010  0.10000
+147056  1.00000
+147134  0.25000
+147263  0.25000
+147344  0.93333
+147374  1.00000
+147404  0.30000
+147407  0.30000
+147533  0.15000
+147665  1.00000
+147704  1.00000
+147707  1.00000
+147722  1.00000
+147817  0.95000
+148120  1.00000
+148383  1.00000
+148386  1.00000
+148433  1.00000
+148440  1.00000
+148464  1.00000
+148518  0.20000
+148845  0.10000
+148947  0.10000
+148970  0.93333
+149025  0.33333
+149527  1.00000
+149706  1.00000
+149785  0.10000
+149796  0.10000
+149879  0.10000
+149970  0.40000
+149994  0.10000
+149995  0.10000
+150003  0.36667
+150038  1.00000
+150095  0.10000
+150096  0.10000
+150102  0.10000
+150332  0.20000
+150333  0.20000
+150975  0.35000
+150978  0.35000
+150995  0.15000
+151000  1.00000
+152742  0.35000
+152758  0.15000
+152762  0.35000
+152766  0.35000
+152811  1.00000
+152814  0.35000
+152835  1.00000
+152851  0.35000
+152888  0.15000
+152907  1.00000
+152915  0.20000
+153035  0.30000
+153039  0.20000
+153137  0.36667
+153153  0.15000
+153155  0.20000
+153172  0.10000
+153268  0.15000
+153281  0.15000
+153284  0.20000
+153507  0.36667
+153536  0.10000
+153539  0.40000
+153571  0.20000
+153815  0.10000
+154732  0.10000
+154757  0.10000
+154820  0.20000
+154850  1.00000
+154872  1.00000
+154897  0.16667
+154926  0.20000
+154990  0.95000
+155189  1.00000
+155256  0.10000
+155281  0.25000
+155443  1.00000
+155461  1.00000
+155487  1.00000
+155491  1.00000
+155566  0.30000
+155612  0.35000
+155643  0.26667
+155663  0.93333
+155668  0.36667
+155679  1.00000
+155745  1.00000
+155891  1.00000
+155901  1.00000
+155911  1.00000
+155914  0.96667
+155915  1.00000
+155951  0.91667
+156139  0.30000
+156358  0.93333
+156377  1.00000
+156382  0.96667
+156398  1.00000
+156420  0.40000
+156422  1.00000
+156516  0.23333
+156533  0.10000
+156540  0.35000
+156699  1.00000
+156980  0.35000
+157186  0.16667
+157258  1.00000
+157288  0.96667
+157316  0.20000
+157318  1.00000
+157369  0.15000
+157374  0.15000
+157377  0.15000
+157378  0.33333
+157380  0.30000
+157381  0.15000
+157490  0.15000
+157535  0.30000
+157577  0.20000
+157614  0.56667
+157628  0.20000
+157632  0.30000
+157689  0.20000
+157817  1.00000
+157957  0.10000
+158114  0.40000
+158181  0.36667
+158262  0.30000
+158371  0.20000
+158375  0.20000
+158437  0.20000
+158492  0.20000
+158540  0.35000
+158800  1.00000
+158858  0.16667
+159010  0.30000
+159016  0.30000
+159018  0.35000
+159571  1.00000
+159574  1.00000
+159604  0.10000
+159628  0.30000
+159631  0.35000
+159661  0.15000
+159691  0.35000
+159734  0.10000
+159766  0.30000
+159793  0.40000
+159798  0.20000
+159813  1.00000
+159822  1.00000
+159903  0.96667
+160033  0.35000
+160060  0.20000
+160063  0.20000
+160162  0.96667
+160174  0.15000
+160421  0.95000
+160535  0.10000
+160551  1.00000
+160629  0.96667
+160688  0.40000
+160776  1.00000
+160846  1.00000
+160866  0.95000
+160885  0.25000
+160913  0.30000
+160926  0.93333
+160942  0.16667
+160970  1.00000
+161134  0.20000
+161137  0.30000
+161185  0.95000
+161196  0.26667
+161306  0.10000
+161380  0.10000
+161413  0.30000
+161416  0.30000
+161418  0.30000
+161485  0.30000
+161534  1.00000
+161632  0.20000
+161782  0.15000
+161806  0.16667
+161839  0.16667
+161842  0.30000
+161845  0.30000
+162085  1.00000
+162139  0.15000
+162205  0.33333
+162220  0.30000
+162228  0.40000
+162358  0.20000
+162388  0.30000
+162838  1.00000
+162862  1.00000
+162894  1.00000
+163040  1.00000
+163048  0.10000
+163367  0.30000
+163409  0.10000
+163429  0.20000
+163474  1.00000
+163476  1.00000
+163498  0.40000
+163521  0.25000
+163530  1.00000
+163532  0.15000
+163534  0.15000
+163538  0.15000
+163578  0.20000
+163581  0.20000
+163583  0.10000
+163612  0.16667
+163614  0.15000
+163625  0.15000
+163632  0.20000
+163658  0.35000
+163664  0.20000
+163675  0.93333
+163721  0.20000
+163744  0.35000
+163810  0.26667
+163867  0.10000
+163870  0.15000
+163873  0.15000
+163907  0.33333
+164196  0.20000
+164213  0.25000
+164215  0.25000
+164217  0.93333
+164332  0.10000
+164418  0.15000
+164530  0.15000
+164621  0.40000
+164747  0.15000
+164766  0.10000
+164852  0.10000
+164880  0.30000
+164897  0.10000
+164904  0.15000
+165112  0.10000
+165165  0.35000
+165454  0.20000
+165534  0.30000
+165536  0.35000
+165543  0.20000
+165648  0.10000
+165671  0.15000
+166994  0.15000
+167041  0.96667
+167198  0.10000
+167695  0.40000
+167720  1.00000
+167732  1.00000
+167746  0.10000
+167795  0.25000
+167803  0.35000
+167825  0.36667
+167832  0.26667
+167883  0.36667
+167891  0.20000
+167929  0.40000
+167952  0.25000
+167987  0.40000
+168037  0.16667
+168070  0.30000
+168092  0.26667
+168097  1.00000
+168164  0.95000
+168173  0.30000
+168195  0.30000
+168221  1.00000
+168248  0.10000
+168266  0.25000
+168314  0.10000
+168435  1.00000
+168522  0.30000
+168626  0.20000
+168637  1.00000
+168644  0.10000
+168650  0.10000
+168903  0.10000
+168904  0.15000
+168906  0.20000
+168912  0.15000
+169023  0.15000
+169035  0.20000
+169070  0.35000
+169193  0.15000
+169213  0.95000
+169228  0.23333
+169247  0.23333
+169298  0.25000
+169303  0.25000
+169312  0.10000
+169320  0.10000
+169331  0.20000
+169334  0.10000
+169347  0.20000
+169349  0.10000
+169493  0.10000
+169521  0.16667
+169555  0.15000
+169557  0.15000
+169632  0.30000
+169708  0.15000
+169757  0.40000
+169808  0.20000
+169827  0.40000
+169842  0.10000
+169853  0.10000
+169859  0.40000
+169943  0.95000
+170000  0.10000
+170002  0.16667
+170048  0.40000
+170052  0.10000
+170091  0.10000
+170093  0.30000
+170097  0.25000
+170108  0.10000
+170134  0.20000
+170140  0.10000
+170318  0.30000
+170320  1.00000
+170353  0.25000
+170442  1.00000
+170476  0.23333
+170515  1.00000
+170517  1.00000
+170589  0.40000
+170607  0.10000
+170632  0.25000
+170672  0.30000
+170830  0.20000
+170831  0.25000
+170839  0.40000
+170893  0.95000
+170896  0.20000
+170909  0.30000
+170918  0.30000
+170926  0.35000
+170955  0.16667
+170961  0.10000
+170972  0.25000
+170986  0.35000
+170998  0.96667
+171048  0.16667
+171050  0.40000
+171098  0.35000
+171099  0.10000
+171124  0.10000
+171255  0.30000
+171289  0.16667
+171293  0.30000
+171318  0.30000
+171329  0.26667
+171330  0.95000
+171333  0.30000
+171439  0.25000
+171494  0.40000
+171518  0.10000
+171602  1.00000
+171642  0.25000
+171643  0.10000
+171737  0.10000
+171754  0.20000
+171798  1.00000
+171803  0.30000
+171836  0.10000
+171865  0.20000
+171877  0.20000
+171895  0.15000
+171911  0.40000
+172060  0.93333
+172066  0.20000
+172081  0.23333
+172164  0.15000
+172166  0.15000
+172170  0.25000
+172280  0.25000
+172287  0.30000
+172304  0.15000
+172335  0.20000
+172347  0.15000
+172365  0.23333
+172427  0.20000
+172428  0.15000
+172483  0.93333
+172502  0.10000
+172510  0.10000
+172618  0.20000
+172658  0.33333
+172705  0.40000
+172707  0.20000
+172890  0.30000
+172902  0.10000
+172947  1.00000
+173075  0.20000
+173076  0.25000
+173132  0.30000
+173134  1.00000
+173203  0.26667
+173238  0.10000
+173239  0.10000
+173274  0.23333
+173283  0.95000
+173289  0.96667
+173301  1.00000
+173326  0.95000
+173398  0.25000
+173399  0.15000
+173413  0.15000
+173423  0.25000
+173455  0.10000
+173629  0.30000
+173726  0.10000
+173815  1.00000
+173834  0.16667
+173837  0.95000
+173908  1.00000
+173922  0.25000
+173930  1.00000
+173939  0.36667
+173962  0.36667
+173963  0.15000
+173987  0.10000
+174053  0.15000
+174086  0.15000
+174089  0.95000
+174377  0.15000
+174389  0.40000
+174549  0.26667
+174633  0.40000
+174741  0.15000
+175051  0.96667
+175123  0.10000
+175140  0.15000
+175143  0.15000
+175222  1.00000
+175247  0.15000
+175265  0.15000
+175267  0.25000
+175268  0.15000
+175312  0.86667
+175313  0.25000
+175366  1.00000
+175384  0.20000
+175397  1.00000
+175431  1.00000
+175436  1.00000
+175438  0.40000
+175461  0.30000
+175662  0.10000
+175664  0.23333
+175704  0.36667
+175730  0.15000
+175770  0.25000
+175785  0.10000
+175833  1.00000
+175878  0.95000
+176140  0.40000
+176152  0.10000
+176173  0.10000
+176352  0.15000
+177205  0.10000
+177239  0.35000
+177323  1.00000
+177369  0.10000
+177406  1.00000
+177473  0.15000
+177501  0.15000
+177504  0.15000
+177605  0.10000
+177661  0.10000
+178239  0.15000
+178278  0.35000
+178286  0.10000
+178305  0.96667
+178418  0.40000
+178505  0.93333
+178519  0.15000
+178553  0.30000
+178562  0.36667
+178595  0.25000
+178599  0.15000
+178602  1.00000
+178606  1.00000
+178720  0.10000
+178999  0.15000
+179007  0.15000
+179012  0.16667
+179013  0.30000
+179015  0.30000
+179025  0.30000
+179032  0.15000
+179036  0.30000
+179039  0.40000
+179042  0.15000
+179053  0.95000
+179065  0.15000
+179099  0.20000
+179101  0.15000
+179107  0.15000
+179127  0.20000
+179138  0.15000
+179679  0.25000
+179680  0.25000
+179727  1.00000
+179759  0.23333
+179766  0.35000
+179820  1.00000
+179868  1.00000
+179899  1.00000
+179907  0.36667
+179909  0.30000
+179917  1.00000
+179922  1.00000
+179923  1.00000
+179927  0.20000
+179930  1.00000
+179940  1.00000
+180098  0.26667
+180104  0.26667
+180122  0.16667
+180132  0.35000
+180158  0.30000
+180284  1.00000
+180352  0.23333
+180505  0.40000
+180507  0.10000
+180604  0.95000
+180606  0.10000
+180767  1.00000
+180768  0.26667
+180771  0.20000
+180775  0.20000
+180785  0.96667
+180842  0.20000
+180882  0.10000
+181179  0.10000
+181202  0.33333
+181216  1.00000
+181225  0.30000
+181252  0.35000
+181417  1.00000
+181442  1.00000
+181501  0.20000
+181543  0.40000
+181573  1.00000
+181734  0.10000
+181746  0.15000
+181770  0.15000
+181778  0.40000
+181869  1.00000
+181882  1.00000
+181886  1.00000
+181888  1.00000
+181893  0.15000
+181919  1.00000
+182085  0.35000
+182112  0.16667
+182196  0.10000
+182240  0.10000
+182256  0.40000
+182263  0.10000
+182264  0.10000
+182268  0.91667
+182366  1.00000
+182373  0.96667
+182377  1.00000
+182379  1.00000
+182404  0.96667
+182406  0.96667
+182408  1.00000
+182411  1.00000
+182412  0.96667
+182456  1.00000
+182471  1.00000
+182472  0.20000
+182485  1.00000
+182496  0.15000
+182500  0.15000
+182501  0.15000
+182567  1.00000
+182570  0.35000
+182588  1.00000
+182604  0.25000
+182617  1.00000
+182626  0.25000
+182629  0.25000
+182632  0.25000
+182634  0.25000
+182637  0.25000
+182648  0.25000
+182657  0.25000
+182726  0.10000
+182785  0.26667
+182836  1.00000
+182857  0.51667
+182915  1.00000
+182932  0.20000
+182935  0.10000
+182990  0.25000
+183003  0.15000
+183010  0.10000
+183024  0.40000
+183050  0.10000
+183066  0.20000
+183152  1.00000
+183170  0.15000
+183241  1.00000
+183258  0.20000
+183260  1.00000
+183272  0.20000
+183300  0.20000
+183310  0.10000
+183314  0.40000
+183321  1.00000
+183325  0.25000
+183349  0.35000
+183425  0.10000
+183488  1.00000
+183494  0.10000
+183599  0.10000
+183655  0.40000
+183660  0.20000
+183717  0.40000
+183734  0.25000
+183739  0.25000
+183805  0.16667
+183806  0.16667
+183835  0.40000
+183846  0.16667
+183885  0.10000
+183953  0.35000
+184035  1.00000
+184042  1.00000
+184047  0.10000
+184089  0.93333
+184267  1.00000
+184269  0.15000
+184365  1.00000
+184367  0.33333
+184383  0.10000
+184400  0.15000
+184403  0.10000
+184436  0.40000
+184559  1.00000
+184569  0.35000
+184599  0.20000
+184733  0.40000
+184760  0.25000
+184767  0.25000
+184817  0.93333
+184984  0.20000
+185034  1.00000
+185107  0.10000
+185111  0.96667
+185117  1.00000
+185158  0.36667
+185163  1.00000
+185231  1.00000
+185256  0.10000
+185291  1.00000
+185313  0.15000
+185342  0.35000
+185346  1.00000
+185348  0.40000
+185353  0.10000
+185371  0.40000
+185390  1.00000
+185396  1.00000
+185398  1.00000
+185399  1.00000
+185426  1.00000
+185511  0.10000
+185536  1.00000
+185537  1.00000
+185591  1.00000
+185614  1.00000
+185694  0.20000
+185742  0.23333
+185773  1.00000
+185858  0.20000
+185861  0.30000
+185892  0.10000
+185930  1.00000
+185934  0.35000
+185946  0.10000
+185990  1.00000
+185993  1.00000
+185999  1.00000
+186000  0.95000
+186015  1.00000
+186028  0.10000
+186034  1.00000
+186085  1.00000
+186095  1.00000
+186096  1.00000
+186105  0.16667
+186111  1.00000
+186146  1.00000
+186171  0.16667
+186181  0.25000
+186404  1.00000
+186443  0.25000
+186510  0.10000
+186518  1.00000
+186559  1.00000
+186582  1.00000
+186610  1.00000
+186650  1.00000
+186759  1.00000
+186818  1.00000
+186897  0.23333
+186948  1.00000
+186953  0.30000
+186960  0.23333
+186970  1.00000
+186985  1.00000
+187008  1.00000
+187027  1.00000
+187072  1.00000
+187197  1.00000
+187212  1.00000
+187331  0.35000
+187364  1.00000
+187365  1.00000
+187456  1.00000
+187498  1.00000
+187548  1.00000
+187552  1.00000
+187571  0.25000
+187573  0.25000
+187592  0.10000
+187593  0.10000
+187597  0.10000
+187604  1.00000
+187607  0.10000
+187611  1.00000
+187685  1.00000
+187706  1.00000
+187717  1.00000
+187744  1.00000
+187754  1.00000
+187771  0.25000
+188204  1.00000
+188217  0.25000
+188302  0.20000
+188308  0.30000
+188368  1.00000
+188369  1.00000
+188401  0.30000
+188483  0.10000
+188537  0.88333
+188599  0.16667
+188689  0.40000
+188690  0.90000
+188693  1.00000
+188697  1.00000
+188720  0.30000
+188728  0.30000
+188743  0.35000
+188748  0.10000
+188792  1.00000
+188990  1.00000
+189013  1.00000
+189032  0.20000
+189099  0.23333
+189105  1.00000
+189111  1.00000
+189147  0.10000
+189148  0.25000
+189149  0.35000
+189151  0.15000
+189158  0.35000
+189275  0.10000
+189466  1.00000
+189493  0.25000
+189560  0.33333
+189585  0.10000
+189617  0.15000
+189629  0.35000
+189630  0.35000
+189759  0.95000
+189761  0.40000
+189765  1.00000
+189767  1.00000
+189993  0.15000
+190032  0.15000
+190162  0.35000
+190163  0.40000
+190188  0.40000
+190203  0.40000
+190223  0.10000
+190228  0.10000
+190232  0.40000
+190239  0.40000
+190259  0.40000
+190277  0.10000
+190279  0.10000
+190280  0.10000
+190306  0.30000
+190313  0.16667
+190575  0.30000
+190585  0.25000
+190695  0.95000
+190773  0.10000
+190779  0.30000
+190896  0.10000
+190901  0.20000
+190969  1.00000
+190987  1.00000
+191002  0.15000
+191020  0.20000
+191021  0.10000
+191022  0.10000
+191062  0.36667
+191110  0.10000
+191228  0.16667
+191245  0.15000
+191298  0.35000
+191328  0.40000
+191343  0.10000
+191638  0.30000
+191715  0.30000
+191811  0.40000
+191846  0.40000
+191876  0.40000
+191943  0.15000
+192071  0.88333
+192161  0.95000
+192215  0.15000
+192216  0.15000
+192218  0.15000
+192220  1.00000
+192268  0.16667
+192270  1.00000
+192342  1.00000
+192356  0.96667
+192396  0.10000
+192547  0.40000
+192574  1.00000
+192612  0.95000
+192613  0.30000
+192756  0.23333
+192924  0.40000
+193048  1.00000
+193201  0.10000
+193213  0.16667
+193215  0.20000
+193247  1.00000
+193287  1.00000
+193295  0.93333
+193383  1.00000
+193437  1.00000
+193628  0.20000
+193634  0.20000
+193658  0.20000
+193667  0.23333
+193698  0.15000
+193711  0.95000
+193713  0.10000
+193746  0.30000
+193774  0.15000
+193808  1.00000
+193833  1.00000
+193865  0.40000
+193866  0.26667
+193872  0.93333
+193875  1.00000
+193927  1.00000
+193940  1.00000
+193944  0.96667
+193945  1.00000
+193946  1.00000
+193954  1.00000
+193995  0.15000
+194015  1.00000
+194116  1.00000
+194119  1.00000
+194142  1.00000
+194153  1.00000
+194216  0.16667
+194227  0.10000
+194228  1.00000
+194246  0.95000
+194316  1.00000
+194331  1.00000
+194422  0.20000
+194593  1.00000
+194606  1.00000
+194610  1.00000
+194644  0.10000
+194684  0.96667
+194685  1.00000
+194708  0.95000
+194762  0.20000
+194774  0.10000
+194790  0.20000
+194939  1.00000
+195141  0.15000
+195226  0.15000
+195297  0.96667
+195317  1.00000
+195484  0.10000
+195605  0.40000
+195613  1.00000
+195625  0.95000
+195630  1.00000
+195670  0.96667
+195730  1.00000
+195734  1.00000
+195737  0.96667
+195753  0.15000
+195755  1.00000
+195771  0.96667
+195813  0.10000
+195849  1.00000
+195868  0.26667
+195873  1.00000
+195891  0.36667
+195899  1.00000
+195910  1.00000
+196017  1.00000
+196051  0.23333
+196199  0.30000
+196202  0.30000
+196213  0.30000
+196219  1.00000
+196221  1.00000
+196227  0.95000
+196246  1.00000
+196257  1.00000
+196286  1.00000
+196378  0.95000
+196408  0.96667
+196414  1.00000
+196520  0.23333
+196523  0.40000
+196588  1.00000
+196598  0.15000
+196599  0.15000
+196615  0.16667
+196643  1.00000
+196701  0.95000
+196823  1.00000
+196828  0.95000
+196903  1.00000
+196988  1.00000
+197014  0.96667
+197028  0.20000
+197032  0.30000
+197038  0.30000
+197044  0.40000
+197045  0.40000
+197054  1.00000
+197060  0.40000
+197070  0.93333
+197075  0.30000
+197143  0.40000
+197144  0.10000
+197145  0.10000
+197195  1.00000
+197214  1.00000
+197263  0.30000
+197264  0.30000
+197283  0.20000
+197384  1.00000
+197386  1.00000
+197448  0.91667
+197616  0.95000
+197760  0.35000
+197768  0.10000
+197777  0.10000
+197803  1.00000
+197868  1.00000
+197914  1.00000
+197926  1.00000
+197936  1.00000
+198071  0.10000
+198074  1.00000
+198076  0.10000
+198086  1.00000
+198130  0.35000
+198150  0.10000
+198180  0.20000
+198202  0.15000
+198246  0.20000
+198251  0.25000
+198261  0.25000
+198270  0.20000
+198276  0.20000
+198347  0.20000
+198362  0.10000
+198424  0.10000
+198456  1.00000
+198470  0.86667
+198486  1.00000
+198517  1.00000
+198529  1.00000
+198568  0.40000
+198576  0.10000
+198582  0.10000
+198599  0.26667
+198607  1.00000
+198612  1.00000
+198753  0.25000
+198783  1.00000
+198784  0.20000
+198813  1.00000
+198817  1.00000
+198840  1.00000
+198846  0.10000
+198848  0.40000
+198849  0.20000
+198861  0.40000
+198864  0.35000
+198906  0.20000
+199008  1.00000
+199087  0.10000
+199093  0.10000
+199106  0.23333
+199153  1.00000
+199313  0.10000
+199342  0.10000
+199378  0.35000
+199394  0.25000
+199396  0.30000
+199465  0.15000
+199528  0.30000
+199560  0.30000
+199636  1.00000
+199637  1.00000
+199664  0.10000
+199666  0.95000
+199670  1.00000
+199688  1.00000
+199726  1.00000
+199752  1.00000
+199791  0.10000
+199792  1.00000
+199807  0.10000
+199827  1.00000
+199861  0.10000
+199862  0.10000
+199884  1.00000
+199913  1.00000
+199963  0.23333
+199971  0.23333
+199985  1.00000
+199990  1.00000
+200014  1.00000
+200019  1.00000
+200051  1.00000
+200133  1.00000
+200150  1.00000
+200151  1.00000
+200177  1.00000
+200181  0.25000
+200187  1.00000
+200201  0.16667
+200226  0.20000
+200235  0.95000
+200260  1.00000
+200282  1.00000
+200283  1.00000
+200294  1.00000
+200323  0.15000
+200324  0.15000
+200370  1.00000
+200384  1.00000
+200385  1.00000
+200393  1.00000
+200441  0.95000
+200460  0.10000
+200464  0.10000
+200531  1.00000
+200535  1.00000
+200627  1.00000
+200642  1.00000
+200643  1.00000
+200669  0.26667
+200802  1.00000
+200864  1.00000
+200893  1.00000
+200961  1.00000
+200978  1.00000
+200997  1.00000
+201063  0.20000
+201240  0.15000
+201316  0.33333
+201319  0.25000
+201344  0.96667
+201395  0.15000
+201510  0.15000
+201623  1.00000
+201750  0.23333
+201753  0.23333
+201757  0.26667
+201779  0.20000
+201780  1.00000
+201848  0.95000
+201874  0.16667
+201969  0.10000
+201972  0.30000
+201985  0.20000
+201995  0.30000
+202001  0.30000
+202006  0.30000
+202016  0.30000
+202017  0.30000
+202054  0.30000
+202160  0.30000
+202181  0.30000
+202206  0.25000
+202221  0.25000
+202274  0.25000
+202394  1.00000
+202395  1.00000
+202413  1.00000
+202429  0.10000
+202440  1.00000
+202476  0.10000
+202492  0.96667
+202498  0.10000
+202555  0.10000
+202571  0.10000
+202572  0.36667
+202623  0.10000
+202698  1.00000
+202699  1.00000
+203087  0.15000
+203118  0.15000
+203119  0.20000
+203130  0.15000
+203131  0.15000
+203142  0.15000
+203148  0.25000
+203162  0.15000
+203204  0.15000
+203208  0.15000
+203211  1.00000
+203503  0.25000
+203509  0.25000
+203525  0.33333
+203669  0.15000
+203690  0.10000
+203720  0.16667
+203844  1.00000
+203849  1.00000
+203882  1.00000
+203960  0.25000
+204062  1.00000
+204070  0.10000
+204163  0.35000
+204183  0.35000
+204246  0.25000
+204256  1.00000
+204261  1.00000
+204262  0.25000
+204326  0.26667
+204337  0.10000
+204410  0.30000
+204430  0.30000
+204439  0.20000
+204446  0.26667
+204447  0.26667
+204473  0.20000
+204506  1.00000
+204533  0.10000
+204575  0.15000
+204636  1.00000
+204696  0.20000
+204830  0.30000
+204834  0.10000
+204858  0.33333
+204859  0.33333
+204861  0.16667
+204918  0.15000
+204946  0.15000
+204955  0.40000
+204958  0.20000
+204960  0.16667
+205025  0.33333
+205028  0.16667
+205036  1.00000
+205038  0.33333
+205048  0.35000
+205056  0.15000
+205064  0.16667
+205068  0.40000
+205090  0.20000
+205100  0.40000
+205115  0.15000
+205118  0.15000
+205218  0.15000
+205346  0.30000
+205435  0.40000
+205505  0.30000
+205522  0.95000
+205563  1.00000
+205595  0.10000
+205713  0.25000
+205750  0.15000
+205794  1.00000
+205863  0.10000
+205899  0.25000
+205985  1.00000
+205988  1.00000
+205989  1.00000
+205996  1.00000
+205997  1.00000
+206034  0.95000
+206049  1.00000
+206051  1.00000
+206052  1.00000
+206061  0.10000
+206078  0.25000
+206100  0.10000
+206159  0.30000
+206273  1.00000
+206312  1.00000
+206318  1.00000
+206326  0.10000
+206328  1.00000
+206494  0.10000
+206514  0.20000
+206925  0.15000
+206929  0.20000
+206946  0.10000
+206962  1.00000
+206966  1.00000
+207012  1.00000
+207115  1.00000
+207116  1.00000
+207121  1.00000
+207122  0.96667
+207132  0.40000
+207152  1.00000
+207175  0.23333
+207179  0.35000
+207243  1.00000
+207506  1.00000
+207511  1.00000
+207684  0.35000
+207699  0.35000
+207821  0.96667
+207827  1.00000
+207854  0.93333
+207903  0.95000
+207913  0.20000
+207965  0.96667
+208022  0.15000
+208032  0.15000
+208038  0.20000
+208040  0.16667
+208043  1.00000
+208053  0.40000
+208066  0.15000
+208079  0.10000
+208100  0.25000
+208106  1.00000
+208112  0.25000
+208140  0.20000
+208145  1.00000
+208146  1.00000
+208147  0.20000
+208154  0.20000
+208158  0.20000
+208165  1.00000
+208185  1.00000
+208193  0.40000
+208204  0.40000
+208209  0.40000
+208247  1.00000
+208345  0.95000
+208367  0.93333
+208448  0.16667
+208569  0.23333
+208595  0.35000
+208627  0.93333
+208737  0.35000
+209939  1.00000
+209948  1.00000
+209970  0.10000
+209976  0.20000
+210008  0.30000
+210069  1.00000
+210106  0.15000
+210114  0.96667
+210130  0.95000
+210147  1.00000
+210157  0.30000
+210188  0.26667
+210191  0.26667
+210192  0.23333
+210196  0.26667
+210199  0.26667
+210215  0.23333
+210225  0.10000
+210248  0.30000
+210278  0.20000
+210284  0.10000
+210297  0.10000
+210301  0.35000
+210303  0.35000
+210304  0.16667
+210322  1.00000
+210421  1.00000
+210481  0.40000
+210589  0.10000
+210595  1.00000
+210620  0.10000
+210625  0.40000
+210642  0.15000
+210737  0.15000
+210759  0.25000
+210760  0.25000
+210761  0.25000
+210765  0.25000
+210783  1.00000
+210809  0.25000
+210818  0.25000
+210839  1.00000
+210846  1.00000
+210884  0.25000
+210941  1.00000
+210953  0.10000
+211056  0.25000
+211112  0.25000
+211161  0.35000
+211174  0.15000
+211181  0.15000
+211193  0.26667
+211203  0.10000
+211324  1.00000
+211329  1.00000
+211334  1.00000
+211335  0.10000
+211369  1.00000
+211391  1.00000
+211407  1.00000
+211415  0.15000
+211428  1.00000
+211441  1.00000
+211442  0.20000
+211451  0.30000
+211467  0.20000
+211468  1.00000
+211481  1.00000
+211515  1.00000
+211518  0.10000
+211535  1.00000
+211556  0.95000
+211582  1.00000
+211589  0.15000
+211604  0.10000
+211769  0.35000
+211776  0.23333
+211853  0.40000
+211856  0.96667
+211940  0.93333
+212048  0.10000
+212091  0.16667
+212161  0.25000
+212361  0.10000
+212367  0.10000
+212442  0.30000
+212513  0.40000
+212515  0.10000
+212643  1.00000
+212646  1.00000
+212657  0.10000
+212658  0.15000
+212659  0.35000
+212667  0.20000
+212675  0.25000
+212983  0.10000
+213002  0.35000
+213254  1.00000
+213267  1.00000
+213271  1.00000
+213276  1.00000
+213357  0.93333
+213454  1.00000
+213458  0.10000
+213494  0.20000
+213505  1.00000
+213506  1.00000
+213573  1.00000
+213581  0.35000
+213589  0.15000
+213620  0.10000
+213775  1.00000
+213818  0.10000
+213827  0.40000
+214141  0.40000
+214145  0.40000
+214146  0.40000
+214165  0.25000
+214274  1.00000
+214405  0.96667
+214415  0.16667
+214447  1.00000
+214464  1.00000
+214475  1.00000
+214547  0.25000
+214582  0.10000
+214691  0.35000
+214695  0.35000
+214698  0.35000
+214705  0.35000
+214713  0.15000
+214719  0.15000
+214743  0.15000
+214749  0.35000
+214787  0.30000
+214801  1.00000
+214888  1.00000
+214891  0.16667
+214892  1.00000
+214922  1.00000
+214927  1.00000
+214982  0.10000
+214989  0.10000
+214991  0.10000
+214995  0.20000
+214996  0.20000
+214998  0.10000
+215009  0.20000
+215023  0.10000
+215024  0.10000
+215031  0.10000
+215032  0.10000
+215041  0.10000
+215056  0.20000
+215073  0.25000
+215405  0.10000
+215474  0.10000
+215478  0.95000
+215482  0.10000
+215554  0.25000
+215590  1.00000
+215650  0.23333
+215694  1.00000
+215727  0.20000
+215746  0.25000
+215751  0.20000
+215812  0.25000
+215843  0.10000
+215871  0.40000
+215971  0.30000
+215997  0.26667
+216050  1.00000
+216100  0.10000
+216203  1.00000
+216219  0.95000
+216271  1.00000
+216307  0.10000
+216316  1.00000
+216323  1.00000
+216360  0.10000
+216427  1.00000
+216566  0.36667
+216650  1.00000
+216859  0.20000
+216998  0.40000
+217048  1.00000
+217167  0.30000
+217178  0.95000
+217230  1.00000
+217231  0.95000
+217298  0.20000
+217335  0.16667
+217376  0.16667
+217378  0.23333
+217406  1.00000
+217445  0.35000
+217460  1.00000
+217476  1.00000
+217542  1.00000
+217544  1.00000
+217549  1.00000
+217564  1.00000
+217885  0.10000
+217982  1.00000
+218049  0.10000
+218074  1.00000
+218088  0.30000
+218145  1.00000
+218191  0.10000
+218204  1.00000
+218218  1.00000
+218221  1.00000
+218279  1.00000
+218284  1.00000
+218351  1.00000
+218392  0.20000
+218394  1.00000
+218444  0.95000
+218500  1.00000
+218520  0.23333
+218691  0.93333
+218811  0.90000
+218827  0.40000
+218834  0.40000
+218882  1.00000
+218914  0.26667
+218931  0.30000
+219042  0.15000
+219157  0.25000
+219159  0.25000
+219170  0.25000
+219185  0.10000
+219379  1.00000
+219395  0.10000
+219407  0.10000
+219430  1.00000
+219437  0.40000
+219455  0.10000
+219526  0.10000
+219578  0.40000
+219579  0.40000
+219683  1.00000
+219685  1.00000
+219726  1.00000
+219767  1.00000
+219777  1.00000
+219897  1.00000
+220155  1.00000
+220179  0.96667
+220245  0.15000
+220275  0.25000
+220282  0.30000
+220315  1.00000
+220347  0.20000
+220450  0.10000
+220455  0.96667
+220494  1.00000
+220517  0.93333
+220582  0.10000
+220608  1.00000
+220614  1.00000
+220690  1.00000
+220695  1.00000
+220718  1.00000
+220719  1.00000
+220860  1.00000
+220867  0.93333
+220873  1.00000
+220904  1.00000
+220956  1.00000
+220964  1.00000
+220977  1.00000
+220984  1.00000
+221042  1.00000
+221043  1.00000
+221052  1.00000
+221063  0.30000
+221082  0.30000
+221118  0.26667
+221182  0.10000
+221210  1.00000
+221325  0.16667
+221338  1.00000
+221351  1.00000
+221411  1.00000
+221412  0.26667
+221516  1.00000
+221564  1.00000
+221571  0.20000
+221575  0.10000
+221583  1.00000
+221598  1.00000
+221614  1.00000
+221630  1.00000
+221643  1.00000
+221678  1.00000
+221770  1.00000
+221781  1.00000
+221787  1.00000
+221812  1.00000
+221816  0.15000
+221868  0.23333
+221918  1.00000
+221919  1.00000
+221924  1.00000
+221997  1.00000
+221998  1.00000
+222000  1.00000
+222091  1.00000
+222220  0.15000
+222244  1.00000
+222289  0.96667
+222370  0.20000
+222482  1.00000
+222600  1.00000
+222609  1.00000
+222659  0.25000
+222695  0.25000
+222719  0.25000
+222724  0.20000
+222754  0.20000
+222757  0.25000
+222761  0.25000
+222856  1.00000
+222865  0.10000
+222866  1.00000
+222925  1.00000
+222937  1.00000
+222945  1.00000
+222947  1.00000
+222963  1.00000
+223085  0.25000
+223175  0.25000
+223202  0.25000
+223268  0.25000
+223325  0.25000
+223385  0.25000
+223418  0.25000
+223443  0.25000
+223459  0.25000
+223477  0.25000
+223502  0.25000
+223622  0.40000
+223646  0.40000
+223658  0.30000
+223712  0.40000
+223778  0.56667
+223793  0.40000
+223826  0.40000
+223838  0.40000
+223862  0.33333
+223865  0.10000
+223913  0.16667
+223987  0.93333
+224100  1.00000
+224130  0.95000
+224203  1.00000
+224225  0.30000
+224226  0.30000
+224258  0.95000
+224502  0.23333
+224758  0.20000
+224834  0.20000
+224871  0.25000
+225035  0.96667
+225044  1.00000
+225046  1.00000
+225057  0.96667
+225106  0.23333
+225235  1.00000
+225236  0.40000
+225264  1.00000
+225346  1.00000
+225399  1.00000
+225656  0.36667
+225980  1.00000
+225981  1.00000
+226081  0.40000
+226231  0.40000
+226257  0.40000
+226271  0.26667
+226333  1.00000
+226360  1.00000
+226443  0.16667
+226444  0.83333
+226449  0.33333
+226542  1.00000
+226615  0.96667
+226698  1.00000
+226768  1.00000
+226786  0.30000
+226891  0.35000
+226957  0.16667
+227114  1.00000
+227220  1.00000
+227299  1.00000
+227399  1.00000
+227616  0.10000
+227766  1.00000
+227840  1.00000
+227878  1.00000
+227924  1.00000
+227933  0.96667
+227939  1.00000
+227994  1.00000
+228045  0.26667
+228048  0.26667
+228051  0.26667
+228069  1.00000
+228096  1.00000
+228140  1.00000
+228170  0.96667
+228181  1.00000
+228185  1.00000
+228195  1.00000
+228289  1.00000
+228302  1.00000
+228317  1.00000
+228377  1.00000
+228397  0.30000
+228398  0.16667
+228506  0.15000
+228543  0.20000
+228645  1.00000
+228680  1.00000
+228735  0.33333
+228746  0.33333
+228748  0.33333
+228777  0.35000
+228816  0.16667
+228840  0.96667
+228871  0.30000
+228879  0.16667
+229016  1.00000
+229017  1.00000
+229019  0.30000
+229044  0.23333
+229112  1.00000
+229145  1.00000
+229146  1.00000
+229158  1.00000
+229164  1.00000
+229180  0.96667
+229212  0.20000
+229374  0.95000
+229678  0.10000
+229699  0.36667
+229717  0.15000
+229728  0.36667
+229792  0.15000
+229804  1.00000
+229811  1.00000
+229812  0.15000
+229823  0.20000
+229833  0.20000
+229842  0.36667
+229872  0.26667
+229914  0.20000
+230001  0.20000
+230097  0.26667
+230103  0.26667
+230136  0.15000
+230151  0.26667
+230172  0.30000
+230298  0.96667
+230310  1.00000
+230322  1.00000
+230325  0.96667
+230511  0.10000
+230523  0.35000
+230535  0.35000
+230536  0.35000
+230544  1.00000
+230577  1.00000
+230648  0.40000
+230676  0.40000
+230702  0.40000
+230715  0.23333
+230718  0.23333
+230725  0.23333
+230736  1.00000
+230760  0.26667
+230781  0.26667
+230787  0.23333
+230798  0.26667
+230813  0.26667
+230821  0.26667
+230838  0.26667
+230853  0.15000
+230883  0.16667
+231003  1.00000
+231010  0.40000
+231030  1.00000
+231035  1.00000
+231039  1.00000
+231040  1.00000
+231077  1.00000
+231089  0.95000
+231101  0.15000
+231112  0.20000
+231134  0.23333
+231249  0.36667
+231260  0.40000
+231296  0.40000
+231314  0.15000
+231347  0.30000
+231380  0.26667
+231386  1.00000
+231560  0.10000
+231608  0.26667
+231630  1.00000
+231694  0.23333
+231708  0.23333
+231717  1.00000
+231722  1.00000
+231725  1.00000
+231867  0.15000
+231899  0.95000
+231961  1.00000
+231972  0.40000
+232071  1.00000
+232195  1.00000
+232298  1.00000
+232311  1.00000
+232313  0.30000
+232326  1.00000
+232342  1.00000
+232398  0.16667
+232480  0.16667
+232489  0.16667
+232490  0.16667
+232494  0.16667
+232503  0.16667
+232520  0.35000
+232530  0.16667
+232540  0.15000
+232542  0.33333
+232548  0.33333
+232568  0.40000
+232709  1.00000
+232710  0.96667
+232719  1.00000
+232737  1.00000
+232760  1.00000
+232924  0.25000
+233053  0.40000
+233072  0.36667
+233078  0.36667
+233102  0.36667
+233146  0.36667
+233191  0.15000
+233381  0.35000
+233390  0.16667
+233454  1.00000
+233712  0.16667
+233823  0.10000
+234141  0.30000
+234222  0.96667
+234404  0.10000
+234485  1.00000
+234496  0.20000
+234524  1.00000
+234536  0.15000
+234544  0.15000
+234548  1.00000
+234549  1.00000
+234551  0.26667
+234569  1.00000
+234575  0.40000
+234576  1.00000
+234583  0.40000
+234585  0.40000
+234589  0.20000
+234607  0.30000
+234638  1.00000
+234639  0.30000
+234670  0.93333
+234732  0.40000
+234733  0.40000
+234742  0.86667
+234746  0.40000
+234758  0.26667
+234770  0.35000
+234854  0.10000
+234874  0.25000
+234918  0.30000
+234958  0.40000
+235010  0.15000
+235056  0.25000
+235143  0.10000
+235178  0.10000
+235278  0.15000
+235319  0.16667
+235324  0.10000
+235359  0.35000
+235425  0.40000
+235447  0.16667
+235452  1.00000
+235459  1.00000
+235462  1.00000
+235466  1.00000
+235485  0.25000
+235487  0.36667
+235505  0.33333
+235535  0.20000
+235546  1.00000
+235578  0.16667
+235588  0.15000
+235595  0.16667
+235608  0.16667
+235613  0.20000
+235631  0.40000
+235634  0.15000
+235661  0.15000
+235672  1.00000
+235691  0.10000
+235707  1.00000
+235747  1.00000
+235936  0.20000
+236017  1.00000
+236035  0.10000
+236036  1.00000
+236054  1.00000
+236056  0.20000
+236080  1.00000
+236103  0.15000
+236104  0.10000
+236106  0.23333
+236113  0.16667
+236134  0.23333
+236156  0.26667
+236205  0.23333
+236222  0.23333
+236291  0.10000
+236322  0.15000
+236365  0.16667
+236390  0.20000
+236402  0.20000
+236417  0.33333
+236467  0.26667
+236587  0.15000
+236628  0.10000
+236650  0.40000
+236720  0.25000
+236746  0.15000
+236770  0.35000
+236818  0.40000
+236864  0.35000
+236866  0.15000
+236869  0.15000
+236887  0.25000
+236888  0.25000
+236914  0.15000
+236995  0.16667
+237040  0.33333
+237055  0.23333
+237106  0.30000
+237109  1.00000
+237264  0.15000
+237276  0.93333
+237277  0.10000
+237298  0.15000
+237372  1.00000
+237373  0.35000
+237379  0.35000
+237380  0.15000
+237381  0.35000
+237390  1.00000
+237429  1.00000
+237434  0.25000
+237473  0.55000
+237514  0.15000
+237549  0.33333
+237598  0.25000
+237681  0.15000
+237745  0.30000
+237810  1.00000
+237811  1.00000
+237835  0.86667
+237875  0.10000
+237933  0.15000
+237937  0.15000
+237943  0.16667
+237953  0.15000
+237981  0.15000
+237996  0.30000
+238058  1.00000
+238075  1.00000
+238096  1.00000
+238097  0.25000
+238103  1.00000
+238148  0.10000
+238180  0.96667
+238185  0.20000
+238396  0.25000
+238429  0.10000
+238476  0.20000
+238531  0.95000
+238561  0.15000
+238615  0.35000
+238684  0.96667
+238685  0.30000
+238745  0.20000
+238746  0.20000
+238759  0.30000
+238772  0.15000
+238773  0.25000
+238869  0.25000
+238921  0.25000
+238972  0.10000
+238974  0.10000
+238975  0.40000
+239016  0.35000
+239018  0.33333
+239084  0.16667
+239115  0.15000
+239148  0.10000
+239185  0.10000
+239214  0.30000
+239252  0.10000
+239254  0.25000
+239301  0.10000
+239315  0.20000
+239617  0.35000
+239620  0.35000
+239831  0.40000
+239846  1.00000
+239973  0.25000
+239975  0.10000
+239978  0.10000
+239997  0.20000
+240042  0.10000
+240111  0.10000
+240217  0.20000
+240226  0.10000
+240294  0.10000
+240297  0.36667
+240303  0.53333
+240304  0.30000
+240310  0.30000
+240339  0.15000
+240347  0.36667
+240379  0.10000
+240380  0.10000
+240381  0.40000
+240407  0.10000
+240408  0.78333
+240431  0.15000
+240437  0.20000
+240445  0.26667
+240497  0.40000
+240544  0.10000
+240570  1.00000
+240581  1.00000
+240606  0.40000
+240654  0.10000
+240657  0.10000
+240658  0.35000
+240687  0.40000
+240701  0.88333
+240720  0.26667
+240730  0.16667
+240940  0.20000
+241003  0.30000
+241073  0.30000
+241158  0.15000
+241209  0.33333
+241292  0.40000
+241296  0.10000
+241300  0.10000
+241338  0.96667
+241382  1.00000
+241402  0.10000
+241421  0.10000
+241445  0.36667
+241596  0.10000
+241840  0.15000
+241912  0.16667
+242101  0.15000
+242112  0.15000
+242202  0.30000
+242265  0.20000
+242268  0.40000
+242295  0.16667
+242370  0.26667
+242397  0.20000
+242398  0.20000
+242400  0.36667
+242402  0.20000
+242405  0.15000
+242428  0.15000
+242435  0.20000
+242447  0.20000
+242448  0.26667
+242497  0.20000
+242504  0.16667
+242511  0.15000
+242513  0.20000
+242524  0.35000
+242537  0.23333
+242544  0.20000
+242548  0.40000
+242556  0.23333
+242577  0.15000
+242580  0.93333
+242844  0.40000
+242858  0.25000
+242863  0.96667
+242867  0.25000
+242869  0.25000
+242876  0.25000
+242877  0.25000
+242878  0.25000
+242883  0.33333
+242971  0.25000
+243007  0.33333
+243054  0.20000
+243055  0.20000
+243209  0.10000
+243422  0.30000
+243488  0.30000
+243709  0.10000
+243752  0.10000
+243798  0.10000
+243860  0.10000
+243893  0.30000
+243959  0.15000
+243962  0.15000
+243965  0.15000
+244061  0.30000
+244087  0.25000
+244113  1.00000
+244119  1.00000
+244128  1.00000
+244210  0.25000
+244391  0.15000
+244480  0.20000
+244490  0.40000
+244525  0.10000
+244552  0.10000
+244581  0.20000
+244610  0.10000
+244645  0.25000
+244706  0.96667
+244795  0.30000
+244813  0.25000
+244869  0.23333
+244935  0.91667
+245026  0.15000
+245073  0.30000
+245214  1.00000
+245215  1.00000
+245220  1.00000
+245358  0.20000
+245396  0.20000
+245397  0.20000
+245405  0.95000
+245517  0.20000
+245553  0.25000
+245556  0.15000
+245610  1.00000
+245656  1.00000
+245705  0.20000
+245721  0.20000
+245741  0.20000
+245755  0.26667
+245759  0.10000
+245767  0.30000
+245768  0.10000
+245783  0.20000
+245784  0.20000
+245824  0.10000
+245842  1.00000
+245843  0.40000
+245874  0.30000
+245878  0.10000
+245926  0.10000
+245942  1.00000
+245952  1.00000
+245957  1.00000
+245960  0.20000
+245961  0.20000
+245963  0.10000
+245979  0.20000
+246015  0.10000
+246017  0.10000
+246024  0.10000
+246052  0.10000
+246058  0.30000
+246087  0.10000
+246171  0.15000
+246270  0.10000
+246318  1.00000
+246319  0.96667
+246405  0.15000
+246445  0.23333
+246500  0.33333
+246501  0.26667
+246508  1.00000
+246825  0.15000
+246884  0.20000
+246933  0.95000
+246972  1.00000
+246984  1.00000
+246986  0.15000
+246995  1.00000
+247129  0.15000
+247131  0.55000
+247145  0.20000
+247147  0.20000
+247162  0.10000
+247208  0.15000
+247213  0.15000
+247228  0.10000
+247332  0.10000
+247352  0.25000
+247354  0.10000
+247377  0.36667
+247538  0.20000
+247673  0.25000
+247706  0.25000
+247716  0.10000
+247754  0.20000
+248095  0.10000
+248177  0.10000
+248296  0.26667
+248348  0.20000
+248486  0.10000
+248498  1.00000
+248579  1.00000
+248583  1.00000
+248599  0.95000
+248676  0.23333
+248681  0.93333
+248851  1.00000
+248940  0.10000
+249011  0.10000
+249012  0.33333
+249018  0.15000
+249024  0.10000
+249040  0.40000
+249235  0.25000
+249250  0.30000
+249263  0.20000
+249264  0.20000
+249277  0.95000
+249505  0.96667
+249543  0.15000
+249546  0.15000
+249564  0.20000
+249569  0.10000
+249615  0.15000
+249654  0.15000
+249655  0.15000
+249720  0.15000
+249722  1.00000
+249729  1.00000
+249733  0.10000
+249742  0.30000
+249796  0.10000
+249836  0.15000
+249837  0.15000
+249838  0.15000
+249848  0.15000
+249849  0.15000
+249895  0.10000
+249901  0.16667
+249943  1.00000
