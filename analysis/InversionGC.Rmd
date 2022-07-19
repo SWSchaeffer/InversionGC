@@ -1,59 +1,88 @@
 ---
-title: "GeneConversionInversion"
+title: "InversionGC"
 author: "SWSchaeffer"
-date: "2020-10-03"
+date: "2022-07-19"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
 ---
 
 ## Overview
+This analysis is associated with the paper "Genomics of Natural Populations: The Landscape of Gene Conversion
+Events Reveals Selected Genes in the Genome Arrangements of Drosophila pseudoobscura"
+
 ## 1. NG Convert SNP Table to FASTA from Reference
 Purpose: The program takes the SNP table “Chr3_FB_SnpTable.tsv” and the reference sequence for Chr3 and generates individual sequences for each strain.
 
-Source: Fortran, NG Convert SNP Table to Fasta from Reference.f
+Source: Fortran, NG Convert SNP Table to Fasta from Reference.f in code folder
 
-Input: 
-* “AR_REF_Chr3.fas”, the v3.2 reference sequence for chromosome 3 in D. pseudoobscura. 
-* “Chr3_FB_SnpTable.tsv” SNP table from FreeBayes Analysis of 54 strains of D. pseudoobscura and 1 strain of the outgroup D. miranda.
+Input files
+
+1. “AR_REF_Chr3.fas”, the v3.2 reference sequence for chromosome 3 in D. pseudoobscura. These files are available in http://Scholarsphere.psu.edu in a zip file. 
+
+2. “Chr3_FB_SnpTable.tsv” SNP table from FreeBayes Analysis of 54 strains of D. pseudoobscura and 1 strain of the outgroup D. miranda.
 	
-Output: 
-* “StrainName_Chr3.fas”, where StrainName is the name of the strain.  The FASTA files used in the analysis are stored in the data/FASTA Files folder.
+Output Files: 
+
+1. “StrainName_Chr3.fas”, where StrainName is the name of the strain.  The FASTA files used in the analysis are stored in the data/FASTA Files folder.
 
 ## 2. NG Convert Fasta to Nexus  
-Purpose: The program converts a set of aligned fasta sequences and converts them to Nexus format to be able to import the sequences into DNASp for gene conversion analysis.
+Purpose: This program converts a set of aligned FASTA sequences and converts them to NEXUS format to be able to import the sequences for import into DNASp for inference of gene conversion tracts.
 
 Source: Fortran, NG_Convert_Fasta_to_Nexus.f in code folder  
 
-This fortran program converts a set of aligned sequences in Fasta format into Nexus format
-for import into DnaSP for inference of gene conversion tracts.  
-
 Input files in the data folder  
 1. Syntenic_Regions.txt, is a list of 73 regions across the third chromosome of Drosophila pseudoobscura with the name of the region, the beginning and end of the cytogenetic region, and the beginning and end coordinate in the version 3_2 assembly.  
-2. snp_Dpse_All.fof, is a list of the 55 fasta sequences for chromosome three of 54 D. pseudoobscura strains and the outgroup strain D. miranda.  Each sequence has the label “X_Chr3.fas” where X is the strain name.  
+
+2. snp_Dpse_All.fof, is a list of the 55 fasta sequences for chromosome three of 54 D. pseudoobscura strains and the outgroup strain D. miranda.
+
+3. Each sequence has the label “X_Chr3.fas” where X is the strain name. These files are available in http://Scholarsphere.psu.edu in a zip file.   
 
 Output file in the data folder  
-1. Chr3_Syn_Reg_xxx.nex, is the name of the output nexus file where xxx is the name of the subregion [01a-14h].  These files are stored in the data/Nexus Files folder.  
+1. Chr3_Syn_Reg_xxx.nex, is the name of the output nexus file where xxx is the name of the subregion [01a-14h].These files are available in http://Scholarsphere.psu.edu in a zip file.
 
 ## 3. Syntenic Block Rearrangement Analysis
 Purpose: This R code chunk determines the order of the 73 syntenic subregions in the different arrangements.
 
-Source: R code chunk in GeneConversionInversion
+Source: R code chunk in InversionGC
 
 Input files in the data folder   
 1. AR_Syntenic_Regions.txt - region order in the reference genome  
+
 2. ST_Ord.txt - subregion order in ST relative to AR  
+
 3. PP_Ord.txt - subregion order in PP relative to ST  
+
 4. HY_Ord.txt - subregion order in HY relative to ST  
+
 5. SC_Ord.txt - subregion order in SC relative to HY  
+
 6. CU_Ord.txt - subregion order in CU relative to SC  
+
 7. CH_Ord.txt - subregion order in CH relative to SC  
+
 8. TL_Ord.txt - subregion order in TL relative to SC  
   
 Output files in output folder  
-1. AR_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 2. ST_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 3. PP_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 4. HY_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 5. SC_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 6. CU_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 7. CH_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 8. TL_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate The output files each have three columns [Subregion, Subregion begin coordinate, Subregion end coordinate]
+1. AR_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate
 
-```{r, Syntenic Blocks}
+2. ST_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 
+
+3. PP_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 
+
+4. HY_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 
+
+5. SC_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 
+
+6. CU_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 
+
+7. CH_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 
+
+8. TL_coordinates.csv - subregion, beginning nucleotide coordinate, end nucleotide coordinate 
+
+Each output file has three columns [Subregion, Subregion begin coordinate, Subregion end coordinate]
+
+```{r, Syntenic Block Rearrangement Analysis}
 options(scipen =999)
 #AR is a table with columns V1-V5, where
 #V1 - subregion = AR_SReg
@@ -261,10 +290,15 @@ TL_Data <- cbind(TL_SReg, TL_Beg, TL_SReg2, TL_End, TL_SReg3, TL_Ori)
 write.csv(TL_Data, file ="output/TL_Coordinates.csv", row.names = FALSE)
 ```
 ##	4. DNASP Analysis Gene Conversion Analysis
-Method: The 73 nexus files of aligned sequences were imported into DNASP.  The Gene Conversion Analysis within DNASP was run on pairs gene arrangement subsamples.  Results of the analysis were stored in text files named “GeneConversion_xxx_arr1_arr2.txt” where xxx is the subregion name, arr1 is the name of arrangement 1 and arr2 is the name of arrangement 2.  A total of 1,095 text files were generated from the pairwise analysis of six arrangements, 15 per region, and 73 regions.  These files are stored in the data folder.
+Method: The 73 nexus files of aligned sequences were imported into DNASP.  The Gene Conversion Analysis within DNASP was run on pairs gene arrangement subsamples.  
+
+Output Files in the data folder
+Results of the analysis were stored in text files named “GeneConversion_xxx_arr1_arr2.txt” where xxx is the subregion name, arr1 is the name of arrangement 1 and arr2 is the name of arrangement 2.  A total of 1,095 text files were generated from the pairwise analysis of six arrangements, 15 per region, and 73 regions.
 
 ## 5. Concatenate DnaSP Gene Conversion Data
-This PERL script aggregates data from the DnaSP Gene Conversion analysis.  
+This PERL script aggregates data from the DnaSP Gene Conversion analysis.
+
+Source: Concatenate DnaSP Gene Conversion Data.pl
 
 Input file in the data folder  
 1. file_list.fof, is a list of 1,095 file names that were output from DNASP.  The list of names reflects 15 pairwise comparisons of six gene arrangements (AR, ST, PP, CH, TL, CU) for 73 subregions [01a-14h] of 181,398 – 440,325 nucleotide lengths.  
@@ -521,7 +555,9 @@ while ($file = <FILE_LIST>) {
 ```
   
 ## 6. Merge Psi and Filter Data  
-This R code chunk merges the estimate of Psi with the GC_Tracts Data. A new variable "GC_Tract_Count" that counts the number of pairwise comparisons that identify a particular conversion tract in the "Tract" variable. The table is sorted by "Tract". A new variable "exclude" is added so that only a single instance of each "Tract" is used.  Non-Redundant tracts are identified with "N" while redundant tracts are identified with "Y" in "exclude".  
+This R code chunk merges the estimate of Psi with the GC_Tracts Data. A new variable "GC_Tract_Count" that counts the number of pairwise comparisons that identify a particular conversion tract in the "Tract" variable. The table is sorted by "Tract". A new variable "exclude" is added so that only a single instance of each "Tract" is used.  Non-Redundant tracts are identified with "N" while redundant tracts are identified with "Y" in "exclude".
+
+Source: R code chunk in InversionGC.Rmd
 
 Input files in the data folder  
 1. GeneConversion_Stats.tsv from step 5 
@@ -529,8 +565,11 @@ Input files in the data folder
 
 Output files in the data folder  
 1. Tract_Count.csv - number of pairwise comparisons identifying each gene conversion tract. The file is stored in the data folder.  
+
 2. GeneConversion_Tracts_Processed.csv - updated gene conversion Tract file with "Psi" and "exclude" variables added. The file is stored in the data folder.  
+
 3. GC_List.tsv - List of the unique gene conversion tracts with columns [Don_Arr, Rec_Arr, Region, GC_Len, Psi, exclude], where Don_Arr is the donor arrangement; Rec_Arr is the recipient arrangement; GC_Len is the gene conversion tract length; Psi is the mean probability of SNP sites being informative for gene conversion analysis; and exclude is the whether the tract should be filter out or not. The file is stored in the data folder.
+
 4. GC_arr_Tracts.tsv - List of conversion tracts for the arr arrangement.  The file has eight columns [Subregion. Subregion Begin Coordinate, Subregion End Coordinate, Region Begin Coordinate, Region End Coordinate, Region, Chromosome Beg Coordinate, Chromosome End Coordinate].  The file is stored in the data folder.
 
 ```{r, Merge Psi amd Filter Data }
@@ -722,6 +761,7 @@ Input files in the data folder
 
 Output files in the data folder  
 1. GCT_arr1_arr2_reg.txt, where arr1 is the donor arrangement, arr2 is the recipient arrangement, and reg is the syntenic block region.  First line of the file is the number of gene conversion tracts for the donor and recipient arrangement and the region.  Remaining lines have two columns [Observed Gene Conversion Tract Length, Psi Value].  
+
 2. GC.fof, is a file of filenames that contain gene conversion data.  The filenames are (GCT_arr1_arr2_reg.txt” where arr1 is the donor arrangement, arr2 is the recipient arrangement, and reg is the syntenic block region.
 
 ## 8. NG Betran GC ML  
@@ -731,10 +771,12 @@ Source: Fortran, NG_Betran_GC_ML.f in code folder
 
 Input in the data folder
 1. GC.fof, is a file of filenames that contain gene conversion data.  
+
 2. GCT_arr1_arr2_reg.txt, where arr1 is the donor arrangement, arr2 is the recipient arrangement, and reg is the syntenic block region.  First line of the file is the number of gene conversion tracts for the donor and recipient arrangement and the region. Remaining lines have two columns [Observed Gene Conversion Tract Length, Psi Value]).  
 
 Output in the data folder  
 1. GC_LH_arr1_arr2_reg.csv, is a comma separated value file that outputs the columns [Iteration, Phi, value of the phi that is being used to estimate the likelihood value; lnL, likelihood value estimated based on the value of phi].
+
 2. A_Gene_Conv_Estimate.txt, is a text file with the output of the maximum likelihood analysis.  Each line represents the values from each file of gene conversion data.  The Columns in the file are [Don, donor arrangement; Rec, recipient arrangement; Reg, syntenic block region 1-14; Phi, maximum likelihood estimate of phi; LowLim(N), lower limit on the gene conversion tract length based on maximum likelihood estimate of phi minus two times the standard deviation; Expect(N), gene conversion tract length based on the maximum likelihood estimate of phi (1/(1-phi)); UpLim(N), upper limit on the gene conversion tract length based on maximum likelihood estimate of phi plus two times the standard deviation; Prob(UE), probability of an undetected gene conversion event equation 9 in Betran et al. (1997); Obs#(CT), observed number of conversion tracts (k) from DNASP; Exp#(CT), expected number of conversion tracts = k/P(L>=2) see page 95 column 1 in Betran et al. (1997); Prob(TS), probability of a transferred site = (Exp#(CT) x Expect(N))/(number of sequences x number of nucleotides) see page 95 column 2 in Betran et al (1997)].
 
 ## 9. NG Build Coordinate Spreadsheet
@@ -742,11 +784,11 @@ Purpose: Reorganizes the “Coordinate.txt” file into a new “Coordinates_Lis
 
 Source: Fortran, NG Build Coordinate Spreadsheet.f
 
-Input:
+Input File in 
 1. “Coordinates.txt”, Line 1 - Transcript Name, Orientation; Line 2 – Exon number; Line 3 – First nucleotide of exon, Last nucleotide of exon; subsequent lines for each exon; Format repeats for all transcripts.
 
 Output: 
-2. “Coordinates_List.csv”, is a comma separated value file that lists each transcript exon on a separate line.  Columns [Transcript_ID, name of the transcript; Ori, orientation of the exon; Exon, exon number; Pos_Beg, first nucleotide of the exon; Pos_End, last nucleotide of the exon].
+1. “Coordinates_List.csv”, is a comma separated value file that lists each transcript exon on a separate line.  Columns [Transcript_ID, name of the transcript; Ori, orientation of the exon; Exon, exon number; Pos_Beg, first nucleotide of the exon; Pos_End, last nucleotide of the exon].
 
 Note:	The “Coordinates_List.csv” was imported into Excel and saved as “2019_02_02 Coordinates_List.xlsx.”  This file has 13 tabs [1. BP, 2. Coordinates_List, 3. Culled Coordinates_List, 4. AR_List, 5. AR_Outlier List, 6. ST List, 7. ST Outlier List, 8. PP List, 9. PP Outlier List, 10. CH List, 11. CH Outlier List, 12. TL List, 13. TL Outlier List].  1. BP, provides the starting nucleotide for each syntenic block in each arrangement. 2. Coordinates_List, imported data from the “Coordinates_List.csv” file. The last column “Exclude Transcript” indicates if the exon excluded because it overlaps with another transcript.  3. Culled Coordinates_List, list of exons with the redundant exons removed.  Translates the coordinates of the exons from the AR reference sequence to that of ST, PP, CH, TL, and CU.  AR_Ord, order of exons in AR; AR_Ori, orientation of exon in AR; AR_Pos_Beg, first nucleotide of the exon in AR; AR_Pos_End, last nucleotide of the exon in AR; AR_Outlier, indicates if the exon is part of an outlier gene in AR.  The same information is given for ST, PP, CH, TL, and CU.  4. AR_List, Lists the non-redundant exons for AR.  New Columns [Outliers: 1, non-outlier; 2, outlier; Overlap: No, Yes]. 5. AR Outlier List, only includes the coordinates of outlier transcripts from beginning to end.  Each arrangement has a “List” and an “Outlier List” file.  The “5. AR Outlier List” was exported to “GC_AR_Outlier_List.txt” and each of the other arrangements had a similar text file with coordinates of the outlier transcripts.  The text file has four columns, Column 1, Transcript Name; Column 2, Midpoint nucleotide coordinate; Column 3, Beginning nucleotide coordinate; Column 4, End nucleotide coordinate.
 
@@ -768,54 +810,64 @@ Purpose:  Plots gene conversion events to a chromosomal map in two ways, as trac
 
 Source: Fortran, NG Gene Conversion Tract Map.f
 
-Input
+Input Files in data folder
 1. At the Console: Gene arrangement name (arr) and beginning (beg) and end (end) coordinates for the plot.
+
 2. “GC_arr_Tracts.tsv” from step 5 lists the beginning and end nucleotide of each gene conversion tract for the arr.
+
 3. “GC_arr_Transcripts_List.tsv”, lists the exons for all transcripts in arr coming from the “arr List” tab from “2019_02_02 Coordinates_List.xlsx.”
 
-Output
+Output in data folder
 1. “GC_arr_Tracts_Output.csv”, lists the intervals with gene conversion tracts.  Columns [Region, number of the region having at least one gene conversion tract covering the nucleotide; Beg, first nucleotide of the region; End, last nucleotide of the region; Count, mean number of gene conversion tract coverage for the region]
+
 2. “GC_arr_Transcript_Tract_Depth.csv”, lists the mean gene conversion coverage for each exon of all transcripts. The file has six columns [Transcript, Exon, Beg, End, Outlier, Mean_GC]. Transcript is the transcript name; Exon is the number of the exon; Beg is the first nucleotide of the exon; End is the last nucleotide of the exon; Outlier is the outlier status of the transcript where 1 is non-outlier and 2 is outlier; Mean_GC is the mean gene conversion coverage per nucleotide.
+
 3. “GC_arr_Plot_beg_end.ps” is a postscript file that plots the gene conversion tracts to an interval of the chromosome.
 	
 Note: The postscript file (*.ps) is converted to a pdf file with Adobe Distiller.  The pdf file is imported into Adobe Illustrator to show the exons of transcripts, non-outliers in black and outliers in blue, gene conversion tract intervals, and a histogram of gene conversion coverage.
 
-## 12. 12)	NG Reg Don Rec Permute
+## 12. NG Reg Don Rec Permute
 Purpose: This program a permutation test to determine if the frequency of donor to recipient gene conversion tracts is independent among the 14 regions and overall. A total of 10,000 random permutations are used.
 
 Source: NG Reg Don Rec Permute.f
 
-Input:
-  1. “GC_Region_Donor_Recipient.tsv” a tab-separated file with three columns [Region, Donor Arrangement, Recipient Arrangement].
+Input in data folder
+1. “GC_Region_Donor_Recipient.tsv” a tab-separated file with three columns [Region, Donor Arrangement, Recipient Arrangement].
 
-Output File
-  1. “GC_Region_Donor_Recipient_Summary.txt”  For each region and the overall total, the observed donor to recipient frequencies are presented, the minimum frequency across the permutations, the maximum frequency across the permutations, the probability of permutation values less than the observed, and the probability of permutations greater than the observed.  The random seed iseed is printed.
+Output File in data folder
+1. “GC_Region_Donor_Recipient_Summary.txt”  For each region and the overall total, the observed donor to recipient frequencies are presented, the minimum frequency across the permutations, the maximum frequency across the permutations, the probability of permutation values less than the observed, and the probability of permutations greater than the observed.  The random seed iseed is printed.
 
 ## 13. NG GC Tract Length Region Permutation
 Purpose: This program uses a permutation test to determine whether the median value in each of the 14 regions represents a deficiency or an excess compared to randomly permuted gene conversion tract.  This program randomly permutes the assignment of tracts to region.
 
 Source: Fortran, NG GC Tract Length Region Permutation.f
 
-Input:
-  1. Console: Gene arrangement name arr, where arr is the two letter inversion code [AR ST PP CH TL CU]
-  2. GC_arr_Tracts.tsv”, from step 5 a tab separated value file with a list of gene conversion tracts, one tract per row.
+Input File in data folder
+1. Console: Gene arrangement name arr, where arr is the two letter inversion code [AR ST PP CH TL CU]
 
-Output Files
-  “GC_arr_ Tract_Length_Permut.txt”, a text file with the results of the random permutation test.  A table is presented with four columns [Region, Observed, Probability(Permuted <Obs), Probability(Permuted <Obs)] and fourteen rows, one for each region.  The probability of mean GC coverage for outlier genes bases on the number of random permutations less than or equal to the observed values is given.  Finally, the minimum and maximum value of 10,000 random permutations is presented for each region.  A file is generated for each arrangement [AR, ST, PP, CH, TL].  The random seed iseed is printed.
+2. GC_arr_Tracts.tsv”, from step 5 a tab separated value file with a list of gene conversion tracts, one tract per row.
+
+Output Files in data folder
+1. “GC_arr_ Tract_Length_Permut.txt”, a text file with the results of the random permutation test.  A table is presented with four columns [Region, Observed, Probability(Permuted <Obs), Probability(Permuted <Obs)] and fourteen rows, one for each region.  The probability of mean GC coverage for outlier genes bases on the number of random permutations less than or equal to the observed values is given.  Finally, the minimum and maximum value of 10,000 random permutations is presented for each region.  A file is generated for each arrangement [AR, ST, PP, CH, TL].  The random seed iseed is printed.
 
 ## 14. NG Gene Conversion Permutation Test
 Purpose:  This program uses a permutation test to determine whether outlier genes have different levels of gene conversion tract coverage than non-outlier genes.  The set of gene conversion tracts is mapped to the third chromosome, then a histogram of coverage for each nucleotide is determined.  The mean gene conversion tract coverage is estimated for outlier genes and non-outlier genes.  This program randomly permutes the assignment of outliers to transcripts.
 	
 Source: Fortran, NG Gene Conversion Permutation Test.f
-Input
-  1.Console: Gene arrangement name arr, where arr is the two letter inversion code [AR ST PP CH TL CU]r
-  2.“GC_arr_Tracts.tsv”, from step 5 a tab separated value file with a list of gene conversion tracts, one tract per row.
-  3.“GC_arr_Transcripts_List.tsv”, lists the exons for all transcripts in arr coming from the “arr List” tab from “2019_02_02 Coordinates_List.xlsx.”
 
-Output Files
-  1. “GC_arr_Tracts_Output_Permut.csv”, lists the intervals with gene conversion tracts.  The file has four columns [Region, Beg, End, Count] where Region is the number of the region having at least one gene conversion tract covering the nucleotide; Beg is the first nucleotide of the region; End is the last nucleotide of the region; Count is the mean number of gene conversion tract coverage for the region.
-  2.“GC_arr_Transcript_Tract_Depth_Permut.csv”, lists the mean gene conversion coverage for each exon of all transcripts. The file has six columns [Transcript, Exon, Beg, End, Outlier, Mean_GC] where Transcript is the transcript name; Exon is the number of the exon; Beg is the first nucleotide of the exon; End is the last nucleotide of the exon; Outlier is the outlier status of the transcript where 1 is non-outlier and 2 is outlier; Mean_GC, mean gene conversion coverage per nucleotide.
-  3.“GC_arr_Random_Permutation_Data.csv”, a comma separated value file with the mean coverage for the outlier genes in each of 10,000 random permutations.
+Input in data folder
+1.Console: Gene arrangement name arr, where arr is the two letter inversion code [AR ST PP CH TL CU]r
+
+2.“GC_arr_Tracts.tsv”, from step 5 a tab separated value file with a list of gene conversion tracts, one tract per row.
+
+3.“GC_arr_Transcripts_List.tsv”, lists the exons for all transcripts in arr coming from the “arr List” tab from “2019_02_02 Coordinates_List.xlsx.”
+
+Output Files in data folder
+1. “GC_arr_Tracts_Output_Permut.csv”, lists the intervals with gene conversion tracts.  The file has four columns [Region, Beg, End, Count] where Region is the number of the region having at least one gene conversion tract covering the nucleotide; Beg is the first nucleotide of the region; End is the last nucleotide of the region; Count is the mean number of gene conversion tract coverage for the region.
+
+2.“GC_arr_Transcript_Tract_Depth_Permut.csv”, lists the mean gene conversion coverage for each exon of all transcripts. The file has six columns [Transcript, Exon, Beg, End, Outlier, Mean_GC] where Transcript is the transcript name; Exon is the number of the exon; Beg is the first nucleotide of the exon; End is the last nucleotide of the exon; Outlier is the outlier status of the transcript where 1 is non-outlier and 2 is outlier; Mean_GC, mean gene conversion coverage per nucleotide.
+  
+3.“GC_arr_Random_Permutation_Data.csv”, a comma separated value file with the mean coverage for the outlier genes in each of 10,000 random permutations.
   4.“GC_arr_Outlier_Tract_Depth_Permute.txt”, a text file with the results of the random permutation test.  A table is presented with three columns [Mean GC Bases, Variance GC Bases, Nucleotides] and two rows {Non-Outlier, Outlier].  The probability of mean GC coverage for outlier genes bases on the number of random permutations less than or equal to the observed values is given.  Finally, the minimum and maximum value of 10,000 random permutations is presented.  A file is generated for each arrangement [AR, ST, PP, CH, TL].  The random seed iseed is printed.
 
 ## 15.	NG Gene Conversion Shuffle Tracts
@@ -823,32 +875,45 @@ Purpose: This program uses shuffled gene conversion tracts to determine whether 
 
 Source: Fortran, NG Gene Conversion Shuffle Tracts.f
 
-Input files
-  1.Console: Gene arrangement name arr where arr is the two letter inversion code [AR ST PP CH TL CU]
-  2.“arr_BP.txt”, This file has the three proximal, inverted, and distal intervals for the derived arrangement.  Line one has the number of intervals, line two has the coordinates for the proximal interval, line three has the coordinates for the inverted interval, and line four has the coordinates for the distal interval.
-  3.“GC_arr_Tracts.tsv”, from step 6 a tab separated value file.  The first line has column labels and the remaining lines are a list of gene conversion tracts, one tract per row.
-  4.“GC_arr_Transcripts_List.tsv”, lists the exons for all transcripts in arr coming from the “arr List” tab from “2019_02_02 Coordinates_List.xlsx.”
+Input files in data folder
+1.Console: Gene arrangement name arr where arr is the two letter inversion code [AR ST PP CH TL CU]
 
-Output Files
-  1.“GC_arr_Tracts_Output_Shuff.csv”, The file has four columns [Region, Beg, End, Count] where Region is the number of the region having at least one gene conversion tract covering the nucleotide; Beg is the first nucleotide of the region; End is the last nucleotide of the region; Count is the mean number of gene conversion tract coverage for the region.
-  2.“GC_arr_Transcript_Tract_Depth_Shuff.csv”, lists the mean gene conversion coverage for each exon of all transcripts. The file has six columns [Transcript, Exon, Beg, End, Outlier, Mean_GC] where Transcript is the transcript name; Exon is the number of the exon; Beg is the first nucleotide of the exon; End is the last nucleotide of the exon; Outlier is the outlier status of the transcript where 1 is non-outlier and 2 is outlier; Mean_GC, mean gene conversion coverage per nucleotide.
-  3.“GC_arr_Random_Permutation_Data_Shuff.csv”, a comma separated value file with the mean coverage for the outlier genes in each of 10,000 random permutations.
-  4.“GC_arr_Outlier_Tract_Depth_Shuff.txt”, a text file with the results of the gene conversion tract shuffling test.  A table is presented with three columns [Mean GC Bases, Variance GC Bases, Nucleotides] and two rows {Non-Outlier, Outlier].  The probability of mean GC coverage for outlier genes bases on the number of random permutations less than or equal to the observed values is given.  Finally, the minimum and maximum value of 10,000 random permutations is presented.  A file is generated for each arrangement [AR, ST, PP, CH, TL]. The random seed iseed is printed.
+2.“arr_BP.txt”, This file has the three proximal, inverted, and distal intervals for the derived arrangement.  Line one has the number of intervals, line two has the coordinates for the proximal interval, line three has the coordinates for the inverted interval, and line four has the coordinates for the distal interval.
+
+3.“GC_arr_Tracts.tsv”, from step 6 a tab separated value file.  The first line has column labels and the remaining lines are a list of gene conversion tracts, one tract per row.
+  
+4.“GC_arr_Transcripts_List.tsv”, lists the exons for all transcripts in arr coming from the “arr List” tab from “2019_02_02 Coordinates_List.xlsx.”
+
+Output Files in data folder
+1.“GC_arr_Tracts_Output_Shuff.csv”, The file has four columns [Region, Beg, End, Count] where Region is the number of the region having at least one gene conversion tract covering the nucleotide; Beg is the first nucleotide of the region; End is the last nucleotide of the region; Count is the mean number of gene conversion tract coverage for the region.
+
+2.“GC_arr_Transcript_Tract_Depth_Shuff.csv”, lists the mean gene conversion coverage for each exon of all transcripts. The file has six columns [Transcript, Exon, Beg, End, Outlier, Mean_GC] where Transcript is the transcript name; Exon is the number of the exon; Beg is the first nucleotide of the exon; End is the last nucleotide of the exon; Outlier is the outlier status of the transcript where 1 is non-outlier and 2 is outlier; Mean_GC, mean gene conversion coverage per nucleotide.
+
+3.“GC_arr_Random_Permutation_Data_Shuff.csv”, a comma separated value file with the mean coverage for the outlier genes in each of 10,000 random permutations.
+
+4.“GC_arr_Outlier_Tract_Depth_Shuff.txt”, a text file with the results of the gene conversion tract shuffling test.  A table is presented with three columns [Mean GC Bases, Variance GC Bases, Nucleotides] and two rows {Non-Outlier, Outlier].  The probability of mean GC coverage for outlier genes bases on the number of random permutations less than or equal to the observed values is given.  Finally, the minimum and maximum value of 10,000 random permutations is presented.  A file is generated for each arrangement [AR, ST, PP, CH, TL]. The random seed iseed is printed.
   
 ## 16.	NG Gene Conversion Shuffle Tracts ML
 Purpose: Uses shuffled tracts to determine whether outlier genes have different amounts of gene conversion then non-outlier genes. The tract length distribution is based on the ML estimates from the Betran et al. (1997) paper
 
 Source: Fortran, NG Gene Conversion Shuffle Tracts ML.f
 
-Input Files
-  1.Console: Gene arrangement name arr where arr is the two letter inversion code [AR ST PP CH TL CU]
-  2. “arr_MinMax.tsv”, This file has the beginning and end coordinates for the 14 regions  in arr arrangement.
-  3. “GC_arr_Tracts.tsv”, from step 6 a tab separated value file.  The first line has column labels and the remaining lines are a list of gene conversion tracts, one tract per row.
-  4. “GC_arr_Transcripts_List.tsv”, lists the exons for all transcripts in arr coming from the “arr List” tab from “2019_02_02 Coordinates_List.xlsx.”
-  5. “GC_arr_ML_Exp.tsv”, The file has 70 lines with the Maximum Likelihood estimates of the mean  or the probability of extending the gene conversion tract to an additional nucleotide in the ith gene arrangement in the jth region and the number of true gene conversion tracts in the ith arrangement in the jth region.
+Input Files in data folder
+1. Console: Gene arrangement name arr where arr is the two letter inversion code [AR ST PP CH TL CU]
 
-Output Files
- 1. “GC_arr_Tracts_Output_MLpara.csv” lists the intervals with gene conversion tracts.  The file has four columns [Region, Beg, End, Count] where Region is the number of the region having at least one gene conversion tract covering the nucleotide; Beg is the first nucleotide of the region; End is the last nucleotide of the region; Count is the mean number of gene conversion tract coverage for the region.
-  2. “GC_arr_Transcript_Tract_Depth_MLpara.csv”, lists the mean gene conversion coverage for each exon of all transcripts. The file has six columns [Transcript, Exon, Beg, End, Outlier, Mean_GC] where Transcript is the transcript name; Exon is the number of the exon; Beg is the first nucleotide of the exon; End is the last nucleotide of the exon; Outlier is the outlier status of the transcript where 1 is non-outlier and 2 is outlier; Mean_GC, mean gene conversion coverage per nucleotide.
-  3. “GC_arr_Random_Shuffle_ML_Data.csv” a comma separated value file with the mean coverage for the outlier genes in each of 10,000 random permutations.
-  4. “GC_arr_Outlier_Tract_Depth_MLpara.txt”, a text file with the results of the random permutation test.  A table is presented with three columns [Mean GC Bases, Variance GC Bases, Nucleotides] and two rows {Non-Outlier, Outlier].  The probability of mean GC coverage for outlier genes bases on the number of random permutations less than or equal to the observed values is given.  Finally, the minimum and maximum value of 10,000 random permutations is presented.  A file is generated for each arrangement [AR, ST, PP, CH, TL].  The random seed iseed is printed.
+2. “arr_MinMax.tsv”, This file has the beginning and end coordinates for the 14 regions  in arr arrangement.
+
+3. “GC_arr_Tracts.tsv”, from step 6 a tab separated value file.  The first line has column labels and the remaining lines are a list of gene conversion tracts, one tract per row.
+
+4. “GC_arr_Transcripts_List.tsv”, lists the exons for all transcripts in arr coming from the “arr List” tab from “2019_02_02 Coordinates_List.xlsx.”
+
+5. “GC_arr_ML_Exp.tsv”, The file has 70 lines with the Maximum Likelihood estimates of the mean  or the probability of extending the gene conversion tract to an additional nucleotide in the ith gene arrangement in the jth region and the number of true gene conversion tracts in the ith arrangement in the jth region.
+
+Output Files in data folder
+1. “GC_arr_Tracts_Output_MLpara.csv” lists the intervals with gene conversion tracts.  The file has four columns [Region, Beg, End, Count] where Region is the number of the region having at least one gene conversion tract covering the nucleotide; Beg is the first nucleotide of the region; End is the last nucleotide of the region; Count is the mean number of gene conversion tract coverage for the region.
+
+2. “GC_arr_Transcript_Tract_Depth_MLpara.csv”, lists the mean gene conversion coverage for each exon of all transcripts. The file has six columns [Transcript, Exon, Beg, End, Outlier, Mean_GC] where Transcript is the transcript name; Exon is the number of the exon; Beg is the first nucleotide of the exon; End is the last nucleotide of the exon; Outlier is the outlier status of the transcript where 1 is non-outlier and 2 is outlier; Mean_GC, mean gene conversion coverage per nucleotide.
+  
+3. “GC_arr_Random_Shuffle_ML_Data.csv” a comma separated value file with the mean coverage for the outlier genes in each of 10,000 random permutations.
+
+4. “GC_arr_Outlier_Tract_Depth_MLpara.txt”, a text file with the results of the random permutation test.  A table is presented with three columns [Mean GC Bases, Variance GC Bases, Nucleotides] and two rows {Non-Outlier, Outlier].  The probability of mean GC coverage for outlier genes bases on the number of random permutations less than or equal to the observed values is given.  Finally, the minimum and maximum value of 10,000 random permutations is presented.  A file is generated for each arrangement [AR, ST, PP, CH, TL].  The random seed iseed is printed.
