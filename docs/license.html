@@ -32,6 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/main/img/reproducible.png">
 <!-- Add a small amount of space between sections. -->
@@ -262,7 +264,13 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/SWSchaeffer/InversionGC">
+    <span class="fab fa-github"></span>
+     
+    Source code
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -301,7 +309,7 @@ class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2022-07-18
+<strong>Last updated:</strong> 2022-07-19
 </p>
 <p>
 <strong>Checks:</strong> <span
@@ -348,13 +356,15 @@ results.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstronga56f364">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomSWSchaefferInversionGCtreec0bd03e243585fcc6815184898ff9f560b33acfdtargetblankc0bd03ea">
 <span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Repository version:</strong> a56f364
+aria-hidden="true"></span> <strong>Repository version:</strong>
+<a href="https://github.com/SWSchaeffer/InversionGC/tree/c0bd03e243585fcc6815184898ff9f560b33acfd" target="_blank">c0bd03e</a>
 </a>
 </p>
 </div>
-<div id="strongRepositoryversionstronga56f364"
+<div
+id="strongRepositoryversionstrongahrefhttpsgithubcomSWSchaefferInversionGCtreec0bd03e243585fcc6815184898ff9f560b33acfdtargetblankc0bd03ea"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -363,7 +373,8 @@ and connecting the code version to the results is critical for
 reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version a56f364.
+The results in this page were generated with repository version
+<a href="https://github.com/SWSchaeffer/InversionGC/tree/c0bd03e243585fcc6815184898ff9f560b33acfd" target="_blank">c0bd03e</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -377,7 +388,463 @@ depends on. Below is the status of the Git repository when the results
 were generated:
 </p>
 <pre><code>
-working directory clean
+Untracked files:
+    Untracked:  data/2019_02_02 Coordinates_List.xlsx
+    Untracked:  data/AR_MinMax.tsv
+    Untracked:  data/A_Gene_Conv_Estimates.tsv
+    Untracked:  data/CH_MinMax.tsv
+    Untracked:  data/Coordinates_List.csv
+    Untracked:  data/GC.fof
+    Untracked:  data/GC_AR_ML_Exp.tsv
+    Untracked:  data/GC_AR_Random_Permutation_Data.csv
+    Untracked:  data/GC_AR_Random_Shuffle_Data.csv
+    Untracked:  data/GC_AR_Random_Shuffle_ML_Data.csv
+    Untracked:  data/GC_AR_Tracts.tsv
+    Untracked:  data/GC_AR_Tracts_Output_MLpara.csv
+    Untracked:  data/GC_AR_Tracts_Output_Permut.csv
+    Untracked:  data/GC_AR_Tracts_Output_Shuff.csv
+    Untracked:  data/GC_AR_Transcript_Tract_Depth_MLpara.csv
+    Untracked:  data/GC_AR_Transcript_Tract_Depth_Permut.csv
+    Untracked:  data/GC_AR_Transcript_Tract_Depth_Shuff.csv
+    Untracked:  data/GC_AR_Transcripts_List.tsv
+    Untracked:  data/GC_CH_ML_Exp.tsv
+    Untracked:  data/GC_CH_Random_Permutation_Data.csv
+    Untracked:  data/GC_CH_Random_Shuffle_Data.csv
+    Untracked:  data/GC_CH_Random_Shuffle_ML_Data.csv
+    Untracked:  data/GC_CH_Tract.tsv
+    Untracked:  data/GC_CH_Tracts.tsv
+    Untracked:  data/GC_CH_Tracts_Output_MLpara.csv
+    Untracked:  data/GC_CH_Tracts_Output_Permut.csv
+    Untracked:  data/GC_CH_Tracts_Output_Shuff.csv
+    Untracked:  data/GC_CH_Transcript_Tract_Depth_MLpara.csv
+    Untracked:  data/GC_CH_Transcript_Tract_Depth_Permut.csv
+    Untracked:  data/GC_CH_Transcript_Tract_Depth_Shuff.csv
+    Untracked:  data/GC_CH_Transcripts_List.tsv
+    Untracked:  data/GC_LH_AR_CH_01.csv
+    Untracked:  data/GC_LH_AR_CH_02.csv
+    Untracked:  data/GC_LH_AR_CH_03.csv
+    Untracked:  data/GC_LH_AR_CH_04.csv
+    Untracked:  data/GC_LH_AR_CH_05.csv
+    Untracked:  data/GC_LH_AR_CH_06.csv
+    Untracked:  data/GC_LH_AR_CH_07.csv
+    Untracked:  data/GC_LH_AR_CH_08.csv
+    Untracked:  data/GC_LH_AR_CH_09.csv
+    Untracked:  data/GC_LH_AR_CH_10.csv
+    Untracked:  data/GC_LH_AR_CH_11.csv
+    Untracked:  data/GC_LH_AR_CH_12.csv
+    Untracked:  data/GC_LH_AR_CH_13.csv
+    Untracked:  data/GC_LH_AR_CH_14.csv
+    Untracked:  data/GC_LH_AR_PP_01.csv
+    Untracked:  data/GC_LH_AR_PP_02.csv
+    Untracked:  data/GC_LH_AR_PP_03.csv
+    Untracked:  data/GC_LH_AR_PP_04.csv
+    Untracked:  data/GC_LH_AR_PP_05.csv
+    Untracked:  data/GC_LH_AR_PP_06.csv
+    Untracked:  data/GC_LH_AR_PP_07.csv
+    Untracked:  data/GC_LH_AR_PP_08.csv
+    Untracked:  data/GC_LH_AR_PP_09.csv
+    Untracked:  data/GC_LH_AR_PP_10.csv
+    Untracked:  data/GC_LH_AR_PP_11.csv
+    Untracked:  data/GC_LH_AR_PP_12.csv
+    Untracked:  data/GC_LH_AR_PP_13.csv
+    Untracked:  data/GC_LH_AR_PP_14.csv
+    Untracked:  data/GC_LH_AR_ST_01.csv
+    Untracked:  data/GC_LH_AR_ST_02.csv
+    Untracked:  data/GC_LH_AR_ST_03.csv
+    Untracked:  data/GC_LH_AR_ST_04.csv
+    Untracked:  data/GC_LH_AR_ST_05.csv
+    Untracked:  data/GC_LH_AR_ST_06.csv
+    Untracked:  data/GC_LH_AR_ST_07.csv
+    Untracked:  data/GC_LH_AR_ST_08.csv
+    Untracked:  data/GC_LH_AR_ST_09.csv
+    Untracked:  data/GC_LH_AR_ST_10.csv
+    Untracked:  data/GC_LH_AR_ST_11.csv
+    Untracked:  data/GC_LH_AR_ST_12.csv
+    Untracked:  data/GC_LH_AR_ST_13.csv
+    Untracked:  data/GC_LH_AR_ST_14.csv
+    Untracked:  data/GC_LH_AR_TL_01.csv
+    Untracked:  data/GC_LH_AR_TL_02.csv
+    Untracked:  data/GC_LH_AR_TL_03.csv
+    Untracked:  data/GC_LH_AR_TL_04.csv
+    Untracked:  data/GC_LH_AR_TL_05.csv
+    Untracked:  data/GC_LH_AR_TL_06.csv
+    Untracked:  data/GC_LH_AR_TL_07.csv
+    Untracked:  data/GC_LH_AR_TL_08.csv
+    Untracked:  data/GC_LH_AR_TL_09.csv
+    Untracked:  data/GC_LH_AR_TL_10.csv
+    Untracked:  data/GC_LH_AR_TL_11.csv
+    Untracked:  data/GC_LH_AR_TL_12.csv
+    Untracked:  data/GC_LH_AR_TL_13.csv
+    Untracked:  data/GC_LH_AR_TL_14.csv
+    Untracked:  data/GC_LH_CH_AR_01.csv
+    Untracked:  data/GC_LH_CH_AR_02.csv
+    Untracked:  data/GC_LH_CH_AR_03.csv
+    Untracked:  data/GC_LH_CH_AR_04.csv
+    Untracked:  data/GC_LH_CH_AR_05.csv
+    Untracked:  data/GC_LH_CH_AR_06.csv
+    Untracked:  data/GC_LH_CH_AR_07.csv
+    Untracked:  data/GC_LH_CH_AR_08.csv
+    Untracked:  data/GC_LH_CH_AR_09.csv
+    Untracked:  data/GC_LH_CH_AR_10.csv
+    Untracked:  data/GC_LH_CH_AR_11.csv
+    Untracked:  data/GC_LH_CH_AR_12.csv
+    Untracked:  data/GC_LH_CH_AR_13.csv
+    Untracked:  data/GC_LH_CH_AR_14.csv
+    Untracked:  data/GC_LH_CH_PP_01.csv
+    Untracked:  data/GC_LH_CH_PP_02.csv
+    Untracked:  data/GC_LH_CH_PP_03.csv
+    Untracked:  data/GC_LH_CH_PP_04.csv
+    Untracked:  data/GC_LH_CH_PP_05.csv
+    Untracked:  data/GC_LH_CH_PP_06.csv
+    Untracked:  data/GC_LH_CH_PP_07.csv
+    Untracked:  data/GC_LH_CH_PP_08.csv
+    Untracked:  data/GC_LH_CH_PP_09.csv
+    Untracked:  data/GC_LH_CH_PP_10.csv
+    Untracked:  data/GC_LH_CH_PP_11.csv
+    Untracked:  data/GC_LH_CH_PP_12.csv
+    Untracked:  data/GC_LH_CH_PP_13.csv
+    Untracked:  data/GC_LH_CH_PP_14.csv
+    Untracked:  data/GC_LH_CH_ST_01.csv
+    Untracked:  data/GC_LH_CH_ST_02.csv
+    Untracked:  data/GC_LH_CH_ST_03.csv
+    Untracked:  data/GC_LH_CH_ST_04.csv
+    Untracked:  data/GC_LH_CH_ST_05.csv
+    Untracked:  data/GC_LH_CH_ST_06.csv
+    Untracked:  data/GC_LH_CH_ST_07.csv
+    Untracked:  data/GC_LH_CH_ST_08.csv
+    Untracked:  data/GC_LH_CH_ST_09.csv
+    Untracked:  data/GC_LH_CH_ST_10.csv
+    Untracked:  data/GC_LH_CH_ST_11.csv
+    Untracked:  data/GC_LH_CH_ST_12.csv
+    Untracked:  data/GC_LH_CH_ST_13.csv
+    Untracked:  data/GC_LH_CH_ST_14.csv
+    Untracked:  data/GC_LH_CH_TL_01.csv
+    Untracked:  data/GC_LH_CH_TL_02.csv
+    Untracked:  data/GC_LH_CH_TL_03.csv
+    Untracked:  data/GC_LH_CH_TL_04.csv
+    Untracked:  data/GC_LH_CH_TL_05.csv
+    Untracked:  data/GC_LH_CH_TL_06.csv
+    Untracked:  data/GC_LH_CH_TL_07.csv
+    Untracked:  data/GC_LH_CH_TL_08.csv
+    Untracked:  data/GC_LH_CH_TL_09.csv
+    Untracked:  data/GC_LH_CH_TL_10.csv
+    Untracked:  data/GC_LH_CH_TL_11.csv
+    Untracked:  data/GC_LH_CH_TL_12.csv
+    Untracked:  data/GC_LH_CH_TL_13.csv
+    Untracked:  data/GC_LH_CH_TL_14.csv
+    Untracked:  data/GC_LH_CU_AR_01.csv
+    Untracked:  data/GC_LH_CU_AR_02.csv
+    Untracked:  data/GC_LH_CU_AR_03.csv
+    Untracked:  data/GC_LH_CU_AR_04.csv
+    Untracked:  data/GC_LH_CU_AR_05.csv
+    Untracked:  data/GC_LH_CU_AR_06.csv
+    Untracked:  data/GC_LH_CU_AR_07.csv
+    Untracked:  data/GC_LH_CU_AR_08.csv
+    Untracked:  data/GC_LH_CU_AR_09.csv
+    Untracked:  data/GC_LH_CU_AR_10.csv
+    Untracked:  data/GC_LH_CU_AR_11.csv
+    Untracked:  data/GC_LH_CU_AR_12.csv
+    Untracked:  data/GC_LH_CU_AR_13.csv
+    Untracked:  data/GC_LH_CU_AR_14.csv
+    Untracked:  data/GC_LH_CU_CH_01.csv
+    Untracked:  data/GC_LH_CU_CH_02.csv
+    Untracked:  data/GC_LH_CU_CH_03.csv
+    Untracked:  data/GC_LH_CU_CH_04.csv
+    Untracked:  data/GC_LH_CU_CH_05.csv
+    Untracked:  data/GC_LH_CU_CH_06.csv
+    Untracked:  data/GC_LH_CU_CH_07.csv
+    Untracked:  data/GC_LH_CU_CH_08.csv
+    Untracked:  data/GC_LH_CU_CH_09.csv
+    Untracked:  data/GC_LH_CU_CH_10.csv
+    Untracked:  data/GC_LH_CU_CH_11.csv
+    Untracked:  data/GC_LH_CU_CH_12.csv
+    Untracked:  data/GC_LH_CU_CH_13.csv
+    Untracked:  data/GC_LH_CU_CH_14.csv
+    Untracked:  data/GC_LH_CU_PP_01.csv
+    Untracked:  data/GC_LH_CU_PP_02.csv
+    Untracked:  data/GC_LH_CU_PP_03.csv
+    Untracked:  data/GC_LH_CU_PP_04.csv
+    Untracked:  data/GC_LH_CU_PP_05.csv
+    Untracked:  data/GC_LH_CU_PP_06.csv
+    Untracked:  data/GC_LH_CU_PP_07.csv
+    Untracked:  data/GC_LH_CU_PP_08.csv
+    Untracked:  data/GC_LH_CU_PP_09.csv
+    Untracked:  data/GC_LH_CU_PP_10.csv
+    Untracked:  data/GC_LH_CU_PP_11.csv
+    Untracked:  data/GC_LH_CU_PP_12.csv
+    Untracked:  data/GC_LH_CU_PP_13.csv
+    Untracked:  data/GC_LH_CU_PP_14.csv
+    Untracked:  data/GC_LH_CU_ST_01.csv
+    Untracked:  data/GC_LH_CU_ST_02.csv
+    Untracked:  data/GC_LH_CU_ST_03.csv
+    Untracked:  data/GC_LH_CU_ST_04.csv
+    Untracked:  data/GC_LH_CU_ST_05.csv
+    Untracked:  data/GC_LH_CU_ST_06.csv
+    Untracked:  data/GC_LH_CU_ST_07.csv
+    Untracked:  data/GC_LH_CU_ST_08.csv
+    Untracked:  data/GC_LH_CU_ST_09.csv
+    Untracked:  data/GC_LH_CU_ST_10.csv
+    Untracked:  data/GC_LH_CU_ST_11.csv
+    Untracked:  data/GC_LH_CU_ST_12.csv
+    Untracked:  data/GC_LH_CU_ST_13.csv
+    Untracked:  data/GC_LH_CU_ST_14.csv
+    Untracked:  data/GC_LH_CU_TL_01.csv
+    Untracked:  data/GC_LH_CU_TL_02.csv
+    Untracked:  data/GC_LH_CU_TL_03.csv
+    Untracked:  data/GC_LH_CU_TL_04.csv
+    Untracked:  data/GC_LH_CU_TL_05.csv
+    Untracked:  data/GC_LH_CU_TL_06.csv
+    Untracked:  data/GC_LH_CU_TL_07.csv
+    Untracked:  data/GC_LH_CU_TL_08.csv
+    Untracked:  data/GC_LH_CU_TL_09.csv
+    Untracked:  data/GC_LH_CU_TL_10.csv
+    Untracked:  data/GC_LH_CU_TL_11.csv
+    Untracked:  data/GC_LH_CU_TL_12.csv
+    Untracked:  data/GC_LH_CU_TL_13.csv
+    Untracked:  data/GC_LH_CU_TL_14.csv
+    Untracked:  data/GC_LH_PP_AR_01.csv
+    Untracked:  data/GC_LH_PP_AR_02.csv
+    Untracked:  data/GC_LH_PP_AR_03.csv
+    Untracked:  data/GC_LH_PP_AR_04.csv
+    Untracked:  data/GC_LH_PP_AR_05.csv
+    Untracked:  data/GC_LH_PP_AR_06.csv
+    Untracked:  data/GC_LH_PP_AR_07.csv
+    Untracked:  data/GC_LH_PP_AR_08.csv
+    Untracked:  data/GC_LH_PP_AR_09.csv
+    Untracked:  data/GC_LH_PP_AR_10.csv
+    Untracked:  data/GC_LH_PP_AR_11.csv
+    Untracked:  data/GC_LH_PP_AR_12.csv
+    Untracked:  data/GC_LH_PP_AR_13.csv
+    Untracked:  data/GC_LH_PP_AR_14.csv
+    Untracked:  data/GC_LH_PP_CH_01.csv
+    Untracked:  data/GC_LH_PP_CH_02.csv
+    Untracked:  data/GC_LH_PP_CH_03.csv
+    Untracked:  data/GC_LH_PP_CH_04.csv
+    Untracked:  data/GC_LH_PP_CH_05.csv
+    Untracked:  data/GC_LH_PP_CH_06.csv
+    Untracked:  data/GC_LH_PP_CH_07.csv
+    Untracked:  data/GC_LH_PP_CH_08.csv
+    Untracked:  data/GC_LH_PP_CH_09.csv
+    Untracked:  data/GC_LH_PP_CH_10.csv
+    Untracked:  data/GC_LH_PP_CH_11.csv
+    Untracked:  data/GC_LH_PP_CH_12.csv
+    Untracked:  data/GC_LH_PP_CH_13.csv
+    Untracked:  data/GC_LH_PP_CH_14.csv
+    Untracked:  data/GC_LH_PP_ST_01.csv
+    Untracked:  data/GC_LH_PP_ST_02.csv
+    Untracked:  data/GC_LH_PP_ST_03.csv
+    Untracked:  data/GC_LH_PP_ST_04.csv
+    Untracked:  data/GC_LH_PP_ST_05.csv
+    Untracked:  data/GC_LH_PP_ST_06.csv
+    Untracked:  data/GC_LH_PP_ST_07.csv
+    Untracked:  data/GC_LH_PP_ST_08.csv
+    Untracked:  data/GC_LH_PP_ST_09.csv
+    Untracked:  data/GC_LH_PP_ST_10.csv
+    Untracked:  data/GC_LH_PP_ST_11.csv
+    Untracked:  data/GC_LH_PP_ST_12.csv
+    Untracked:  data/GC_LH_PP_ST_13.csv
+    Untracked:  data/GC_LH_PP_ST_14.csv
+    Untracked:  data/GC_LH_PP_TL_01.csv
+    Untracked:  data/GC_LH_PP_TL_02.csv
+    Untracked:  data/GC_LH_PP_TL_03.csv
+    Untracked:  data/GC_LH_PP_TL_04.csv
+    Untracked:  data/GC_LH_PP_TL_05.csv
+    Untracked:  data/GC_LH_PP_TL_06.csv
+    Untracked:  data/GC_LH_PP_TL_07.csv
+    Untracked:  data/GC_LH_PP_TL_08.csv
+    Untracked:  data/GC_LH_PP_TL_09.csv
+    Untracked:  data/GC_LH_PP_TL_10.csv
+    Untracked:  data/GC_LH_PP_TL_11.csv
+    Untracked:  data/GC_LH_PP_TL_12.csv
+    Untracked:  data/GC_LH_PP_TL_13.csv
+    Untracked:  data/GC_LH_PP_TL_14.csv
+    Untracked:  data/GC_LH_ST_AR_01.csv
+    Untracked:  data/GC_LH_ST_AR_02.csv
+    Untracked:  data/GC_LH_ST_AR_03.csv
+    Untracked:  data/GC_LH_ST_AR_04.csv
+    Untracked:  data/GC_LH_ST_AR_05.csv
+    Untracked:  data/GC_LH_ST_AR_06.csv
+    Untracked:  data/GC_LH_ST_AR_07.csv
+    Untracked:  data/GC_LH_ST_AR_08.csv
+    Untracked:  data/GC_LH_ST_AR_09.csv
+    Untracked:  data/GC_LH_ST_AR_10.csv
+    Untracked:  data/GC_LH_ST_AR_11.csv
+    Untracked:  data/GC_LH_ST_AR_12.csv
+    Untracked:  data/GC_LH_ST_AR_13.csv
+    Untracked:  data/GC_LH_ST_AR_14.csv
+    Untracked:  data/GC_LH_ST_CH_01.csv
+    Untracked:  data/GC_LH_ST_CH_02.csv
+    Untracked:  data/GC_LH_ST_CH_03.csv
+    Untracked:  data/GC_LH_ST_CH_04.csv
+    Untracked:  data/GC_LH_ST_CH_05.csv
+    Untracked:  data/GC_LH_ST_CH_06.csv
+    Untracked:  data/GC_LH_ST_CH_07.csv
+    Untracked:  data/GC_LH_ST_CH_08.csv
+    Untracked:  data/GC_LH_ST_CH_09.csv
+    Untracked:  data/GC_LH_ST_CH_10.csv
+    Untracked:  data/GC_LH_ST_CH_11.csv
+    Untracked:  data/GC_LH_ST_CH_12.csv
+    Untracked:  data/GC_LH_ST_CH_13.csv
+    Untracked:  data/GC_LH_ST_CH_14.csv
+    Untracked:  data/GC_LH_ST_PP_01.csv
+    Untracked:  data/GC_LH_ST_PP_02.csv
+    Untracked:  data/GC_LH_ST_PP_03.csv
+    Untracked:  data/GC_LH_ST_PP_04.csv
+    Untracked:  data/GC_LH_ST_PP_05.csv
+    Untracked:  data/GC_LH_ST_PP_06.csv
+    Untracked:  data/GC_LH_ST_PP_07.csv
+    Untracked:  data/GC_LH_ST_PP_08.csv
+    Untracked:  data/GC_LH_ST_PP_09.csv
+    Untracked:  data/GC_LH_ST_PP_10.csv
+    Untracked:  data/GC_LH_ST_PP_11.csv
+    Untracked:  data/GC_LH_ST_PP_12.csv
+    Untracked:  data/GC_LH_ST_PP_13.csv
+    Untracked:  data/GC_LH_ST_PP_14.csv
+    Untracked:  data/GC_LH_ST_TL_01.csv
+    Untracked:  data/GC_LH_ST_TL_02.csv
+    Untracked:  data/GC_LH_ST_TL_03.csv
+    Untracked:  data/GC_LH_ST_TL_04.csv
+    Untracked:  data/GC_LH_ST_TL_05.csv
+    Untracked:  data/GC_LH_ST_TL_06.csv
+    Untracked:  data/GC_LH_ST_TL_07.csv
+    Untracked:  data/GC_LH_ST_TL_08.csv
+    Untracked:  data/GC_LH_ST_TL_09.csv
+    Untracked:  data/GC_LH_ST_TL_10.csv
+    Untracked:  data/GC_LH_ST_TL_11.csv
+    Untracked:  data/GC_LH_ST_TL_12.csv
+    Untracked:  data/GC_LH_ST_TL_13.csv
+    Untracked:  data/GC_LH_ST_TL_14.csv
+    Untracked:  data/GC_LH_TL_AR_01.csv
+    Untracked:  data/GC_LH_TL_AR_02.csv
+    Untracked:  data/GC_LH_TL_AR_03.csv
+    Untracked:  data/GC_LH_TL_AR_04.csv
+    Untracked:  data/GC_LH_TL_AR_05.csv
+    Untracked:  data/GC_LH_TL_AR_06.csv
+    Untracked:  data/GC_LH_TL_AR_07.csv
+    Untracked:  data/GC_LH_TL_AR_08.csv
+    Untracked:  data/GC_LH_TL_AR_09.csv
+    Untracked:  data/GC_LH_TL_AR_10.csv
+    Untracked:  data/GC_LH_TL_AR_11.csv
+    Untracked:  data/GC_LH_TL_AR_12.csv
+    Untracked:  data/GC_LH_TL_AR_13.csv
+    Untracked:  data/GC_LH_TL_AR_14.csv
+    Untracked:  data/GC_LH_TL_CH_01.csv
+    Untracked:  data/GC_LH_TL_CH_02.csv
+    Untracked:  data/GC_LH_TL_CH_03.csv
+    Untracked:  data/GC_LH_TL_CH_04.csv
+    Untracked:  data/GC_LH_TL_CH_05.csv
+    Untracked:  data/GC_LH_TL_CH_06.csv
+    Untracked:  data/GC_LH_TL_CH_07.csv
+    Untracked:  data/GC_LH_TL_CH_08.csv
+    Untracked:  data/GC_LH_TL_CH_09.csv
+    Untracked:  data/GC_LH_TL_CH_10.csv
+    Untracked:  data/GC_LH_TL_CH_11.csv
+    Untracked:  data/GC_LH_TL_CH_12.csv
+    Untracked:  data/GC_LH_TL_CH_13.csv
+    Untracked:  data/GC_LH_TL_CH_14.csv
+    Untracked:  data/GC_LH_TL_PP_01.csv
+    Untracked:  data/GC_LH_TL_PP_02.csv
+    Untracked:  data/GC_LH_TL_PP_03.csv
+    Untracked:  data/GC_LH_TL_PP_04.csv
+    Untracked:  data/GC_LH_TL_PP_05.csv
+    Untracked:  data/GC_LH_TL_PP_06.csv
+    Untracked:  data/GC_LH_TL_PP_07.csv
+    Untracked:  data/GC_LH_TL_PP_08.csv
+    Untracked:  data/GC_LH_TL_PP_09.csv
+    Untracked:  data/GC_LH_TL_PP_10.csv
+    Untracked:  data/GC_LH_TL_PP_11.csv
+    Untracked:  data/GC_LH_TL_PP_12.csv
+    Untracked:  data/GC_LH_TL_PP_13.csv
+    Untracked:  data/GC_LH_TL_PP_14.csv
+    Untracked:  data/GC_LH_TL_ST_01.csv
+    Untracked:  data/GC_LH_TL_ST_02.csv
+    Untracked:  data/GC_LH_TL_ST_03.csv
+    Untracked:  data/GC_LH_TL_ST_04.csv
+    Untracked:  data/GC_LH_TL_ST_05.csv
+    Untracked:  data/GC_LH_TL_ST_06.csv
+    Untracked:  data/GC_LH_TL_ST_07.csv
+    Untracked:  data/GC_LH_TL_ST_08.csv
+    Untracked:  data/GC_LH_TL_ST_09.csv
+    Untracked:  data/GC_LH_TL_ST_10.csv
+    Untracked:  data/GC_LH_TL_ST_11.csv
+    Untracked:  data/GC_LH_TL_ST_12.csv
+    Untracked:  data/GC_LH_TL_ST_13.csv
+    Untracked:  data/GC_LH_TL_ST_14.csv
+    Untracked:  data/GC_List.tsv
+    Untracked:  data/GC_PP_ML_Exp.tsv
+    Untracked:  data/GC_PP_Random_Permutation_Data.csv
+    Untracked:  data/GC_PP_Random_Shuffle_Data.csv
+    Untracked:  data/GC_PP_Random_Shuffle_ML_Data.csv
+    Untracked:  data/GC_PP_Tracts.tsv
+    Untracked:  data/GC_PP_Tracts_Output_MLpara.csv
+    Untracked:  data/GC_PP_Tracts_Output_Permut.csv
+    Untracked:  data/GC_PP_Tracts_Output_Shuff.csv
+    Untracked:  data/GC_PP_Transcript_Tract_Depth_MLpara.csv
+    Untracked:  data/GC_PP_Transcript_Tract_Depth_Permut.csv
+    Untracked:  data/GC_PP_Transcript_Tract_Depth_Shuff.csv
+    Untracked:  data/GC_PP_Transcripts_List.tsv
+    Untracked:  data/GC_Region_Donor_Recipient.tsv
+    Untracked:  data/GC_ST_ML_Exp.tsv
+    Untracked:  data/GC_ST_Random_Permutation_Data.csv
+    Untracked:  data/GC_ST_Random_Shuffle_Data.csv
+    Untracked:  data/GC_ST_Random_Shuffle_ML_Data.csv
+    Untracked:  data/GC_ST_Tracts.tsv
+    Untracked:  data/GC_ST_Tracts_Output.csv
+    Untracked:  data/GC_ST_Tracts_Output_Permut.csv
+    Untracked:  data/GC_ST_Tracts_Output_Shuff.csv
+    Untracked:  data/GC_ST_Transcript_Tract_Depth.csv
+    Untracked:  data/GC_ST_Transcript_Tract_Depth_Permut.csv
+    Untracked:  data/GC_ST_Transcript_Tract_Depth_Shuff.csv
+    Untracked:  data/GC_ST_Transcripts_List.tsv
+    Untracked:  data/GC_TL_ML_Exp.tsv
+    Untracked:  data/GC_TL_Random_Permutation_Data.csv
+    Untracked:  data/GC_TL_Random_Shuffle_Data.csv
+    Untracked:  data/GC_TL_Random_Shuffle_ML_Data.csv
+    Untracked:  data/GC_TL_Tract.tsv
+    Untracked:  data/GC_TL_Tracts.tsv
+    Untracked:  data/GC_TL_Tracts_Output.csv
+    Untracked:  data/GC_TL_Tracts_Output_MLpara.csv
+    Untracked:  data/GC_TL_Tracts_Output_Permut.csv
+    Untracked:  data/GC_TL_Tracts_Output_Shuff.csv
+    Untracked:  data/GC_TL_Transcript_Tract_Depth.csv
+    Untracked:  data/GC_TL_Transcript_Tract_Depth_MLpara.csv
+    Untracked:  data/GC_TL_Transcript_Tract_Depth_Permut.csv
+    Untracked:  data/GC_TL_Transcript_Tract_Depth_Shuff.csv
+    Untracked:  data/GC_TL_Transcripts_List.tsv
+    Untracked:  data/GC_Tracts_Summary.tsv
+    Untracked:  data/GeneConversion_Check.tsv
+    Untracked:  data/GeneConversion_Sites_Reg01.tsv
+    Untracked:  data/GeneConversion_Sites_Reg02.tsv
+    Untracked:  data/GeneConversion_Sites_Reg03.tsv
+    Untracked:  data/GeneConversion_Sites_Reg04.tsv
+    Untracked:  data/GeneConversion_Sites_Reg05.tsv
+    Untracked:  data/GeneConversion_Sites_Reg06.tsv
+    Untracked:  data/GeneConversion_Sites_Reg07.tsv
+    Untracked:  data/GeneConversion_Sites_Reg08.tsv
+    Untracked:  data/GeneConversion_Sites_Reg09.tsv
+    Untracked:  data/GeneConversion_Sites_Reg10.tsv
+    Untracked:  data/GeneConversion_Sites_Reg11.tsv
+    Untracked:  data/GeneConversion_Sites_Reg12.tsv
+    Untracked:  data/GeneConversion_Sites_Reg13.tsv
+    Untracked:  data/GeneConversion_Sites_Reg14.tsv
+    Untracked:  data/GeneConversion_Stats.tsv
+    Untracked:  data/GeneConversion_Tracts.tsv
+    Untracked:  data/GeneConversion_Tracts_Processed.csv
+    Untracked:  data/PP_MinMax.tsv
+    Untracked:  data/ST_MinMax.tsv
+    Untracked:  data/TL_MinMax.tsv
+    Untracked:  data/Tract_Count.csv
+    Untracked:  data/file_list.fof
+    Untracked:  data/snp_Dpse_All.fof
+    Untracked:  output/AR_Coordinates.csv
+    Untracked:  output/CH_Coordinates.csv
+    Untracked:  output/CU_Coordinates.csv
+    Untracked:  output/HY_Coordinates.csv
+    Untracked:  output/PP_Coordinates.csv
+    Untracked:  output/SC_Coordinates.csv
+    Untracked:  output/ST_Coordinates.csv
+    Untracked:  output/TL_Coordinates.csv
+
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not
@@ -424,10 +891,27 @@ Message
 <tbody>
 <tr>
 <td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/SWSchaeffer/InversionGC/9b85852029b8231d7bb6d053e272693b1e69218e/docs/license.html" target="_blank">9b85852</a>
+</td>
+<td>
+SWSchaeffer
+</td>
+<td>
+2022-07-18
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
 Rmd
 </td>
 <td>
-a56f364
+<a href="https://github.com/SWSchaeffer/InversionGC/blob/a56f364a13760e1baf8bd751371b6016fc2886eb/analysis/license.Rmd" target="_blank">a56f364</a>
 </td>
 <td>
 SWSchaeffer
