@@ -1,7 +1,7 @@
-name: GeneConversionInversion
+name: InversionGC
 output_dir: ../docs
 navbar:
-  title: GeneConversionInversion
+  title: InversionGC
   left:
   - text: Home
     href: index.html
@@ -12,7 +12,7 @@ navbar:
   right:
   - icon: fab fa-github
     text: Source code
-    href: https://github.com/SWSchaeffer/GeneConversionInversion
+    href: https://github.com/SWSchaeffer/InversionGC
 output:
   workflowr::wflow_html:
     toc: yes
